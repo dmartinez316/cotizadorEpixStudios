@@ -1,0 +1,38 @@
+<ion-view cache-view="false" title="Signup" hide-nav-bar="true" id="signup" class="">
+    <ion-content style="background: url(img/gif2.gif) center; background-size: cover;" padding="false" class="manual-ios-statusbar-padding" >
+    
+        <div class="hero no-header flat">
+            <div class="content">
+                <div class="app-icon"></div>
+                <h1>REGISTRO</h1>
+            </div>
+        </div>
+        <div  class="signup-form">
+       
+            <ion-list id="" class="signup-form-container">
+                <label class="item item-input " id="signup-nombre">
+                    <span class="input-label">Nombre</span>
+                    <input class="signup-input" ng-model="newUser.names" type="text" placeholder="Nombres">
+                </label>
+                <label class="item item-input " id="signup-email">
+                    <span class="input-label">Email</span>
+                    <input class="signup-input" ng-model="newUser.email" type="email" placeholder="email">
+                </label>
+                <label class="item item-input " id="signup-password">
+                    <span class="input-label">Contraseña</span>
+                    <input class="signup-input" ng-model="newUser.password" type="password" placeholder="contraseña">
+                </label>
+                <label class="item item-input " id="signup-repasword">
+                    <span class="input-label">Repetir Contraseña</span>
+                    <input class="signup-input" ng-model="newUser.repassword" type="password" placeholder="">
+                    <spans style="color:red;" ng-hide="newUser.password == newUser.repassword">Contraseñas no coinciden</span>
+                </label>
+            </ion-list>
+            <button ng-click="attemptRegistration()" id="login-login" class=" button button-dark  button-block ">Sign up</button>            
+            <button ui-sref="login" type="submit" id="login-login" class=" button button-dark  button-block ">Cancelar</button>
+       
+
+    </div>
+        
+    </ion-content>
+</ion-view>

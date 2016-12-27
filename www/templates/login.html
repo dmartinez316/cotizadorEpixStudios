@@ -1,0 +1,36 @@
+<ion-view cache-view="false" view title="Login" name="login-view" title="Login" hide-nav-bar="true" id="login" class=" ">
+    <ion-content style="background: url(img/gif2.gif) center; background-size: cover;" padding="false" class="manual-ios-statusbar-padding" scroll="false"> 
+        <div class="hero no-header flat">
+            <div class="content">
+                <div class="app-icon"></div>
+                <h1>EPIX STUDIOS </h1>
+                <h3>Cotizador </h3>
+            </div>
+        <div class="login-form">
+            <div >
+                 <label class="item item-input">
+                  <i class="icon ion-ios-email placeholder-icon"></i>
+                  <input ng-model="credenciales.email" type="email" placeholder="Email" autocorrect="off" autocapitalize="off">
+                </label>
+           
+
+           
+            <label class="item item-input">     
+              <i class="icon ion-locked placeholder-icon"></i>
+              <input ng-model="credenciales.password" type="password" placeholder="Password">
+            </label>               
+                
+            
+            <button ng-click="login(credenciales)" id="login-login" class=" button button-dark  button-block ">LOG IN</button>
+            
+        </div>        
+           <a ui-sref="signup" id="login-signup" class=" button button-dark  button-block button-clear ">Crea una cuenta</a>
+            <h4 style="text-align:center;  vertical-align: middle;" id="login-signup">  &oacute;</h4>
+            <a ui-sref="recuperarPassword" id="login-signup" class=" button button-dark  button-block button-clear ">Olvidaste tu contrase&ntilde;a?</a>
+
+            <h5 ng-show="error" style="color:red;text-align:center;center:auto;">{{mensajeError}}</h5>
+            
+            
+        
+    </ion-content>
+</ion-view>

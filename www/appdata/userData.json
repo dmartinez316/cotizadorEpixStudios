@@ -1,0 +1,96 @@
+{
+	"prospectosUsuario":[
+		{
+			"id_prospecto":1,
+			"razonSocial":"Comred",			
+			"nit":"1234",
+			"direccion":"Calle 13",
+			"email":"comred@comred.com",
+			"telefono":"850000",
+			"estado":true,
+			"hide":true
+		},
+		{
+			"id_prospecto":2,
+			"razonSocial":"ToroLove",			
+			"nit":"4321",
+			"direccion":"Carrera 13",
+			"email":"torolove@torolove.com",
+			"telefono":"3340000",		
+			"estado":true,
+			"hide":true
+		}
+	],
+	"cotizacionesProspectos":[
+		{
+			"id_prospecto":1,
+			"razonSocial":"Comred",
+			"cotizaciones":[
+				{
+					"id_cotizacion":1,
+					"forma_pago":"50.50",
+					"costo_total":"800000",
+					"procesosCotizacion":[
+						{
+							"id_proceso":1,
+							"nombre":"Modelado",
+							"dificultad":3,
+							"esfuerzo":100,
+							"costo":300000
+						}
+
+					],
+					"estado":true,
+					"hide":true
+					
+				},
+				{
+					"id_cotizacion":2,
+					"forma_pago":"20.30.50",
+					"costo_total":"800000",
+					"procesosCotizacion":[{}
+					],
+					"estado":true,
+					"hide":true
+				}
+			],
+			"hide":true
+		},
+		{
+			"id_prospecto":2,
+			"razonSocial":"ToroLove",
+			"cotizaciones":[
+				{
+					"id_cotizacion":3,
+					"forma_pago":"50.50",
+					"costo_total":"800000",
+					"procesosCotizacion":[{}
+					],
+					"estado":true,
+					"hide":true
+				},
+				{
+					"id_cotizacion":4,
+					"forma_pago":"50.50",
+					"costo_total":"800000",
+					"procesosCotizacion":[{}
+					],
+					"estado":true,
+					"hide":true
+
+				},
+				{
+					"id_cotizacion":5,
+					"forma_pago":"10.10.30.50",
+					"costo_total":"800000",
+					"procesosCotizacion":[{}
+					],
+					"estado":true,
+					"hide":true
+
+				}
+			],			
+			"hide":true
+		}
+	]
+}

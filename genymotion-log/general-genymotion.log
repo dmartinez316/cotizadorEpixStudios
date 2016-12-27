@@ -1,0 +1,227 @@
+ago. 8 15:30:11 [Genymotion] [Warning] Unable to load translations. Falling back to english
+ago. 8 15:30:11 [Genymotion] [Debug] "Local socket created at path : \\.\pipe\907f397a1f5a71abaaa526042f58a1b0"
+ago. 8 15:30:11 [Genymotion] [Warning] ****  STARTING GENYMOTION  ****
+ago. 8 15:30:11 [Genymotion] [Warning] Genymotion Version: Genymotion "2.7.2"
+ago. 8 15:30:11 [Genymotion] [Debug] [LaunchpadApp] Started with ("C:\Program Files\Genymobile\Genymotion\genymotion.exe")
+ago. 8 15:30:11 [Genymotion] [Debug] [doRequest] Requesting:  "https://cloud.genymotion.com/launchpad/last_version/windows/x64/"
+ago. 8 15:30:12 [Genymotion] [Debug] [doRequest] done
+ago. 8 15:30:12 [Genymotion] [Debug] [getGenymotionLastVersion] New version ( "2.7.2" ) available here: "http://dl.genymotion.com/releases/genymotion-2.7.2/genymotion-2.7.2.exe"
+ago. 8 15:30:12 [Genymotion] [Debug] Genymotion is up to date
+ago. 8 15:30:12 [Genymotion] [Debug] Loading "vboxmanage" plugin
+ago. 8 15:30:12 [Genymotion] [Debug] Plugin "vboxmanage" loaded
+ago. 8 15:30:12 [Genymotion] [Debug] Chipset: "AuthenticAMD"
+ago. 8 15:30:12 [Genymotion] [Debug] CPUID 0x80000001 (AMD): ECX= "1c9bfff"
+ago. 8 15:30:12 [Genymotion] [Error] [VBoxManageCore] VirtualBox not found in registry
+ago. 8 15:30:12 [Genymotion] [Debug] [VBoxManageCore] Path: ""
+ago. 8 15:30:12 [Genymotion] [Error] "Fail to load vboxmanage plugin from C:/Program Files/Genymobile/Genymotion/plugins/"
+ago. 8 15:30:12 [Genymotion] [Error] VM Engine failed to load
+ago. 8 15:30:12 [Genymotion] [Error] Unable to find VM Engine. Plugin loading aborted.
+ago. 8 15:30:12 [Genymotion] [Debug] [LogCollector] VM engine not available
+ago. 8 15:30:12 [Genymotion] [Debug] [LogCollector] Creating temporary folder: "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp"
+ago. 8 15:30:12 [Genymotion] [Warning] [LogCollector] Can't retrieve coredump
+ago. 8 15:30:12 [Genymotion] [Warning] [LogCollector] Running "C:/Program Files/Genymobile/Genymotion\tools\glewinfo.exe" with args ()
+ago. 8 15:30:16 [Genymotion] [Warning] [LogCollector] Running "systeminfo" with args ()
+ago. 8 15:30:22 [Genymotion] [Warning] [LogCollector] Running "route" with args ("print")
+ago. 8 15:30:22 [Genymotion] [Warning] [LogCollector] Running "dxdiag" with args ("/t", "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp\dxdiag.log")
+ago. 8 15:30:37 [Genymotion] [Warning] [LogCollector] Running "driverquery" with args ("/FO", "list", "/v")
+ago. 8 15:30:41 [Genymotion] [Debug] [LogCollector] Copying file "C:/Users/David/AppData/Local/Genymobile/genymotion.log" to "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp\general-genymotion.log"
+ago. 8 15:30:41 [Genymotion] [Debug] [archiveDirectory] Archive created under "C:/Users/David/genymotion-log.zip"
+ago. 8 15:30:41 [Genymotion] [Debug] [LogCollector] Removing temporary folder: "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp"
+ago. 8 15:30:55 [Genymotion] [Error] **** STOPPING GENYMOTION WITH ERROR ****
+ago. 8 15:30:55 [Genymotion] [Warning] ****  STOPPING GENYMOTION  ****
+ago. 8 15:38:38 [Genymotion] [Debug] Proxy configuration: no proxy used
+ago. 8 15:38:38 [Genymotion] [Warning] Got unexpected locking error 3
+ago. 8 15:38:38 [Genymotion] [Warning] Got unexpected locking error 3
+ago. 8 15:38:38 [Genymotion] [Debug] Proxy configuration: no proxy used
+ago. 8 15:38:39 [Genymotion] [Warning] Unable to load translations. Falling back to english
+ago. 8 15:38:39 [Genymotion] [Debug] "Local socket created at path : \\.\pipe\907f397a1f5a71abaaa526042f58a1b0"
+ago. 8 15:38:39 [Genymotion] [Warning] ****  STARTING GENYMOTION  ****
+ago. 8 15:38:39 [Genymotion] [Warning] Genymotion Version: Genymotion "2.7.2"
+ago. 8 15:38:39 [Genymotion] [Debug] [LaunchpadApp] Started with ("C:\Program Files\Genymobile\Genymotion\genymotion.exe")
+ago. 8 15:38:39 [Genymotion] [Debug] [doRequest] Requesting:  "https://cloud.genymotion.com/launchpad/last_version/windows/x64/"
+ago. 8 15:38:39 [Genymotion] [Debug] [doRequest] done
+ago. 8 15:38:39 [Genymotion] [Debug] [getGenymotionLastVersion] New version ( "2.7.2" ) available here: "http://dl.genymotion.com/releases/genymotion-2.7.2/genymotion-2.7.2.exe"
+ago. 8 15:38:39 [Genymotion] [Debug] Genymotion is up to date
+ago. 8 15:38:39 [Genymotion] [Debug] Loading "vboxmanage" plugin
+ago. 8 15:38:39 [Genymotion] [Debug] Plugin "vboxmanage" loaded
+ago. 8 15:38:39 [Genymotion] [Debug] Chipset: "AuthenticAMD"
+ago. 8 15:38:39 [Genymotion] [Debug] CPUID 0x80000001 (AMD): ECX= "1c9bfff"
+ago. 8 15:38:39 [Genymotion] [Debug] [VBoxManageCore] Path from registry: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"
+ago. 8 15:38:39 [Genymotion] [Debug] [VBoxManageCore] Path: "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"
+ago. 8 15:38:40 [Genymotion] [Debug] VBoxManage ("list", "hostinfo") returns 0
+ago. 8 15:38:40 [Genymotion] [Debug] [System properties] Online physical CPU number: 6
+ago. 8 15:38:40 [Genymotion] [Debug] [System properties] Online virtual CPU number: 3
+ago. 8 15:38:40 [Genymotion] [Debug] CPU number is > 8 - Fix max number to 8
+ago. 8 15:38:40 [Genymotion] [Debug] [System properties] Max CPU number: 8
+ago. 8 15:38:40 [Genymotion] [Debug] [System properties] Max memory size: 8175
+ago. 8 15:38:40 [Genymotion] [Debug] [findHostOnlyInterface] Looking for compatible host-only interface
+ago. 8 15:38:40 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:40 [Genymotion] [Warning] [getSavedHostOnlyInterface] Checking "VirtualBox Host-Only Ethernet Adapter" interface status (  QHostAddress( "192.168.56.1" )  )
+ago. 8 15:38:40 [Genymotion] [Debug] [createHostOnlyInterface] Creating new host-only interface
+ago. 8 15:38:46 [Genymotion] [Debug] VBoxManage ("hostonlyif", "create") returns 0
+ago. 8 15:38:46 [Genymotion] [Debug] [createHostOnlyInterface] Interface "VirtualBox Host-Only Ethernet Adapter #2" created with success
+ago. 8 15:38:46 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:47 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:47 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:48 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:48 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:49 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:49 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:50 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:51 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:51 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:52 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:52 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:53 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:53 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:54 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:55 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:55 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:56 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:38:58 [Genymotion] [Debug] VBoxManage ("hostonlyif", "ipconfig", "VirtualBox Host-Only Ethernet Adapter #2", "--ip", "169.254.7.1", "--netmask", "255.255.0.0") returns 0
+ago. 8 15:38:59 [Genymotion] [Debug] VBoxManage ("hostonlyif", "ipconfig", "VirtualBox Host-Only Ethernet Adapter #2", "--ip", "169.254.7.2", "--netmask", "255.255.0.0") returns 0
+ago. 8 15:38:59 [Genymotion] [Error] VBoxManage ("dhcpserver", "remove", "--ifname", "VirtualBox Host-Only Ethernet Adapter #2") returns 2
+ago. 8 15:38:59 [Genymotion] [Error] Output command: "VBoxManage.exe: error: DHCP server does not exist"
+ago. 8 15:38:59 [Genymotion] [Debug] VBoxManage ("dhcpserver", "add", "--ifname", "VirtualBox Host-Only Ethernet Adapter #2", "--ip", "169.254.7.100", "--netmask", "255.255.0.0", "--lowerip", "169.254.7.101", "--upperip", "169.254.7.254", "--enable") returns 0
+ago. 8 15:38:59 [Genymotion] [Debug] [createHostOnlyInterface] DHCP server created with success
+ago. 8 15:38:59 [Genymotion] [Debug] [createHostOnlyInterface] "VirtualBox Host-Only Ethernet Adapter #2" host-only interface is ready to use
+ago. 8 15:38:59 [Genymotion] [Debug] VBoxManage ("--version") returns 0
+ago. 8 15:38:59 [Genymotion] [Debug] VM engine version: "5.0.4r102546"
+ago. 8 15:38:59 [Genymotion] [Debug] VMX/SVM CPU availability: true
+ago. 8 15:38:59 [Genymotion] [Debug] VBoxManage ("--version") returns 0
+ago. 8 15:38:59 [Genymotion] [Debug] VM engine version: "5.0.4r102546"
+ago. 8 15:38:59 [Genymotion] [Debug] VBoxManage ("list", "vms") returns 0
+ago. 8 15:39:27 [Genymotion] [Debug] POST  QUrl( "https://cloud.genymotion.com/launchpad/login/" ) 
+ago. 8 15:39:28 [Genymotion] [Debug] Logged on Hub
+ago. 8 15:39:28 [Genymotion] [Debug] Pending calls: 0
+ago. 8 15:39:28 [Genymotion] [Debug] GET  QUrl( "https://cloud.genymotion.com/vmtemplate/getall" ) 
+ago. 8 15:39:28 [Genymotion] [Debug] POST  QUrl( "https://cloud.genymotion.com/licenses/activation/" ) 
+ago. 8 15:39:28 [Genymotion] [Debug] [doRequest] Requesting:  "https://cloud.genymotion.com/stats/report/genymotion/"
+ago. 8 15:39:29 [Genymotion] [Debug] Genymotion template count: 97
+ago. 8 15:39:29 [Genymotion] [Debug] template list retrieved:  97
+ago. 8 15:39:31 [Genymotion] [Debug] [tokenError] "HTTP code 403: Activation failed: license have never been registered Error downloading https://cloud.genymotion.com/licenses/activation/ - server replied: FORBIDDEN"
+ago. 8 15:39:31 [Genymotion] [Debug] [doRequest] done
+ago. 8 15:39:31 [Genymotion] [Debug] Stats sent
+ago. 8 15:40:11 [Genymotion] [Debug] Searching virtual device with same name
+ago. 8 15:41:03 [Genymotion] [Debug] Launching download
+ago. 8 15:41:03 [Genymotion] [Debug] GET  QUrl( "https://cloud.genymotion.com/vmtemplate/7fad4b10-140c-4227-84d0-22dd88c8f8b1/getova" ) 
+ago. 8 15:41:03 [Genymotion] [Debug] Proxy configuration: no proxy used
+ago. 8 15:41:03 [Genymotion] [Debug] Start timer
+ago. 8 15:41:04 [Genymotion] [Debug] Remote file size: 258508800 , current local file size: 0
+ago. 8 15:41:04 [Genymotion] [Debug] Starting new download
+ago. 8 15:41:04 [Genymotion] [Debug] Downloading file  "http://dl.genymotion.com/dists/5.0.0/ova/genymotion_vbox86p_5.0_160609_170220.ova"
+ago. 8 15:41:04 [Genymotion] [Debug] Start timer
+ago. 8 15:41:09 [Genymotion] [Debug] Slideshow loaded:  OK
+ago. 8 15:54:25 [Genymotion] [Debug] finished received
+ago. 8 15:54:26 [Genymotion] [Debug] Local OVA file computed SHA1 is  "7535494f8f7d08bf7b20b2e69c31dc3dd4368c6f"
+ago. 8 15:54:26 [Genymotion] [Debug] Server said we should have that OVA hash:  "7535494f8f7d08bf7b20b2e69c31dc3dd4368c6f"
+ago. 8 15:54:26 [Genymotion] [Debug] Searching virtual device with same name
+ago. 8 15:54:26 [Genymotion] [Debug] Virtual device to create: "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560"
+ago. 8 15:54:26 [Genymotion] [Debug] VBoxManage ("list", "systemproperties") returns 0
+ago. 8 15:54:26 [Genymotion] [Debug] VBox machinefolder path setting is  "C:\Users\David\VirtualBox VMs"
+ago. 8 15:54:26 [Genymotion] [Debug] VBoxManage ("setproperty", "machinefolder", "C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed") returns 0
+ago. 8 15:54:37 [Genymotion] [Debug] VBoxManage ("import", "C:\Users\David\AppData\Local\Genymobile\Genymotion\ova\aca557ff-0d3d-413d-ae76-2609f5d881f1.ova", "--vsys", "0", "--vmname", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "--cpus", "4", "--memory", "3072", "--unit", "10", "--disk", "C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\android_system_disk.vmdk", "--unit", "11", "--disk", "C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\android_data_disk.vmdk", "--unit", "12", "--disk", "C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\android_sdcard_disk.vmdk") returns 0
+ago. 8 15:54:37 [Genymotion] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:54:38 [Genymotion] [Debug] VBoxManage ("guestproperty", "enumerate", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:54:38 [Genymotion] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:54:38 [Genymotion] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:54:38 [Genymotion] [Debug] VBoxManage ("storageattach", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "--storagectl", "IDEController", "--port", "1", "--device", "0", "--medium", "none") returns 0
+ago. 8 15:54:38 [Genymotion] [Debug] VBoxManage ("closemedium", "disk", "776aa83f-cd5d-4f1a-bcac-dbfa08d38f41", "--delete") returns 0
+ago. 8 15:54:38 [Genymotion] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:54:38 [Genymotion] [Debug] VBoxManage ("createhd", "--filename", "C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\sdcard.vdi", "--size", "32768", "--format", "VDI") returns 0
+ago. 8 15:54:38 [Genymotion] [Debug] VBoxManage ("storageattach", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "--storagectl", "IDEController", "--port", "1", "--device", "0", "--type", "hdd", "--medium", "C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\sdcard.vdi") returns 0
+ago. 8 15:54:39 [Genymotion] [Debug] VBoxManage ("setproperty", "machinefolder", "C:\Users\David\VirtualBox VMs") returns 0
+ago. 8 15:54:39 [Genymotion] [Debug] [findHostOnlyInterface] Looking for compatible host-only interface
+ago. 8 15:54:39 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:54:39 [Genymotion] [Warning] [getSavedHostOnlyInterface] Checking "VirtualBox Host-Only Ethernet Adapter" interface status (  QHostAddress( "192.168.56.1" )  )
+ago. 8 15:54:39 [Genymotion] [Warning] [getSavedHostOnlyInterface] Checking "VirtualBox Host-Only Ethernet Adapter #2" interface status (  QHostAddress( "169.254.7.2" )  )
+ago. 8 15:54:39 [Genymotion] [Warning] [getSavedHostOnlyInterface] Interface has no route
+ago. 8 15:54:39 [Genymotion] [Debug] [deleteHostOnlyInterface] Deleting "VirtualBox Host-Only Ethernet Adapter #2" host-only interface
+ago. 8 15:54:40 [Genymotion] [Debug] VBoxManage ("hostonlyif", "remove", "VirtualBox Host-Only Ethernet Adapter #2") returns 0
+ago. 8 15:54:40 [Genymotion] [Debug] [createHostOnlyInterface] Creating new host-only interface
+ago. 8 15:54:43 [Genymotion] [Debug] VBoxManage ("hostonlyif", "create") returns 0
+ago. 8 15:54:43 [Genymotion] [Debug] [createHostOnlyInterface] Interface "VirtualBox Host-Only Ethernet Adapter #2" created with success
+ago. 8 15:54:43 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:54:44 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:54:45 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:54:45 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:54:46 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:54:46 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:54:47 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:54:47 [Genymotion] [Debug] VBoxManage ("hostonlyif", "ipconfig", "VirtualBox Host-Only Ethernet Adapter #2", "--ip", "192.168.185.1", "--netmask", "255.255.255.0") returns 0
+ago. 8 15:54:50 [Genymotion] [Debug] VBoxManage ("hostonlyif", "ipconfig", "VirtualBox Host-Only Ethernet Adapter #2", "--ip", "192.168.185.2", "--netmask", "255.255.255.0") returns 0
+ago. 8 15:54:50 [Genymotion] [Debug] VBoxManage ("dhcpserver", "remove", "--ifname", "VirtualBox Host-Only Ethernet Adapter #2") returns 0
+ago. 8 15:54:50 [Genymotion] [Debug] VBoxManage ("dhcpserver", "add", "--ifname", "VirtualBox Host-Only Ethernet Adapter #2", "--ip", "192.168.185.100", "--netmask", "255.255.255.0", "--lowerip", "192.168.185.101", "--upperip", "192.168.185.254", "--enable") returns 0
+ago. 8 15:54:50 [Genymotion] [Debug] [createHostOnlyInterface] DHCP server created with success
+ago. 8 15:54:50 [Genymotion] [Debug] [createHostOnlyInterface] "VirtualBox Host-Only Ethernet Adapter #2" host-only interface is ready to use
+ago. 8 15:54:51 [Genymotion] [Debug] VBoxManage ("modifyvm", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "--nic1", "hostonly") returns 0
+ago. 8 15:54:51 [Genymotion] [Debug] VBoxManage ("modifyvm", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "--hostonlyadapter1", "VirtualBox Host-Only Ethernet Adapter #2") returns 0
+ago. 8 15:54:51 [Genymotion] [Debug] VBoxManage ("modifyvm", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "--nictype1", "virtio") returns 0
+ago. 8 15:54:51 [Genymotion] [Debug] VBoxManage ("modifyvm", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "--cableconnected1", "on") returns 0
+ago. 8 15:54:51 [Genymotion] [Debug] VBoxManage ("guestproperty", "set", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "genymotion_player_version", "1") returns 0
+ago. 8 15:54:51 [Genymotion] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:54:51 [Genymotion] [Debug] VBoxManage ("guestproperty", "enumerate", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:54:51 [Genymotion] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:54:52 [Genymotion] [Debug] VBoxManage ("guestproperty", "set", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "vbox_graph_mode", "1440x2560-16") returns 0
+ago. 8 15:54:52 [Genymotion] [Debug] VBoxManage ("guestproperty", "set", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "vbox_dpi", "640") returns 0
+ago. 8 15:54:52 [Genymotion] [Debug] VBoxManage ("guestproperty", "set", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "genymotion_force_navbar", "0") returns 0
+ago. 8 15:54:52 [Genymotion] [Debug] VBoxManage ("guestproperty", "set", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "android_version", "5.0.0") returns 0
+ago. 8 15:54:52 [Genymotion] [Debug] VBoxManage ("guestproperty", "set", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "genymotion_version", "2.7.2") returns 0
+ago. 8 15:54:52 [Genymotion] [Debug] VBoxManage ("guestproperty", "set", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "genymotion_platform", "p") returns 0
+ago. 8 15:54:52 [Genymotion] [Debug] VBoxManage ("guestproperty", "set", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "genymotion_device_id", "000000000000000") returns 0
+ago. 8 15:54:53 [Genymotion] [Debug] VBoxManage ("snapshot", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "take", "factory-backup", "--description", "Initial snapshot to reset factory state") returns 0
+ago. 8 15:54:53 [Genymotion] [Debug] "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560" : Snapshot created with success: "factory-backup"
+ago. 8 15:54:53 [Genymotion] [Debug] Virtual device created with success: "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560"
+ago. 8 15:54:53 [Genymotion] [Debug] Creation status: "The virtual device has been created successfully."
+ago. 8 15:54:53 [Genymotion] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:54:53 [Genymotion] [Debug] VBoxManage ("guestproperty", "enumerate", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:54:53 [Genymotion] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:57:22 [Genymotion] [Debug] [Adb] adb found at "C:\Program Files\Genymobile\Genymotion\tools\adb.exe"
+ago. 8 15:57:22 [Genymotion] [Debug] [Aapt] aapt found at "C:\Program Files\Genymobile\Genymotion\tools\aapt.exe"
+ago. 8 15:57:22 [Genymotion] [Warning] [WalkTemporaryDirectory] Path of search: "C:/Users/David/AppData/Local/Genymobile"
+ago. 8 15:57:22 [Genymotion] [Debug] [Adb] adb found at "C:\Program Files\Genymobile\Genymotion\tools\adb.exe"
+ago. 8 15:57:22 [Genymotion] [Debug] [Aapt] aapt found at "C:\Program Files\Genymobile\Genymotion\tools\aapt.exe"
+ago. 8 15:57:22 [Genymotion] [Warning] [ComputeCacheSize]  9263  found so far
+ago. 8 15:57:22 [Genymotion] [Warning] [ComputeCacheSize]  1345300  found so far
+ago. 8 15:57:22 [Genymotion] [Warning] [ComputeCacheSize]  1421240  found so far
+ago. 8 15:57:22 [Genymotion] [Warning] [ComputeCacheSize]  1699007  found so far
+ago. 8 15:57:22 [Genymotion] [Warning] [ComputeCacheSize]  260207807  found so far
+ago. 8 15:57:22 [Genymotion] [Warning] [ComputeCacheSize]  260209790  found so far
+ago. 8 15:57:22 [Genymotion] [Warning] [ComputeCacheSize]  260233352  found so far
+ago. 8 15:57:22 [Genymotion] [Warning] [WalkTemporaryDirectory] Path of search: "C:/Users/David/AppData/Local/Genymobile/Genymotion/cache/network/"
+ago. 8 15:57:22 [Genymotion] [Warning] [ComputeCacheSize]  260235482  found so far
+ago. 8 15:57:50 [Genymotion] [Debug] [LogCollector] Retrieving virtual devices list
+ago. 8 15:57:50 [Genymotion] [Debug] VBoxManage ("list", "vms") returns 0
+ago. 8 15:57:50 [Genymotion] [Debug] VBoxManage ("guestproperty", "enumerate", "ac6090ff-32f8-490d-a9b9-f148765b4090") returns 0
+ago. 8 15:57:50 [Genymotion] [Debug] VBoxManage ("guestproperty", "enumerate", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:57:50 [Genymotion] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:57:50 [Genymotion] [Debug] [LogCollector] Creating temporary folder: "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp"
+ago. 8 15:57:51 [Genymotion] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:57:51 [Genymotion] [Debug] [LogCollector] walking through  "C:/Users/David/AppData/Local/Genymobile/Genymotion/deployed/Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560"
+ago. 8 15:57:51 [Genymotion] [Debug] [LogCollector] Copying file "C:/Users/David/AppData/Local/Genymobile/Genymotion/deployed/Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560/Logs/VBox.log" to "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560-VBox.log"
+ago. 8 15:57:51 [Genymotion] [Debug] [LogCollector] Copying file "C:/Users/David/AppData/Local/Genymobile/Genymotion/deployed/Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560/Logs/VBoxStartup.log" to "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560-VBoxStartup.log"
+ago. 8 15:57:51 [Genymotion] [Debug] [LogCollector] Copying file "C:/Users/David/AppData/Local/Genymobile/Genymotion/deployed/Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560/logcat.txt" to "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560-logcat.txt"
+ago. 8 15:57:51 [Genymotion] [Debug] [LogCollector] Copying file "C:/Users/David/AppData/Local/Genymobile/Genymotion/deployed/Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560/genymotion-player.log" to "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560-genymotion-player.log"
+ago. 8 15:57:51 [Genymotion] [Debug] VBoxManage ("guestproperty", "enumerate", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:57:51 [Genymotion] [Debug] VBoxManage ("getextradata", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "enumerate") returns 0
+ago. 8 15:57:51 [Genymotion] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "--details") returns 0
+ago. 8 15:57:51 [Genymotion] [Debug] [VMTools] [VBoxManage] Generate info file
+ago. 8 15:57:51 [Genymotion] [Debug] VBoxManage ("--version") returns 0
+ago. 8 15:57:51 [Genymotion] [Debug] VBoxManage ("list", "hostinfo") returns 0
+ago. 8 15:57:51 [Genymotion] [Debug] VBoxManage ("list", "hostonlyifs") returns 0
+ago. 8 15:57:51 [Genymotion] [Debug] VBoxManage ("list", "dhcpservers") returns 0
+ago. 8 15:57:51 [Genymotion] [Debug] VBoxManage ("list", "bridgedifs") returns 0
+ago. 8 15:57:51 [Genymotion] [Debug] VBoxManage ("list", "natnets") returns 0
+ago. 8 15:57:51 [Genymotion] [Debug] VBoxManage ("list", "intnets") returns 0
+ago. 8 15:57:51 [Genymotion] [Debug] [LogCollector] Copying file "C:/Users/David/.VirtualBox/VBoxSVC.log" to "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp\general-VBoxSVC.log"
+ago. 8 15:57:51 [Genymotion] [Debug] [LogCollector] Copying file "C:/Users/David/.VirtualBox/VBoxSVC.log.1" to "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp\general-VBoxSVC.log.1"
+ago. 8 15:57:51 [Genymotion] [Debug] [LogCollector] Copying file "C:/Users/David/.VirtualBox/VBoxSVC.log.2" to "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp\general-VBoxSVC.log.2"
+ago. 8 15:57:51 [Genymotion] [Debug] [LogCollector] Copying file "C:/Users/David/.VirtualBox/VBoxSVC.log.3" to "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp\general-VBoxSVC.log.3"
+ago. 8 15:57:51 [Genymotion] [Debug] [LogCollector] Copying file "C:/Users/David/.VirtualBox/VirtualBox.xml" to "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp\general-VirtualBox.xml"
+ago. 8 15:57:51 [Genymotion] [Warning] [LogCollector] Can't retrieve coredump
+ago. 8 15:57:51 [Genymotion] [Warning] [LogCollector] Running "C:/Program Files/Genymobile/Genymotion\tools\glewinfo.exe" with args ()
+ago. 8 15:57:54 [Genymotion] [Warning] [LogCollector] Running "systeminfo" with args ()
+ago. 8 15:57:59 [Genymotion] [Warning] [LogCollector] Running "route" with args ("print")
+ago. 8 15:57:59 [Genymotion] [Warning] [LogCollector] Running "dxdiag" with args ("/t", "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp\dxdiag.log")
+ago. 8 15:58:08 [Genymotion] [Warning] [LogCollector] Running "driverquery" with args ("/FO", "list", "/v")
+ago. 8 15:58:09 [Genymotion] [Debug] [LogCollector] Copying file "C:/Users/David/AppData/Local/Genymobile/genymotion.log" to "C:/Users/David/AppData/Local/Temp/genymotion-logs-tmp\general-genymotion.log"

@@ -1,0 +1,47 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #444 !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+
+*/
+// The path for our ionicons font files, relative to the built CSS in www/css
+
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+$balanced:                        #17181A !default;
+$dark:                            #17181A !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+body.platform-ios {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.ionic-body.platform-ios {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body.platform-android {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.ionic-body.platform-android {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.tab-item,input,button,select,textarea {
+	font-family: inherit;
+}
+

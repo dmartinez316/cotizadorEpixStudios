@@ -1,0 +1,74 @@
+ago. 8 15:55:09 [Genymotion Player] [Debug] VBoxManage ("guestproperty", "set", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "hardware_opengl", "1") returns 0
+ago. 8 15:55:09 [Genymotion Player] [Debug] VBoxManage ("guestproperty", "set", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "hardware_opengl_disable_render", "0") returns 0
+ago. 8 15:55:09 [Genymotion Player] [Debug] Hardware acceleration is set from Guest Property
+ago. 8 15:55:09 [Genymotion Player] [Debug] Virtual device configured
+ago. 8 15:55:09 [Genymotion Player] [Debug] Virtualization engine configured
+ago. 8 15:55:09 [Genymotion Player] [Debug] POST  QUrl( "https://cloud.genymotion.com/launchpad/login/" ) 
+ago. 8 15:55:09 [Genymotion Player] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:55:09 [Genymotion Player] [Debug] Virtual Machine status: off
+ago. 8 15:55:09 [Genymotion Player] [Debug] Start the device...
+ago. 8 15:55:09 [Genymotion Player] [Debug] VBoxManage ("guestproperty", "set", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "androvm_ip_management") returns 0
+ago. 8 15:55:09 [Genymotion Player] [Debug] VBoxManage ("modifyvm", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "--nic1", "hostonly") returns 0
+ago. 8 15:55:10 [Genymotion Player] [Debug] VBoxManage ("modifyvm", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "--hostonlyadapter1", "VirtualBox Host-Only Ethernet Adapter #2") returns 0
+ago. 8 15:55:10 [Genymotion Player] [Debug] VBoxManage ("modifyvm", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "--nictype1", "virtio") returns 0
+ago. 8 15:55:10 [Genymotion Player] [Debug] VBoxManage ("modifyvm", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "--cableconnected1", "on") returns 0
+ago. 8 15:55:10 [Genymotion Player] [Debug] VBoxManage ("guestproperty", "set", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "genymotion_player_version", "1") returns 0
+ago. 8 15:55:10 [Genymotion Player] [Debug] VBoxManage ("guestproperty", "set", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "genymotion_vm_name", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:55:10 [Genymotion Player] [Debug] Logged on Hub
+ago. 8 15:55:10 [Genymotion Player] [Debug] Pending calls: 0
+ago. 8 15:55:10 [Genymotion Player] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:55:10 [Genymotion Player] [Debug] POST  QUrl( "https://cloud.genymotion.com/licenses/activation/" ) 
+ago. 8 15:55:11 [Genymotion Player] [Warning] Activation failed. Error: 9 - "HTTP code 403: Activation failed: license have never been registered Error downloading https://cloud.genymotion.com/licenses/activation/ - server replied: FORBIDDEN"
+ago. 8 15:55:16 [Genymotion Player] [Debug] VBoxManage ("startvm", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "--type", "headless") returns 0
+ago. 8 15:55:17 [Genymotion Player] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:55:17 [Genymotion Player] [Debug] Virtual Machine started.
+ago. 8 15:55:17 [Genymotion Player] [Debug] Waiting for an IP address...
+ago. 8 15:55:17 [Genymotion Player] [Debug] VBoxManage ("guestproperty", "get", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "androvm_ip_management") returns 0
+ago. 8 15:55:18 [Genymotion Player] [Debug] VBoxManage ("guestproperty", "get", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "androvm_ip_management") returns 0
+ago. 8 15:55:19 [Genymotion Player] [Debug] VBoxManage ("guestproperty", "get", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "androvm_ip_management") returns 0
+ago. 8 15:55:20 [Genymotion Player] [Debug] VBoxManage ("guestproperty", "get", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "androvm_ip_management") returns 0
+ago. 8 15:55:21 [Genymotion Player] [Debug] VBoxManage ("guestproperty", "get", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "androvm_ip_management") returns 0
+ago. 8 15:55:22 [Genymotion Player] [Debug] VBoxManage ("guestproperty", "get", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "androvm_ip_management") returns 0
+ago. 8 15:55:23 [Genymotion Player] [Debug] VBoxManage ("guestproperty", "get", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560", "androvm_ip_management") returns 0
+ago. 8 15:55:23 [Genymotion Player] [Debug] Genymotion system started. Attributed IP address:  "192.168.185.101"
+ago. 8 15:55:23 [Genymotion Player] [Warning] QPixmap::scaled: Pixmap is a null pixmap
+ago. 8 15:55:24 [Genymotion Player] [Debug] Starting Sensors Manager
+ago. 8 15:55:24 [Genymotion Player] [Debug] Player running. Try to show window...
+ago. 8 15:55:29 [Genymotion Player] [Debug] VBoxManage ("showvminfo", "Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560") returns 0
+ago. 8 15:55:29 [Genymotion Player] [Debug] [Adb][logcat] "C:/Users/David/AppData/Local/Genymobile/Genymotion/deployed/Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\logcat.txt" : "192.168.185.101"
+ago. 8 15:55:30 [Genymotion Player] [Debug] Events Manager: requesting device capabilities
+ago. 8 15:55:30 [Genymotion Player] [Debug] Received capabilities: "{"battery" : "on", "gps" : "on", "accelerometer" : "on", "camera" : "on", "screencast" : "on", "remotectl" : "on", "deviceid" : "on", "baseband" : "on", "network" : "on", }"
+ago. 8 15:55:30 [Genymotion Player] [Debug] Got ok from capabilities request
+ago. 8 15:55:30 [Genymotion Player] [Debug] Capability "accelerometer" true
+ago. 8 15:55:30 [Genymotion Player] [Debug] Capability "battery" true
+ago. 8 15:55:30 [Genymotion Player] [Debug] Capability "gps" true
+ago. 8 15:55:30 [Genymotion Player] [Debug] Capability "screencast" true
+ago. 8 15:55:30 [Genymotion Player] [Debug] Capability "remotectl" true
+ago. 8 15:55:30 [Genymotion Player] [Debug] Capability "camera" true
+ago. 8 15:55:30 [Genymotion Player] [Debug] Capability "deviceid" true
+ago. 8 15:55:30 [Genymotion Player] [Debug] Capability "baseband" true
+ago. 8 15:55:30 [Genymotion Player] [Debug] Capability "network" true
+ago. 8 15:55:30 [Genymotion Player] [Debug] [GenymotionClient] Using persistant connection with virtual device
+ago. 8 15:55:30 [Genymotion Player] [Debug] [compareVersions] System version: "2.7.2"
+ago. 8 15:55:30 [Genymotion Player] [Debug] [compareVersions] Software version: "2.7.2"
+ago. 8 15:55:30 [Genymotion Player] [Debug] [checkVersion] System version and software version are the same
+ago. 8 15:55:30 [Genymotion Player] [Debug] Signaling clipboard modification
+ago. 8 15:55:34 [Genymotion Player] [Debug] [SensorManager] Connected
+ago. 8 15:56:31 [Genymotion Player] [Debug] [DragNDropManager][parseUrlList] file to drag and drop:  QUrl( "file:///D:/xampp/htdocs/CotizadorEpix/platforms/android/build/outputs/apk/cot.apk" ) 
+ago. 8 15:56:31 [Genymotion Player] [Debug] [DragNDropManager][parseUrlList][toLocalFile] file to drag and drop: "D:/xampp/htdocs/CotizadorEpix/platforms/android/build/outputs/apk/cot.apk"
+ago. 8 15:56:31 [Genymotion Player] [Warning] [DragNDropManager][parseUrlList] Will not check archive for this drop
+ago. 8 15:56:31 [Genymotion Player] [Debug] [DragNDropManager][setWorkInProgress] true
+ago. 8 15:56:31 [Genymotion Player] [Debug] [FileUploader][run] "D:/xampp/htdocs/CotizadorEpix/platforms/android/build/outputs/apk/cot.apk"
+ago. 8 15:56:31 [Genymotion Player] [Debug] [FileUploader][installOrPushFile] "D:/xampp/htdocs/CotizadorEpix/platforms/android/build/outputs/apk/cot.apk"
+ago. 8 15:56:31 [Genymotion Player] [Debug] [FileUploader][installFile] "D:/xampp/htdocs/CotizadorEpix/platforms/android/build/outputs/apk/cot.apk"
+ago. 8 15:56:31 [Genymotion Player] [Debug] [Adb][install] run "C:\Program Files\Genymobile\Genymotion\tools\adb.exe" command: ("-s", "192.168.185.101:5555", "install", "-r", "D:/xampp/htdocs/CotizadorEpix/platforms/android/build/outputs/apk/cot.apk")
+ago. 8 15:56:33 [Genymotion Player] [Debug] [Adb][install] "192.168.185.101:5555" : file installed with success: "D:/xampp/htdocs/CotizadorEpix/platforms/android/build/outputs/apk/cot.apk"
+ago. 8 15:56:33 [Genymotion Player] [Debug] [FileUploader][startLaunchableActivityFromApk] "D:/xampp/htdocs/CotizadorEpix/platforms/android/build/outputs/apk/cot.apk"
+ago. 8 15:56:33 [Genymotion Player] [Debug] [Aapt] Package found
+ago. 8 15:56:33 [Genymotion Player] [Debug] [Aapt] Launchable Activity found
+ago. 8 15:56:33 [Genymotion Player] [Debug] [Adb][shell] ("am", "start", "-n", "com.ionicframework.cotizadorepix770191/com.ionicframework.cotizadorepix770191.MainActivity")
+ago. 8 15:56:33 [Genymotion Player] [Debug] [Adb][shell] full command: "C:\Program Files\Genymobile\Genymotion\tools\adb.exe" -s "192.168.185.101:5555" shell ("am", "start", "-n", "com.ionicframework.cotizadorepix770191/com.ionicframework.cotizadorepix770191.MainActivity")
+ago. 8 15:56:33 [Genymotion Player] [Debug] [Adb][shell] ("am", "start", "-n", "com.ionicframework.cotizadorepix770191/com.ionicframework.cotizadorepix770191.MainActivity")  - exit code:  0
+ago. 8 15:56:33 [Genymotion Player] [Debug] [DragNDropManager][slotUploadDone]
+ago. 8 15:56:33 [Genymotion Player] [Debug] [DragNDropManager][setWorkInProgress] false
+ago. 8 15:56:33 [Genymotion Player] [Debug] [DragNDropManager][slotFinished]

@@ -1,0 +1,174 @@
+C:\Program Files\Oracle\VirtualBox\VBoxManage.exe guestproperty enumerate Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560
+Name: hardware_opengl, value: 1, timestamp: 1470689709265988200, flags: 
+Name: vbox_graph_mode, value: 1440x2560-16, timestamp: 1470689691973856100, flags: 
+Name: vbox_dpi, value: 640, timestamp: 1470689692068581000, flags: 
+Name: genymotion_force_navbar, value: 0, timestamp: 1470689692164281400, flags: 
+Name: product_device, value: vbox86p, timestamp: 1470689723118247000, flags: 
+Name: product_model, value: Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, timestamp: 1470689723212972900, flags: 
+Name: /VirtualBox/HostInfo/VBoxVerExt, value: 5.0.4, timestamp: 1470689715046144403, flags: TRANSIENT, RDONLYGUEST
+Name: product_board, value: , timestamp: 1470689723133872300, flags: 
+Name: genymotion_vm_name, value: Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560, timestamp: 1470689710581391000, flags: 
+Name: genymotion_player_version, value: 1, timestamp: 1470689710469088600, flags: 
+Name: genymotion_platform, value: p, timestamp: 1470689692490445700, flags: 
+Name: /VirtualBox/HostGuest/SysprepExec, value: , timestamp: 1470689715046144400, flags: TRANSIENT, RDONLYGUEST
+Name: genymotion_version, value: 2.7.2, timestamp: 1470689723041100800, flags: 
+Name: android_version, value: 5.0, timestamp: 1470689723037195500, flags: 
+Name: product_name, value: vbox86p, timestamp: 1470689723065514000, flags: 
+Name: build_display_id, value: vbox86p-userdebug 5.0 LRX21M eng.genymotion.20160609.170439 test-keys, timestamp: 1470689723179769200, flags: 
+Name: genymotion_device_id, value: 000000000000000, timestamp: 1470689692643762400, flags: 
+Name: androvm_ip_management, value: 192.168.185.101, timestamp: 1470689722900478600, flags: 
+Name: hardware_opengl_disable_render, value: 0, timestamp: 1470689709432001600, flags: 
+Name: /VirtualBox/HostGuest/SysprepArgs, value: , timestamp: 1470689715046144401, flags: TRANSIENT, RDONLYGUEST
+Name: product_brand, value: generic, timestamp: 1470689723166098300, flags: 
+Name: /VirtualBox/HostInfo/VBoxRev, value: 102546, timestamp: 1470689715046144404, flags: TRANSIENT, RDONLYGUEST
+Name: /VirtualBox/HostInfo/VBoxVer, value: 5.0.4, timestamp: 1470689715046144402, flags: TRANSIENT, RDONLYGUEST
+Name: genymotion_device_version, value: 1, timestamp: 1470689722970790600, flags: 
+Name: product_manufacturer, value: unknown, timestamp: 1470689723090906100, flags: 
+
+
+
+C:\Program Files\Oracle\VirtualBox\VBoxManage.exe getextradata Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560 enumerate
+Key: CustomVideoMode1, Value: 480x640x16
+Key: CustomVideoMode2, Value: 768x1024x16
+Key: CustomVideoMode3, Value: 1024x600x16
+Key: CustomVideoMode4, Value: 600x1024x16
+Key: CustomVideoMode5, Value: 1280x800x16
+Key: CustomVideoMode6, Value: 800x1280x16
+Key: CustomVideoMode7, Value: 1366x768x16
+Key: CustomVideoMode8, Value: 768x1366x16
+
+
+
+C:\Program Files\Oracle\VirtualBox\VBoxManage.exe showvminfo Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560 --details
+Name:            Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560
+Groups:          /
+Guest OS:        Other Linux (64-bit)
+UUID:            ac6090ff-32f8-490d-a9b9-f148765b4090
+Config file:     C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560.vbox
+Snapshot folder: C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\Snapshots
+Log folder:      C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\Logs
+Hardware UUID:   ac6090ff-32f8-490d-a9b9-f148765b4090
+Memory size:     3072MB
+Page Fusion:     off
+VRAM size:       32MB
+CPU exec cap:    100%
+HPET:            off
+Chipset:         piix3
+Firmware:        BIOS
+Number of CPUs:  4
+PAE:             off
+Long Mode:       on
+CPUID Portability Level: 0
+CPUID overrides: None
+Boot menu mode:  message and menu
+Boot Device (1): HardDisk
+Boot Device (2): Not Assigned
+Boot Device (3): Not Assigned
+Boot Device (4): Not Assigned
+ACPI:            on
+IOAPIC:          on
+Time offset:     0ms
+RTC:             UTC
+Hardw. virt.ext: on
+Nested Paging:   on
+Large Pages:     off
+VT-x VPID:       on
+VT-x unr. exec.: on
+Paravirt. Provider: Legacy
+State:           running (since 2016-08-08T20:55:16.979000000)
+Monitor count:   1
+3D Acceleration: off
+2D Video Acceleration: off
+Teleporter Enabled: off
+Teleporter Port: 0
+Teleporter Address: 
+Teleporter Password: 
+Tracing Enabled: off
+Allow Tracing to Access VM: off
+Tracing Configuration: 
+Autostart Enabled: off
+Autostart Delay: 0
+Default Frontend: 
+Storage Controller Name (0):            IDEController
+Storage Controller Type (0):            PIIX4
+Storage Controller Instance Number (0): 0
+Storage Controller Max Port Count (0):  2
+Storage Controller Port Count (0):      2
+Storage Controller Bootable (0):        on
+IDEController (0, 0): C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\Snapshots/{e9811506-11b1-49bd-90fb-13da9a154fb0}.vmdk (UUID: e9811506-11b1-49bd-90fb-13da9a154fb0)
+IDEController (0, 1): C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\Snapshots/{56d6a2e9-700b-44c0-ae22-8dcd5152677a}.vmdk (UUID: 56d6a2e9-700b-44c0-ae22-8dcd5152677a)
+IDEController (1, 0): C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\Snapshots/{67bdcb37-d62a-44a1-875a-927984d2fd58}.vdi (UUID: 67bdcb37-d62a-44a1-875a-927984d2fd58)
+NIC 1:           MAC: 080027968231, Attachment: Host-only Interface 'VirtualBox Host-Only Ethernet Adapter #2', Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2:           MAC: 080027E89E5E, Attachment: NAT, Cable connected: on, Trace: off (file: none), Type: virtio, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+NIC 2 Settings:  MTU: 0, Socket (send: 64, receive: 64), TCP Window (send:64, receive: 64)
+NIC 3:           disabled
+NIC 4:           disabled
+NIC 5:           disabled
+NIC 6:           disabled
+NIC 7:           disabled
+NIC 8:           disabled
+Pointing Device: PS/2 Mouse
+Keyboard Device: PS/2 Keyboard
+UART 1:          disabled
+UART 2:          disabled
+LPT 1:           disabled
+LPT 2:           disabled
+Audio:           enabled (Driver: DSOUND, Controller: AC97, Codec: STAC9700)
+Clipboard Mode:  disabled
+Drag and drop Mode: disabled
+Session name:    headless
+Video mode:      720x400x0 at 0,0 enabled
+VRDE:            disabled
+USB:             enabled
+EHCI:            disabled
+XHCI:            disabled
+
+USB Device Filters:
+
+<none>
+
+Available remote USB devices:
+
+<none>
+
+Currently Attached USB Devices:
+
+<none>
+
+Bandwidth groups:  <none>
+
+Shared folders:  <none>
+
+VRDE Connection:    not active
+Clients so far:     0
+
+Video capturing:    not active
+Capture screens:    0
+Capture file:       C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560.webm
+Capture dimensions: 1024x768
+Capture rate:       512 kbps
+Capture FPS:        25
+
+Guest:
+
+Configured memory balloon size:      0 MB
+OS type:                             Linux26_64
+Additions run level:                 1
+Additions version:                   4.3.12 r93733
+
+
+Guest Facilities:
+
+Facility "VirtualBox Base Driver": active/running (last update: 2016/08/08 20:55:22 UTC)
+Facility "Seamless Mode": not active (last update: 2016/08/08 20:55:22 UTC)
+Facility "Graphics Mode": not active (last update: 2016/08/08 20:55:22 UTC)
+
+Snapshots:
+
+   Name: factory-backup (UUID: 7ae4cca8-65f9-473a-a08c-3e7ff50570ae) *
+   Description:
+Initial snapshot to reset factory state
+
+
+
+

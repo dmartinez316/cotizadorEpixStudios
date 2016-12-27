@@ -1,0 +1,82 @@
+{
+
+	ol: [
+		'Modelado\n',
+		{
+			ul: [
+				'9 referencias de carros (exterior).',
+				'4 modificaciones (Hashbag).\n',
+				'180 accesorios (20 accesorios por referencia)',
+				{
+					ul:['! Total ……… $19.800.000'
+					]
+				}
+			]
+		},
+		'Animacion\n',
+		{
+			ul: [
+				'Rig vehicular con adaptación para 3 carros',
+				'Viñeta animada de 5 segundos para inicio de aplicación (Logoen 3D incluido en el video)'
+			]
+		}
+	]
+},
+
+	"procesosCotizacion": [{
+		"id_proceso": "1",
+		"nombre": "Modelado",
+		"dificultad": "2",
+		"esfuerzo": "50",
+		"costo": 100000,
+		"opciones": [{
+			"tipo": "radio",
+			"valores": ["2D", "3D"],
+			"valorEscogido": "2D"
+		}]
+	}, {
+		"id_proceso": "4",
+		"nombre": "Animacion",
+		"dificultad": "2",
+		"esfuerzo": "50",
+		"costo": 100000,
+		"opciones": [{
+			"tipo": "radio",
+			"valores": ["2D", "3D", "Motion"],
+			"valorEscogido": "2D"
+		}]
+	}],
+var procesosPDF= {};
+procesosPDF.ol=[];
+for(var i = 0; i<$scope.procesosCotizacion.length ; i++){
+	procesosPDF.ol.push($scope.procesosCotizacion[i].nombre);
+	var temp={};
+	temp.ul=[];
+	temp.ul.push('Dificultad:'+$scope.procesosCotizacion[i].dificultad);
+	temp.ul.push('Esfuerzo:'+$scope.procesosCotizacion[i].esfuerzo);
+	temp.ul.push('Costo:'+$scope.procesosCotizacion[i].costo);
+	procesosPDF.ol.push(temp);
+
+}
+
+
+{
+	"ol":[
+
+	]
+}
+
+
+	Modelado
+		-dificultad
+		-esfuerzo
+		-costo
+		-opciones
+			-2D
+
+	Animacion
+		-dificultad
+		-esfuerzo
+		-costo
+		-opciones
+			-2D

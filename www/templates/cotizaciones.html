@@ -1,0 +1,170 @@
+<ion-view cache-view="false" title="Cotizaciones" id="cotizaciones" class=" ">
+  <ion-content padding="true" class="has-header">
+    <div class="row responsive-sm">
+      <div class="col col-30">
+        <div class="item item-input item-select"  data-tap-disabled="true">
+          <div class="input-label">
+            Prospectos
+          </div>
+          <select name="prospecto" id="prospecto" ng-model="opcionesSeleccionadas.prospectoSeleccionado"
+          ng-options="option.razonSocial for option in prospectosUsuario">
+        </select>
+      </div>
+    </div>
+    <div class="col col-60">
+      <div class="item item-input item-select"  data-tap-disabled="true">
+        <div class="input-label">
+          Forma de pago
+        </div>
+        <select name="formapago" id="cotizaciones-formapago" ng-model="opcionesSeleccionadas.formaPago"
+        ng-options="option for option in forma_Pago">
+      </select>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col col-100">
+    <label class="item item-input " id="cotizar-nombre_producto">
+      <span class="input-label">Nombre del producto</span>
+      <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="opcionesSeleccionadas.nombre_producto" type="text"  placeholder="Nombre que aparecera en la cotizacion">
+    </label>
+  </div>
+</div> 
+<div ng-show="orientacion=='portrait'">
+  <div  class="button-bar " style="margin-top:0.5em;margin-bottom:0.2em;">
+    <div ng-repeat="proceso in procesosUsuario">
+      <button on-hold="onHold()" style="margin-left:0.1em;margin-right:0.1em; border-radius: 100px;"  ng-click="addProcess(proceso.id_proceso)" id="cotizaciones-button-{{proceso.nombre}}" ng-class="proceso.classType" >
+        <img  src="img/{{proceso.img}}" style="width : 100% ; height : 100%"></img>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div ng-show="orientacion=='landscape'">
+<div  class="button-bar " style="margin-top:0.5em;margin-bottom:0.2em;">
+  <div class="row responsive-sm">
+    <div class="col col-25">
+      <button style="margin-left:0.1em;margin-right:0.1em; border-radius: 100px;"  ng-click="addProcess(procesosUsuario[0].id_proceso)" id="cotizaciones-button-{{procesosUsuario[0].nombre}}" ng-class="procesosUsuario[0].classType" >
+        <img  src="img/{{procesosUsuario[0].img}}" style="width : 100% ; height : 100%"></img>
+      </button>
+    </div>
+    <div class="col col-25">
+      <button style="margin-left:0.1em;margin-right:0.1em; border-radius: 100px;"  ng-click="addProcess(procesosUsuario[1].id_proceso)" id="cotizaciones-button-{{procesosUsuario[1].nombre}}" ng-class="procesosUsuario[1].classType" >
+        <img  src="img/{{procesosUsuario[1].img}}" style="width : 100% ; height : 100%"></img>
+      </button>
+    </div>
+    <div class="col col-25">
+      <button style="margin-left:0.1em;margin-right:0.1em; border-radius: 100px;"  ng-click="addProcess(procesosUsuario[2].id_proceso)" id="cotizaciones-button-{{procesosUsuario[2].nombre}}" ng-class="procesosUsuario[2].classType" >
+        <img  src="img/{{procesosUsuario[2].img}}" style="width : 100% ; height : 100%"></img>
+      </button>
+    </div>
+    <div class="col col-25">
+      <button style="margin-left:0.1em;margin-right:0.1em; border-radius: 100px;"  ng-click="addProcess(procesosUsuario[3].id_proceso)" id="cotizaciones-button-{{procesosUsuario[3].nombre}}" ng-class="procesosUsuario[3].classType" >
+        <img  src="img/{{procesosUsuario[3].img}}" style="width : 100% ; height : 100%"></img>
+      </button>
+    </div>
+  </div>
+</div>
+<div  class="button-bar " style="margin-top:0.5em;margin-bottom:0.2em;">
+  <div class="row responsive-sm">
+    <div class="col col-25">
+      <button style="margin-left:0.1em;margin-right:0.1em; border-radius: 100px;"  ng-click="addProcess(procesosUsuario[4].id_proceso)" id="cotizaciones-button-{{procesosUsuario[4].nombre}}" ng-class="procesosUsuario[4].classType" >
+        <img  src="img/{{procesosUsuario[4].img}}" style="width : 100% ; height : 100%"></img>
+      </button>
+    </div>
+    <div class="col col-25">
+      <button style="margin-left:0.1em;margin-right:0.1em; border-radius: 100px;"  ng-click="addProcess(procesosUsuario[5].id_proceso)" id="cotizaciones-button-{{procesosUsuario[5].nombre}}" ng-class="procesosUsuario[5].classType" >
+        <img  src="img/{{procesosUsuario[5].img}}" style="width : 100% ; height : 100%"></img>
+      </button>
+    </div>
+    <div class="col col-25">
+      <button style="margin-left:0.1em;margin-right:0.1em; border-radius: 100px;"  ng-click="addProcess(procesosUsuario[6].id_proceso)" id="cotizaciones-button-{{procesosUsuario[6].nombre}}" ng-class="procesosUsuario[6].classType" >
+        <img  src="img/{{procesosUsuario[6].img}}" style="width : 100% ; height : 100%"></img>
+      </button>
+    </div>
+    <div class="col col-25">
+      <button style="margin-left:0.1em;margin-right:0.1em; border-radius: 100px;"  ng-click="addProcess(procesosUsuario[7].id_proceso)" id="cotizaciones-button-{{procesosUsuario[7].nombre}}" ng-class="procesosUsuario[7].classType" >
+        <img  src="img/{{procesosUsuario[7].img}}" style="width : 100% ; height : 100%"></img>
+      </button>
+    </div>
+  </div>
+</div>
+
+</div>
+  <div class="item item-body " id="cotizaciones-process-list">
+    <p id="" style="margin-top:0px;color:#000000;" class=" ">Procesos</p>
+    <div ng-repeat="proceso in procesosUsuario">
+      <div ng-show="proceso.estado" class="item item-body " id="cotizaciones-list-item-{{proceso.nombre}}">
+        <div style="padding-bottom:0.5em;" ng-click="proceso.hide= !proceso.hide" >
+         {{proceso.nombre}}
+         <i ng-show="proceso.hide" class="icon ion-chevron-down"></i>
+         <i ng-show="!proceso.hide" class="icon  ion-chevron-up"></i>
+       </div>
+       <div ng-hide="proceso.hide" class="animated ">
+        <form  class="list ">
+          <div class="row">
+            <div class="col col-40">
+              <div class="item range range-balanced " id="cotizaciones-dificultad">
+                Dificultad({{proceso.dificultad}})
+                <i class="icon ion-minus"></i>
+                <input ng-model="proceso.dificultad" type="range"  min="1" max="3" value="2">
+                <i class="icon ion-plus"></i>
+              </div>        
+            </div>
+            <div class="col col-60">
+              <div class="item range range-balanced " id="cotizaciones-dias">
+                Dias({{proceso.dias}})
+                <i class="icon ion-minus"></i>
+                <input ng-model="proceso.dias" type="range"  min="0" max="100" value="50">
+                <i class="icon ion-plus"></i>
+              </div>            
+            </div>
+          </div>          
+          <ion-item class="" id="">
+            <div ng-repeat="opcion in proceso.opciones">
+              <div ng-repeat="item in opcion.valores">
+                <div ng-switch="opcion.tipo">
+                  <div ng-switch-when="radio">
+                    <ion-item class="">{{item}}({{opcion.valorEscogido}})
+                      <input type="{{opcion.tipo}}" name="{{proceso.nombre}}-{{opcion.tipo}}" ng-model="opcion.valorEscogido" value="{{item}}" >
+                    </ion-item>
+                  </div>
+
+                  <div ng-switch-default>
+                    <ion-item class="">{{item.nombre}}({{item.valor}})
+                      <input type="{{opcion.tipo}}" name="{{proceso.nombre}}-{{opcion.tipo}}" ng-model="item.valor" >
+                    </ion-item>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+          <button ng-click="proceso.estado=!proceso.estado; proceso.classType='button button-stable' ;proceso.hide=true; " id="" class=" button button-stable  button-block button-icon icon ion-android-delete "></button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+<div class="row">
+  <div class="col col-100">
+    <label class="item item-input " id="cotizar-tiempo_entrega">
+      <span class="input-label">Tiempo de entrega</span>
+      <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="opcionesSeleccionadas.tiempo_entrega" type="text"  placeholder="Tiempo aproximado de entrega">
+    </label>          
+  </div>
+</div>
+<div class="row">
+  <div class="col col-100">
+    <label class="item item-input " id="cotizar-tiempo_entrega">
+      <span class="input-label">Requerimientos</span>
+      <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="opcionesSeleccionadas.requerimientos" type="text"  placeholder="Requerimientos para el producto">
+    </label>          
+  </div>
+</div>
+<div class="item item-body " id="cotizaciones-process-list">
+  <a ng-click="calcularItems()" id="" class=" button button-dark  button-block button-outline ">Calcular</a>
+</div>
+</ion-content>
+</ion-view>

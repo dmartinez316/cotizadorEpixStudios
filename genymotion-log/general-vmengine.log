@@ -1,0 +1,103 @@
+C:\Program Files\Oracle\VirtualBox\VBoxManage.exe --version
+5.0.4r102546
+
+
+
+C:\Program Files\Oracle\VirtualBox\VBoxManage.exe list hostinfo
+Host Information:
+
+Host time: 2016-08-08T20:57:51.335000000Z
+Processor online count: 6
+Processor count: 6
+Processor online core count: 3
+Processor core count: 3
+Processor#0 speed: unknown
+Processor#0 description: AMD FX(tm)-6100 Six-Core Processor
+Processor#1 speed: unknown
+Processor#1 description: AMD FX(tm)-6100 Six-Core Processor
+Processor#2 speed: unknown
+Processor#2 description: AMD FX(tm)-6100 Six-Core Processor
+Processor#3 speed: unknown
+Processor#3 description: AMD FX(tm)-6100 Six-Core Processor
+Processor#4 speed: unknown
+Processor#4 description: AMD FX(tm)-6100 Six-Core Processor
+Processor#5 speed: unknown
+Processor#5 description: AMD FX(tm)-6100 Six-Core Processor
+Memory size: 8175 MByte
+Memory available: 3812 MByte
+Operating system: Windows 8.1
+Operating system version: 6.3.9600
+
+
+
+C:\Program Files\Oracle\VirtualBox\VBoxManage.exe list hostonlyifs
+Name:            VirtualBox Host-Only Ethernet Adapter
+GUID:            627c3391-6125-411a-85a5-65a318b5e2f4
+DHCP:            Disabled
+IPAddress:       192.168.56.1
+NetworkMask:     255.255.255.0
+IPV6Address:     fe80:0000:0000:0000:e4ce:a4f0:bcdd:3933
+IPV6NetworkMaskPrefixLength: 64
+HardwareAddress: 0a:00:27:00:00:00
+MediumType:      Ethernet
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+
+Name:            VirtualBox Host-Only Ethernet Adapter #2
+GUID:            fd40f708-6d95-4be4-9e3b-9ea7b0a27c67
+DHCP:            Disabled
+IPAddress:       192.168.185.2
+NetworkMask:     255.255.255.0
+IPV6Address:     fe80:0000:0000:0000:ddd3:dfc2:9db0:bd02
+IPV6NetworkMaskPrefixLength: 64
+HardwareAddress: 0a:00:27:00:00:00
+MediumType:      Ethernet
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter #2
+
+
+
+
+C:\Program Files\Oracle\VirtualBox\VBoxManage.exe list dhcpservers
+NetworkName:    HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+IP:             192.168.56.100
+NetworkMask:    255.255.255.0
+lowerIPAddress: 192.168.56.101
+upperIPAddress: 192.168.56.254
+Enabled:        Yes
+
+NetworkName:    HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter #2
+IP:             192.168.185.100
+NetworkMask:    255.255.255.0
+lowerIPAddress: 192.168.185.101
+upperIPAddress: 192.168.185.254
+Enabled:        Yes
+
+
+
+
+C:\Program Files\Oracle\VirtualBox\VBoxManage.exe list bridgedifs
+Name:            Qualcomm Atheros AR8171/8175 PCI-E Gigabit Ethernet Controller (NDIS 6.30)
+GUID:            02fdf3b6-93e3-4bd6-9256-1cdd0f473dc5
+DHCP:            Enabled
+IPAddress:       192.168.1.51
+NetworkMask:     255.255.255.0
+IPV6Address:     fe80:0000:0000:0000:81b7:2f3b:a5ae:6057
+IPV6NetworkMaskPrefixLength: 64
+HardwareAddress: d0:50:99:3a:e9:94
+MediumType:      Ethernet
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-Qualcomm Atheros AR8171/8175 PCI-E Gigabit Ethernet Controller (NDIS 6.30)
+
+
+
+
+C:\Program Files\Oracle\VirtualBox\VBoxManage.exe list natnets
+
+
+
+C:\Program Files\Oracle\VirtualBox\VBoxManage.exe list intnets
+Name:        intnet
+
+
+

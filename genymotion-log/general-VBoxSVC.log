@@ -1,0 +1,71 @@
+VirtualBox COM Server 5.0.4 r102546 win.amd64 (Sep  8 2015 10:46:49) release log
+00:00:00.003906 main     Log opened 2016-08-08T20:55:08.178119100Z
+00:00:00.003906 main     Build Type: release
+00:00:00.003906 main     OS Product: Windows 8.1
+00:00:00.003906 main     OS Release: 6.3.9600
+00:00:00.003906 main     OS Service Pack: 
+00:00:00.019529 main     DMI Product Name: To Be Filled By O.E.M.
+00:00:00.030278 main     DMI Product Version: To Be Filled By O.E.M.
+00:00:00.030278 main     Host RAM: 8175MB total, 5464MB available
+00:00:00.030278 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.030278 main     Process ID: 8732
+00:00:00.030278 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.032225          Home directory: 'C:\Users\David/.VirtualBox'
+00:00:00.033202          Loading settings file "C:\Users\David/.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.074217          Skipped non-Ethernet 'Loopback Pseudo-Interface 1'
+00:00:00.074217          Skipped non-Ethernet 'Teredo Tunneling Pseudo-Interface'
+00:00:00.074217          Skipped non-Ethernet 'isatap.{02FDF3B6-93E3-4BD6-9256-1CDD0F473DC5}'
+00:00:00.074217          Skipped non-Ethernet 'isatap.{627C3391-6125-411A-85A5-65A318B5E2F4}'
+00:00:00.074217          Skipped non-Ethernet 'isatap.{FD40F708-6D95-4BE4-9E3B-9EA7B0A27C67}'
+00:00:00.078123          HostDnsMonitor: old information
+00:00:00.078123            no server entries
+00:00:00.078123            no search string entries
+00:00:00.078123            no domain set
+00:00:00.078123          HostDnsMonitor: new information
+00:00:00.078123            server 1: 8.8.8.8
+00:00:00.078123            server 2: 8.8.4.4
+00:00:00.078123            no search string entries
+00:00:00.078123            no domain set
+00:00:00.079100          HostDnsMonitorProxy::notify
+00:00:00.144528          VD: VDInit finished
+00:00:00.146497          Loading settings file "C:\Users\David\AppData\Local\Genymobile\Genymotion\deployed\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560\Samsung Galaxy S6 - 5.0.0 - API 21 - 1440x2560.vbox" with version "1.12-windows"
+00:00:00.252923          Skipped non-Ethernet 'Loopback Pseudo-Interface 1'
+00:00:00.252923          Skipped non-Ethernet 'Teredo Tunneling Pseudo-Interface'
+00:00:00.252923          Skipped non-Ethernet 'isatap.{02FDF3B6-93E3-4BD6-9256-1CDD0F473DC5}'
+00:00:00.252923          Skipped non-Ethernet 'isatap.{627C3391-6125-411A-85A5-65A318B5E2F4}'
+00:00:00.252923          Skipped non-Ethernet 'isatap.{FD40F708-6D95-4BE4-9E3B-9EA7B0A27C67}'
+00:00:00.552723          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:00.553699          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:00.789048          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:00.789048          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:00.955058          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:00.955058          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:01.413129          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:01.413129          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:02.601510          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:02.602487          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:06.040893          Skipped non-Ethernet 'Loopback Pseudo-Interface 1'
+00:00:06.040893          Skipped non-Ethernet 'Teredo Tunneling Pseudo-Interface'
+00:00:06.040893          Skipped non-Ethernet 'isatap.{02FDF3B6-93E3-4BD6-9256-1CDD0F473DC5}'
+00:00:06.040893          Skipped non-Ethernet 'isatap.{627C3391-6125-411A-85A5-65A318B5E2F4}'
+00:00:06.040893          Skipped non-Ethernet 'isatap.{FD40F708-6D95-4BE4-9E3B-9EA7B0A27C67}'
+00:00:08.913888          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:08.913888          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:20.755440          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:00:20.755440          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:02:42.588484          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:02:42.588484          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:02:42.748618          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:02:42.749594          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:02:43.016189          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:02:43.016189          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDEController'}, preserve=false aResultDetail=0
+00:02:43.206614          Skipped non-Ethernet 'Loopback Pseudo-Interface 1'
+00:02:43.206614          Skipped non-Ethernet 'Teredo Tunneling Pseudo-Interface'
+00:02:43.206614          Skipped non-Ethernet 'isatap.{02FDF3B6-93E3-4BD6-9256-1CDD0F473DC5}'
+00:02:43.206614          Skipped non-Ethernet 'isatap.{627C3391-6125-411A-85A5-65A318B5E2F4}'
+00:02:43.206614          Skipped non-Ethernet 'isatap.{FD40F708-6D95-4BE4-9E3B-9EA7B0A27C67}'
+00:02:43.303291          Skipped non-Ethernet 'Loopback Pseudo-Interface 1'
+00:02:43.303291          Skipped non-Ethernet 'Teredo Tunneling Pseudo-Interface'
+00:02:43.303291          Skipped non-Ethernet 'isatap.{02FDF3B6-93E3-4BD6-9256-1CDD0F473DC5}'
+00:02:43.303291          Skipped non-Ethernet 'isatap.{627C3391-6125-411A-85A5-65A318B5E2F4}'
+00:02:43.303291          Skipped non-Ethernet 'isatap.{FD40F708-6D95-4BE4-9E3B-9EA7B0A27C67}'

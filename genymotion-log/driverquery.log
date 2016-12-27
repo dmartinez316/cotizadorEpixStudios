@@ -1,0 +1,4384 @@
+
+Module Name:       1394ohci
+Display Name:      1394 OHCI Compliant Host Controller
+Description:       1394 OHCI Compliant Host Controller
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       200.704
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:14 a. m.
+Path:              C:\Windows\system32\drivers\1394ohci.sys
+Init(bytes):       4.096
+
+Module Name:       3ware
+Display Name:      3ware
+Description:       3ware
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       86.016
+BSS(bytes):        0
+Link Date:         11/04/2013 5:49:23 p. m.
+Path:              C:\Windows\system32\drivers\3ware.sys
+Init(bytes):       4.096
+
+Module Name:       ACPI
+Display Name:      Microsoft ACPI Driver
+Description:       Microsoft ACPI Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 126.976
+Code(bytes):       274.432
+BSS(bytes):        0
+Link Date:         06/10/2014 10:29:50 p. m.
+Path:              C:\Windows\system32\drivers\ACPI.sys
+Init(bytes):       28.672
+
+Module Name:       acpiex
+Display Name:      Microsoft ACPIEx Driver
+Description:       Microsoft ACPIEx Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 32.768
+Code(bytes):       28.672
+BSS(bytes):        0
+Link Date:         22/08/2013 6:37:47 a. m.
+Path:              C:\Windows\system32\Drivers\acpiex.sys
+Init(bytes):       4.096
+
+Module Name:       acpipagr
+Display Name:      ACPI Processor Aggregator Driver
+Description:       ACPI Processor Aggregator Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:48 a. m.
+Path:              C:\Windows\system32\drivers\acpipagr.sys
+Init(bytes):       4.096
+
+Module Name:       AcpiPmi
+Display Name:      ACPI Power Meter Driver
+Description:       ACPI Power Meter Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:53 a. m.
+Path:              C:\Windows\system32\drivers\acpipmi.sys
+Init(bytes):       4.096
+
+Module Name:       acpitime
+Display Name:      ACPI Wake Alarm Driver
+Description:       ACPI Wake Alarm Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:58 a. m.
+Path:              C:\Windows\system32\drivers\acpitime.sys
+Init(bytes):       4.096
+
+Module Name:       ADP80XX
+Display Name:      ADP80XX
+Description:       ADP80XX
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       749.568
+BSS(bytes):        0
+Link Date:         12/07/2013 4:47:36 p. m.
+Path:              C:\Windows\system32\drivers\ADP80XX.SYS
+Init(bytes):       4.096
+
+Module Name:       AFD
+Display Name:      Ancillary Function Driver for Winsock
+Description:       Ancillary Function Driver for Winsock
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 303.104
+Code(bytes):       110.592
+BSS(bytes):        0
+Link Date:         13/10/2015 12:10:45 p. m.
+Path:              C:\Windows\system32\drivers\afd.sys
+Init(bytes):       16.384
+
+Module Name:       agp440
+Display Name:      Intel AGP Bus Filter
+Description:       Intel AGP Bus Filter
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 28.672
+Code(bytes):       16.384
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:35 a. m.
+Path:              C:\Windows\system32\drivers\agp440.sys
+Init(bytes):       4.096
+
+Module Name:       ahcache
+Display Name:      Application Compatibility Cache
+Description:       Application Compatibility Cache
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 65.536
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         19/03/2015 8:56:10 p. m.
+Path:              C:\Windows\system32\DRIVERS\ahcache.sys
+Init(bytes):       4.096
+
+Module Name:       AmdK8
+Display Name:      AMD K8 Processor Driver
+Description:       AMD K8 Processor Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 49.152
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         22/08/2013 3:46:34 a. m.
+Path:              C:\Windows\system32\drivers\amdk8.sys
+Init(bytes):       8.192
+
+Module Name:       AmdPPM
+Display Name:      AMD Processor Driver
+Description:       AMD Processor Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 49.152
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         22/08/2013 3:46:34 a. m.
+Path:              C:\Windows\system32\drivers\amdppm.sys
+Init(bytes):       8.192
+
+Module Name:       amdsata
+Display Name:      amdsata
+Description:       amdsata
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       57.344
+BSS(bytes):        0
+Link Date:         08/07/2013 5:54:38 p. m.
+Path:              C:\Windows\system32\drivers\amdsata.sys
+Init(bytes):       4.096
+
+Module Name:       amdsbs
+Display Name:      amdsbs
+Description:       amdsbs
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       229.376
+BSS(bytes):        0
+Link Date:         11/12/2012 3:21:44 p. m.
+Path:              C:\Windows\system32\drivers\amdsbs.sys
+Init(bytes):       4.096
+
+Module Name:       amdxata
+Display Name:      amdxata
+Description:       amdxata
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         08/07/2013 5:45:00 p. m.
+Path:              C:\Windows\system32\drivers\amdxata.sys
+Init(bytes):       4.096
+
+Module Name:       AppID
+Display Name:      AppID Driver
+Description:       AppID Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 45.056
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:07 p. m.
+Path:              C:\Windows\system32\drivers\appid.sys
+Init(bytes):       8.192
+
+Module Name:       arcsas
+Display Name:      Adaptec SAS/SATA-II RAID Storport's Miniport Driver
+Description:       Adaptec SAS/SATA-II RAID Storport's Miniport Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       90.112
+BSS(bytes):        0
+Link Date:         08/07/2013 7:50:17 p. m.
+Path:              C:\Windows\system32\drivers\arcsas.sys
+Init(bytes):       4.096
+
+Module Name:       atapi
+Display Name:      IDE Channel
+Description:       IDE Channel
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       12.288
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:39 a. m.
+Path:              C:\Windows\system32\drivers\atapi.sys
+Init(bytes):       4.096
+
+Module Name:       b06bdrv
+Display Name:      Broadcom NetXtreme II VBD
+Description:       Broadcom NetXtreme II VBD
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       221.184
+BSS(bytes):        0
+Link Date:         04/02/2013 1:47:18 p. m.
+Path:              C:\Windows\system32\drivers\bxvbda.sys
+Init(bytes):       4.096
+
+Module Name:       BasicDisplay
+Display Name:      BasicDisplay
+Description:       BasicDisplay
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 36.864
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:31 a. m.
+Path:              C:\Windows\system32\drivers\BasicDisplay.sys
+Init(bytes):       4.096
+
+Module Name:       BasicRender
+Display Name:      BasicRender
+Description:       BasicRender
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         22/02/2014 6:14:02 a. m.
+Path:              C:\Windows\system32\drivers\BasicRender.sys
+Init(bytes):       4.096
+
+Module Name:       bcmfn2
+Display Name:      bcmfn2 Service
+Description:       bcmfn2 Service
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         02/08/2013 6:59:11 p. m.
+Path:              C:\Windows\system32\drivers\bcmfn2.sys
+Init(bytes):       4.096
+
+Module Name:       Beep
+Display Name:      Beep
+Description:       Beep
+Driver Type:       Kernel 
+Start Mode:        Disabled
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:24 a. m.
+Path:              C:\Windows\system32\drivers\Beep.sys
+Init(bytes):       4.096
+
+Module Name:       bowser
+Display Name:      Browser Support Driver
+Description:       Browser Support Driver
+Driver Type:       File System 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 65.536
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:38 a. m.
+Path:              C:\Windows\system32\DRIVERS\bowser.sys
+Init(bytes):       8.192
+
+Module Name:       BthAvrcpTg
+Display Name:      Bluetooth Audio/Video Remote Control HID
+Description:       Bluetooth Audio/Video Remote Control HID
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 1.664
+Code(bytes):       26.752
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:39 a. m.
+Path:              C:\Windows\system32\drivers\BthAvrcpTg.sys
+Init(bytes):       1.792
+
+Module Name:       BthHFEnum
+Display Name:      Bluetooth Hands-Free Audio and Call Control HID Enumerator
+Description:       Bluetooth Hands-Free Audio and Call Control HID Enumerator
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       36.864
+BSS(bytes):        0
+Link Date:         08/03/2015 9:02:51 p. m.
+Path:              C:\Windows\system32\drivers\bthhfenum.sys
+Init(bytes):       4.096
+
+Module Name:       bthhfhid
+Display Name:      Bluetooth Hands-Free Call Control HID
+Description:       Bluetooth Hands-Free Call Control HID
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 3.200
+Code(bytes):       16.768
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:16 a. m.
+Path:              C:\Windows\system32\drivers\BthHFHid.sys
+Init(bytes):       1.152
+
+Module Name:       BTHMODEM
+Display Name:      Bluetooth Serial Communications Driver
+Description:       Bluetooth Serial Communications Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       45.056
+BSS(bytes):        0
+Link Date:         24/07/2014 6:43:06 a. m.
+Path:              C:\Windows\system32\drivers\bthmodem.sys
+Init(bytes):       4.096
+
+Module Name:       cdfs
+Display Name:      CD/DVD File System Reader
+Description:       CD/DVD File System Reader
+Driver Type:       File System 
+Start Mode:        Disabled
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 65.536
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:15 a. m.
+Path:              C:\Windows\system32\DRIVERS\cdfs.sys
+Init(bytes):       8.192
+
+Module Name:       cdrom
+Display Name:      CD-ROM Driver
+Description:       CD-ROM Driver
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 77.824
+Code(bytes):       61.440
+BSS(bytes):        0
+Link Date:         22/08/2013 3:46:35 a. m.
+Path:              C:\Windows\system32\drivers\cdrom.sys
+Init(bytes):       4.096
+
+Module Name:       circlass
+Display Name:      Consumer IR Devices
+Description:       Consumer IR Devices
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       36.864
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:25 a. m.
+Path:              C:\Windows\system32\drivers\circlass.sys
+Init(bytes):       4.096
+
+Module Name:       CLFS
+Display Name:      Common Log (CLFS)
+Description:       Common Log (CLFS)
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 233.472
+Code(bytes):       73.728
+BSS(bytes):        0
+Link Date:         03/03/2015 6:51:05 p. m.
+Path:              C:\Windows\system32\drivers\CLFS.sys
+Init(bytes):       8.192
+
+Module Name:       CmBatt
+Display Name:      Microsoft ACPI Control Method Battery Driver
+Description:       Microsoft ACPI Control Method Battery Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 14.208
+Code(bytes):       3.456
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:43 a. m.
+Path:              C:\Windows\system32\drivers\CmBatt.sys
+Init(bytes):       2.560
+
+Module Name:       CNG
+Display Name:      CNG
+Description:       CNG
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       430.080
+BSS(bytes):        0
+Link Date:         13/05/2016 6:07:49 p. m.
+Path:              C:\Windows\system32\Drivers\cng.sys
+Init(bytes):       4.096
+
+Module Name:       CompositeBus
+Display Name:      Composite Bus Enumerator Driver
+Description:       Composite Bus Enumerator Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 20.480
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:48 a. m.
+Path:              C:\Windows\system32\drivers\CompositeBus.sys
+Init(bytes):       4.096
+
+Module Name:       condrv
+Display Name:      Console Driver
+Description:       Console Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 28.672
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:17 a. m.
+Path:              C:\Windows\system32\drivers\condrv.sys
+Init(bytes):       4.096
+
+Module Name:       CSC
+Display Name:      Offline Files Driver
+Description:       Offline Files Driver
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 307.200
+Code(bytes):       180.224
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:49 p. m.
+Path:              C:\Windows\system32\drivers\csc.sys
+Init(bytes):       16.384
+
+Module Name:       dam
+Display Name:      Desktop Activity Moderator Driver
+Description:       Desktop Activity Moderator Driver
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 24.576
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         04/11/2014 12:55:01 a. m.
+Path:              C:\Windows\system32\drivers\dam.sys
+Init(bytes):       4.096
+
+Module Name:       Dfsc
+Display Name:      DFS Namespace Client Driver
+Description:       DFS Namespace Client Driver
+Driver Type:       File System 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 86.016
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         06/03/2014 3:22:50 a. m.
+Path:              C:\Windows\system32\Drivers\dfsc.sys
+Init(bytes):       8.192
+
+Module Name:       disk
+Display Name:      Disk Driver
+Description:       Disk Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 36.864
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         20/01/2016 8:52:47 a. m.
+Path:              C:\Windows\system32\drivers\disk.sys
+Init(bytes):       8.192
+
+Module Name:       dmvsc
+Display Name:      dmvsc
+Description:       dmvsc
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       12.288
+BSS(bytes):        0
+Link Date:         22/08/2013 6:37:14 a. m.
+Path:              C:\Windows\system32\drivers\dmvsc.sys
+Init(bytes):       4.096
+
+Module Name:       drmkaud
+Display Name:      Microsoft Trusted Audio Drivers
+Description:       Microsoft Trusted Audio Drivers
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         28/10/2014 9:47:38 p. m.
+Path:              C:\Windows\system32\drivers\drmkaud.sys
+Init(bytes):       4.096
+
+Module Name:       DXGKrnl
+Display Name:      LDDM Graphics Subsystem
+Description:       LDDM Graphics Subsystem
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 954.368
+Code(bytes):       147.456
+BSS(bytes):        0
+Link Date:         09/04/2016 6:27:53 p. m.
+Path:              C:\Windows\system32\drivers\dxgkrnl.sys
+Init(bytes):       16.384
+
+Module Name:       E1G60
+Display Name:      Intel(R) PRO/1000 NDIS 6 Adapter Driver
+Description:       Intel(R) PRO/1000 NDIS 6 Adapter Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       108.160
+BSS(bytes):        0
+Link Date:         23/03/2010 4:08:16 p. m.
+Path:              C:\Windows\system32\DRIVERS\E1G6032E.sys
+Init(bytes):       2.432
+
+Module Name:       ebdrv
+Display Name:      Broadcom NetXtreme II 10 GigE VBD
+Description:       Broadcom NetXtreme II 10 GigE VBD
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       1.142.784
+BSS(bytes):        0
+Link Date:         08/04/2013 9:30:03 a. m.
+Path:              C:\Windows\system32\drivers\evbda.sys
+Init(bytes):       4.096
+
+Module Name:       EhStorClass
+Display Name:      Enhanced Storage Filter Driver
+Description:       Enhanced Storage Filter Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 20.480
+Code(bytes):       45.056
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:15 a. m.
+Path:              C:\Windows\system32\drivers\EhStorClass.sys
+Init(bytes):       4.096
+
+Module Name:       EhStorTcgDrv
+Display Name:      Microsoft driver for storage devices supporting IEEE 1667 and TCG protocols
+Description:       Microsoft driver for storage devices supporting IEEE 1667 and TCG protocols
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       69.632
+BSS(bytes):        0
+Link Date:         22/08/2013 6:37:30 a. m.
+Path:              C:\Windows\system32\drivers\EhStorTcgDrv.sys
+Init(bytes):       4.096
+
+Module Name:       ElbyCDIO
+Display Name:      ElbyCDIO Driver
+Description:       ElbyCDIO Driver
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         17/12/2014 5:30:51 p. m.
+Path:              C:\Windows\system32\Drivers\ElbyCDIO.sys
+Init(bytes):       4.096
+
+Module Name:       ErrDev
+Display Name:      Microsoft Hardware Error Device Driver
+Description:       Microsoft Hardware Error Device Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:45 a. m.
+Path:              C:\Windows\system32\drivers\errdev.sys
+Init(bytes):       4.096
+
+Module Name:       exfat
+Display Name:      exFAT File System Driver
+Description:       exFAT File System Driver
+Driver Type:       File System 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 143.360
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:18 a. m.
+Path:              C:\Windows\system32\drivers\exfat.sys
+Init(bytes):       12.288
+
+Module Name:       fastfat
+Display Name:      FAT12/16/32 File System Driver
+Description:       FAT12/16/32 File System Driver
+Driver Type:       File System 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 159.744
+Code(bytes):       16.384
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:18 a. m.
+Path:              C:\Windows\system32\drivers\fastfat.sys
+Init(bytes):       12.288
+
+Module Name:       fdc
+Display Name:      Floppy Disk Controller Driver
+Description:       Floppy Disk Controller Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:18 a. m.
+Path:              C:\Windows\system32\drivers\fdc.sys
+Init(bytes):       8.192
+
+Module Name:       FileInfo
+Display Name:      File Information FS MiniFilter
+Description:       File Information FS MiniFilter
+Driver Type:       File System 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 40.960
+Code(bytes):       12.288
+BSS(bytes):        0
+Link Date:         22/02/2014 6:13:10 a. m.
+Path:              C:\Windows\system32\drivers\fileinfo.sys
+Init(bytes):       8.192
+
+Module Name:       Filetrace
+Display Name:      Filetrace
+Description:       Filetrace
+Driver Type:       File System 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       12.288
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:41 a. m.
+Path:              C:\Windows\system32\drivers\filetrace.sys
+Init(bytes):       8.192
+
+Module Name:       flpydisk
+Display Name:      Floppy Disk Driver
+Description:       Floppy Disk Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 16.384
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:18 a. m.
+Path:              C:\Windows\system32\drivers\flpydisk.sys
+Init(bytes):       4.096
+
+Module Name:       FltMgr
+Display Name:      FltMgr
+Description:       FltMgr
+Driver Type:       File System 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 159.744
+Code(bytes):       94.208
+BSS(bytes):        0
+Link Date:         25/08/2014 9:25:16 p. m.
+Path:              C:\Windows\system32\drivers\fltmgr.sys
+Init(bytes):       16.384
+
+Module Name:       FsDepends
+Display Name:      File System Dependency Minifilter
+Description:       File System Dependency Minifilter
+Driver Type:       File System 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 36.864
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         08/10/2014 2:34:16 a. m.
+Path:              C:\Windows\system32\drivers\FsDepends.sys
+Init(bytes):       8.192
+
+Module Name:       fvevol
+Display Name:      BitLocker Drive Encryption Filter Driver
+Description:       BitLocker Drive Encryption Filter Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 389.120
+Code(bytes):       94.208
+BSS(bytes):        0
+Link Date:         07/04/2014 5:25:31 p. m.
+Path:              C:\Windows\system32\DRIVERS\fvevol.sys
+Init(bytes):       20.480
+
+Module Name:       FxPPM
+Display Name:      Power Framework Processor Driver
+Description:       Power Framework Processor Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 3:46:33 a. m.
+Path:              C:\Windows\system32\drivers\fxppm.sys
+Init(bytes):       4.096
+
+Module Name:       gagp30kx
+Display Name:      Microsoft Generic AGPv3.0 Filter for K8 Processor Platforms
+Description:       Microsoft Generic AGPv3.0 Filter for K8 Processor Platforms
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 28.672
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:36 a. m.
+Path:              C:\Windows\system32\drivers\gagp30kx.sys
+Init(bytes):       4.096
+
+Module Name:       gencounter
+Display Name:      Microsoft Hyper-V Generation Counter
+Description:       Microsoft Hyper-V Generation Counter
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:23 a. m.
+Path:              C:\Windows\system32\drivers\vmgencounter.sys
+Init(bytes):       4.096
+
+Module Name:       GPIOClx0101
+Display Name:      Microsoft GPIO Class Extension Driver
+Description:       Microsoft GPIO Class Extension Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 36.864
+Code(bytes):       77.824
+BSS(bytes):        0
+Link Date:         14/08/2014 5:24:49 p. m.
+Path:              C:\Windows\system32\Drivers\msgpioclx.sys
+Init(bytes):       4.096
+
+Module Name:       HdAudAddService
+Display Name:      Microsoft 1.1 UAA Function Driver for High Definition Audio Service
+Description:       Microsoft 1.1 UAA Function Driver for High Definition Audio Service
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 274.432
+Code(bytes):       36.864
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:19 a. m.
+Path:              C:\Windows\system32\drivers\HdAudio.sys
+Init(bytes):       4.096
+
+Module Name:       HDAudBus
+Display Name:      Microsoft UAA Bus Driver for High Definition Audio
+Description:       Microsoft UAA Bus Driver for High Definition Audio
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 28.672
+Code(bytes):       36.864
+BSS(bytes):        0
+Link Date:         24/07/2014 6:45:39 a. m.
+Path:              C:\Windows\system32\drivers\HDAudBus.sys
+Init(bytes):       4.096
+
+Module Name:       HidBatt
+Display Name:      HID UPS Battery Driver
+Description:       HID UPS Battery Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:01 a. m.
+Path:              C:\Windows\system32\drivers\HidBatt.sys
+Init(bytes):       4.096
+
+Module Name:       HidBth
+Display Name:      Microsoft Bluetooth HID Miniport
+Description:       Microsoft Bluetooth HID Miniport
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       77.824
+BSS(bytes):        0
+Link Date:         29/01/2015 9:01:51 p. m.
+Path:              C:\Windows\system32\drivers\hidbth.sys
+Init(bytes):       4.096
+
+Module Name:       hidi2c
+Display Name:      Microsoft I2C HID Miniport Driver
+Description:       Microsoft I2C HID Miniport Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         22/08/2013 6:37:28 a. m.
+Path:              C:\Windows\system32\drivers\hidi2c.sys
+Init(bytes):       4.096
+
+Module Name:       HidIr
+Display Name:      Microsoft Infrared HID Driver
+Description:       Microsoft Infrared HID Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 16.384
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:16 a. m.
+Path:              C:\Windows\system32\drivers\hidir.sys
+Init(bytes):       4.096
+
+Module Name:       HidUsb
+Display Name:      Microsoft HID Class Driver
+Description:       Microsoft HID Class Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         06/03/2014 3:24:14 a. m.
+Path:              C:\Windows\system32\drivers\hidusb.sys
+Init(bytes):       4.096
+
+Module Name:       HpSAMD
+Display Name:      HpSAMD
+Description:       HpSAMD
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       45.056
+BSS(bytes):        0
+Link Date:         26/03/2013 4:36:54 p. m.
+Path:              C:\Windows\system32\drivers\HpSAMD.sys
+Init(bytes):       4.096
+
+Module Name:       HTTP
+Display Name:      HTTP Service
+Description:       HTTP Service
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 483.328
+Code(bytes):       233.472
+BSS(bytes):        0
+Link Date:         23/02/2015 6:40:28 p. m.
+Path:              C:\Windows\system32\drivers\HTTP.sys
+Init(bytes):       32.768
+
+Module Name:       hwpolicy
+Display Name:      Hardware Policy Driver
+Description:       Hardware Policy Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:17 a. m.
+Path:              C:\Windows\system32\drivers\hwpolicy.sys
+Init(bytes):       4.096
+
+Module Name:       hyperkbd
+Display Name:      hyperkbd
+Description:       hyperkbd
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:37:49 a. m.
+Path:              C:\Windows\system32\drivers\hyperkbd.sys
+Init(bytes):       4.096
+
+Module Name:       HyperVideo
+Display Name:      HyperVideo
+Description:       HyperVideo
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:20 a. m.
+Path:              C:\Windows\system32\DRIVERS\HyperVideo.sys
+Init(bytes):       4.096
+
+Module Name:       i8042prt
+Display Name:      PS/2 Keyboard and Mouse Port Driver
+Description:       PS/2 Keyboard and Mouse Port Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 36.864
+Code(bytes):       45.056
+BSS(bytes):        0
+Link Date:         04/11/2014 12:54:54 a. m.
+Path:              C:\Windows\system32\drivers\i8042prt.sys
+Init(bytes):       8.192
+
+Module Name:       iaLPSSi_GPIO
+Display Name:      Intel(R) Serial IO GPIO Controller Driver
+Description:       Intel(R) Serial IO GPIO Controller Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         26/06/2013 9:22:54 a. m.
+Path:              C:\Windows\system32\drivers\iaLPSSi_GPIO.sys
+Init(bytes):       4.096
+
+Module Name:       iaLPSSi_I2C
+Display Name:      Intel(R) Serial IO I2C Controller Driver
+Description:       Intel(R) Serial IO I2C Controller Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       81.920
+BSS(bytes):        0
+Link Date:         26/06/2013 9:22:53 a. m.
+Path:              C:\Windows\system32\drivers\iaLPSSi_I2C.sys
+Init(bytes):       4.096
+
+Module Name:       iaStorAV
+Display Name:      Intel(R) SATA RAID Controller Windows
+Description:       Intel(R) SATA RAID Controller Windows
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       573.440
+BSS(bytes):        0
+Link Date:         31/07/2013 7:00:49 p. m.
+Path:              C:\Windows\system32\drivers\iaStorAV.sys
+Init(bytes):       4.096
+
+Module Name:       iaStorV
+Display Name:      Intel RAID Controller Windows 7
+Description:       Intel RAID Controller Windows 7
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       364.544
+BSS(bytes):        0
+Link Date:         11/04/2011 1:48:16 p. m.
+Path:              C:\Windows\system32\drivers\iaStorV.sys
+Init(bytes):       8.192
+
+Module Name:       intelide
+Display Name:      intelide
+Description:       intelide
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:03 a. m.
+Path:              C:\Windows\system32\drivers\intelide.sys
+Init(bytes):       4.096
+
+Module Name:       intelpep
+Display Name:      Intel(R) Power Engine Plug-in Driver
+Description:       Intel(R) Power Engine Plug-in Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         15/10/2014 1:29:44 a. m.
+Path:              C:\Windows\system32\drivers\intelpep.sys
+Init(bytes):       4.096
+
+Module Name:       intelppm
+Display Name:      Intel Processor Driver
+Description:       Intel Processor Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 49.152
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         22/08/2013 3:46:35 a. m.
+Path:              C:\Windows\system32\drivers\intelppm.sys
+Init(bytes):       8.192
+
+Module Name:       IpFilterDriver
+Display Name:      IP Traffic Filter Driver
+Description:       IP Traffic Filter Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       61.440
+BSS(bytes):        0
+Link Date:         22/08/2013 6:35:50 a. m.
+Path:              C:\Windows\system32\DRIVERS\ipfltdrv.sys
+Init(bytes):       8.192
+
+Module Name:       IPMIDRV
+Display Name:      IPMIDRV
+Description:       IPMIDRV
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 20.480
+Code(bytes):       36.864
+BSS(bytes):        0
+Link Date:         03/02/2016 9:14:11 a. m.
+Path:              C:\Windows\system32\drivers\IPMIDrv.sys
+Init(bytes):       4.096
+
+Module Name:       IPNAT
+Display Name:      IP Network Address Translator
+Description:       IP Network Address Translator
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       114.688
+BSS(bytes):        0
+Link Date:         27/11/2013 6:02:29 a. m.
+Path:              C:\Windows\system32\drivers\ipnat.sys
+Init(bytes):       8.192
+
+Module Name:       IRENUM
+Display Name:      IR Bus Enumerator
+Description:       IR Bus Enumerator
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:30 a. m.
+Path:              C:\Windows\system32\drivers\irenum.sys
+Init(bytes):       4.096
+
+Module Name:       isapnp
+Display Name:      isapnp
+Description:       isapnp
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:20 a. m.
+Path:              C:\Windows\system32\drivers\isapnp.sys
+Init(bytes):       4.096
+
+Module Name:       iScsiPrt
+Display Name:      iScsiPort Driver
+Description:       iScsiPort Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 53.248
+Code(bytes):       192.512
+BSS(bytes):        0
+Link Date:         06/04/2014 9:04:00 a. m.
+Path:              C:\Windows\system32\drivers\msiscsi.sys
+Init(bytes):       4.096
+
+Module Name:       kbdclass
+Display Name:      Keyboard Class Driver
+Description:       Keyboard Class Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         04/11/2014 12:54:54 a. m.
+Path:              C:\Windows\system32\drivers\kbdclass.sys
+Init(bytes):       8.192
+
+Module Name:       kbdhid
+Display Name:      Keyboard HID Driver
+Description:       Keyboard HID Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       16.384
+BSS(bytes):        0
+Link Date:         04/11/2014 12:54:47 a. m.
+Path:              C:\Windows\system32\drivers\kbdhid.sys
+Init(bytes):       8.192
+
+Module Name:       kbldfltr
+Display Name:      kbldfltr
+Description:       kbldfltr
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:37 a. m.
+Path:              C:\Windows\system32\drivers\kbldfltr.sys
+Init(bytes):       4.096
+
+Module Name:       kdnic
+Display Name:      Microsoft Kernel Debug Network Miniport (NDIS 6.20)
+Description:       Microsoft Kernel Debug Network Miniport (NDIS 6.20)
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:26 a. m.
+Path:              C:\Windows\system32\DRIVERS\kdnic.sys
+Init(bytes):       4.096
+
+Module Name:       KSecDD
+Display Name:      KSecDD
+Description:       KSecDD
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 20.480
+Code(bytes):       49.152
+BSS(bytes):        0
+Link Date:         28/10/2014 9:47:36 p. m.
+Path:              C:\Windows\system32\Drivers\ksecdd.sys
+Init(bytes):       4.096
+
+Module Name:       KSecPkg
+Display Name:      KSecPkg
+Description:       KSecPkg
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 73.728
+Code(bytes):       69.632
+BSS(bytes):        0
+Link Date:         13/05/2016 6:07:22 p. m.
+Path:              C:\Windows\system32\Drivers\ksecpkg.sys
+Init(bytes):       4.096
+
+Module Name:       ksthunk
+Display Name:      Kernel Streaming Thunks
+Description:       Kernel Streaming Thunks
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.224
+Code(bytes):       8.448
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:31 a. m.
+Path:              C:\Windows\system32\drivers\ksthunk.sys
+Init(bytes):       2.176
+
+Module Name:       L1C
+Display Name:      NDIS Miniport Driver for Qualcomm Atheros AR81xx PCI-E Ethernet Controller
+Description:       NDIS Miniport Driver for Qualcomm Atheros AR81xx PCI-E Ethernet Controller
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       102.400
+BSS(bytes):        0
+Link Date:         31/03/2013 10:15:17 p. m.
+Path:              C:\Windows\system32\DRIVERS\L1C63x64.sys
+Init(bytes):       4.096
+
+Module Name:       lltdio
+Display Name:      Link-Layer Topology Discovery Mapper I/O Driver
+Description:       Link-Layer Topology Discovery Mapper I/O Driver
+Driver Type:       Kernel 
+Start Mode:        Auto
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       36.864
+BSS(bytes):        0
+Link Date:         22/08/2013 6:36:18 a. m.
+Path:              C:\Windows\system32\DRIVERS\lltdio.sys
+Init(bytes):       8.192
+
+Module Name:       LSI_SAS
+Display Name:      LSI_SAS
+Description:       LSI_SAS
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       90.112
+BSS(bytes):        0
+Link Date:         28/03/2013 12:42:34 p. m.
+Path:              C:\Windows\system32\drivers\lsi_sas.sys
+Init(bytes):       4.096
+
+Module Name:       LSI_SAS2
+Display Name:      LSI_SAS2
+Description:       LSI_SAS2
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       77.824
+BSS(bytes):        0
+Link Date:         28/03/2013 12:45:05 p. m.
+Path:              C:\Windows\system32\drivers\lsi_sas2.sys
+Init(bytes):       4.096
+
+Module Name:       LSI_SAS3
+Display Name:      LSI_SAS3
+Description:       LSI_SAS3
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       65.536
+BSS(bytes):        0
+Link Date:         15/03/2013 6:38:40 p. m.
+Path:              C:\Windows\system32\drivers\lsi_sas3.sys
+Init(bytes):       4.096
+
+Module Name:       LSI_SSS
+Display Name:      LSI_SSS
+Description:       LSI_SSS
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       65.536
+BSS(bytes):        0
+Link Date:         15/03/2013 6:39:38 p. m.
+Path:              C:\Windows\system32\drivers\lsi_sss.sys
+Init(bytes):       4.096
+
+Module Name:       luafv
+Display Name:      UAC File Virtualization
+Description:       UAC File Virtualization
+Driver Type:       File System 
+Start Mode:        Auto
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 61.440
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/02/2014 6:14:25 a. m.
+Path:              C:\Windows\system32\drivers\luafv.sys
+Init(bytes):       20.480
+
+Module Name:       megasas
+Display Name:      megasas
+Description:       megasas
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       40.960
+BSS(bytes):        0
+Link Date:         23/07/2013 4:08:29 p. m.
+Path:              C:\Windows\system32\drivers\megasas.sys
+Init(bytes):       4.096
+
+Module Name:       megasr
+Display Name:      megasr
+Description:       megasr
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       434.176
+BSS(bytes):        0
+Link Date:         03/06/2013 5:02:39 p. m.
+Path:              C:\Windows\system32\drivers\megasr.sys
+Init(bytes):       4.096
+
+Module Name:       Modem
+Display Name:      Modem
+Description:       Modem
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 28.672
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:15 a. m.
+Path:              C:\Windows\system32\drivers\modem.sys
+Init(bytes):       4.096
+
+Module Name:       monitor
+Display Name:      Microsoft Monitor Class Function Driver Service
+Description:       Microsoft Monitor Class Function Driver Service
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 16.384
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:36:37 a. m.
+Path:              C:\Windows\system32\drivers\monitor.sys
+Init(bytes):       4.096
+
+Module Name:       mouclass
+Display Name:      Mouse Class Driver
+Description:       Mouse Class Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         04/11/2014 12:54:47 a. m.
+Path:              C:\Windows\system32\drivers\mouclass.sys
+Init(bytes):       8.192
+
+Module Name:       mouhid
+Display Name:      Mouse HID Driver
+Description:       Mouse HID Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       16.384
+BSS(bytes):        0
+Link Date:         04/11/2014 12:54:47 a. m.
+Path:              C:\Windows\system32\drivers\mouhid.sys
+Init(bytes):       4.096
+
+Module Name:       mountmgr
+Display Name:      Mount Point Manager
+Description:       Mount Point Manager
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 69.632
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         10/07/2015 12:09:47 p. m.
+Path:              C:\Windows\system32\drivers\mountmgr.sys
+Init(bytes):       4.096
+
+Module Name:       mpsdrv
+Display Name:      Windows Firewall Authorization Driver
+Description:       Windows Firewall Authorization Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       57.344
+BSS(bytes):        0
+Link Date:         28/10/2014 9:45:31 p. m.
+Path:              C:\Windows\system32\drivers\mpsdrv.sys
+Init(bytes):       4.096
+
+Module Name:       MRxDAV
+Display Name:      WebDav Client Redirector Driver
+Description:       WebDav Client Redirector Driver
+Driver Type:       File System 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 106.496
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         06/01/2016 12:25:24 p. m.
+Path:              C:\Windows\system32\drivers\mrxdav.sys
+Init(bytes):       8.192
+
+Module Name:       mrxsmb
+Display Name:      SMB MiniRedirector Wrapper and Engine
+Description:       SMB MiniRedirector Wrapper and Engine
+Driver Type:       File System 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 53.248
+Code(bytes):       208.896
+BSS(bytes):        0
+Link Date:         06/04/2016 1:19:32 p. m.
+Path:              C:\Windows\system32\DRIVERS\mrxsmb.sys
+Init(bytes):       12.288
+
+Module Name:       mrxsmb10
+Display Name:      SMB 1.x MiniRedirector
+Description:       SMB 1.x MiniRedirector
+Driver Type:       File System 
+Start Mode:        Auto
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 172.032
+Code(bytes):       86.016
+BSS(bytes):        0
+Link Date:         06/04/2016 1:19:05 p. m.
+Path:              C:\Windows\system32\DRIVERS\mrxsmb10.sys
+Init(bytes):       8.192
+
+Module Name:       mrxsmb20
+Display Name:      SMB 2.0 MiniRedirector
+Description:       SMB 2.0 MiniRedirector
+Driver Type:       File System 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       155.648
+BSS(bytes):        0
+Link Date:         06/04/2016 1:20:32 p. m.
+Path:              C:\Windows\system32\DRIVERS\mrxsmb20.sys
+Init(bytes):       8.192
+
+Module Name:       MsBridge
+Display Name:      Microsoft MAC Bridge
+Description:       Microsoft MAC Bridge
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       94.208
+BSS(bytes):        0
+Link Date:         28/10/2014 9:45:23 p. m.
+Path:              C:\Windows\system32\DRIVERS\bridge.sys
+Init(bytes):       8.192
+
+Module Name:       Msfs
+Display Name:      Msfs
+Description:       Msfs
+Driver Type:       File System 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 16.384
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:24 a. m.
+Path:              C:\Windows\system32\drivers\Msfs.sys
+Init(bytes):       4.096
+
+Module Name:       msgpiowin32
+Display Name:      Common Driver for Buttons, DockMode and Laptop/Slate Indicator
+Description:       Common Driver for Buttons, DockMode and Laptop/Slate Indicator
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 16.384
+Code(bytes):       12.288
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:08 a. m.
+Path:              C:\Windows\system32\drivers\msgpiowin32.sys
+Init(bytes):       4.096
+
+Module Name:       mshidkmdf
+Display Name:      Pass-through HID to KMDF Filter Driver
+Description:       Pass-through HID to KMDF Filter Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:06 a. m.
+Path:              C:\Windows\system32\drivers\mshidkmdf.sys
+Init(bytes):       4.096
+
+Module Name:       mshidumdf
+Display Name:      Pass-through HID to UMDF Driver
+Description:       Pass-through HID to UMDF Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:06 a. m.
+Path:              C:\Windows\system32\drivers\mshidumdf.sys
+Init(bytes):       4.096
+
+Module Name:       msisadrv
+Display Name:      msisadrv
+Description:       msisadrv
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:03 a. m.
+Path:              C:\Windows\system32\drivers\msisadrv.sys
+Init(bytes):       4.096
+
+Module Name:       MSKSSRV
+Display Name:      Microsoft Streaming Service Proxy
+Description:       Microsoft Streaming Service Proxy
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.992
+Code(bytes):       1.408
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:31 a. m.
+Path:              C:\Windows\system32\drivers\MSKSSRV.sys
+Init(bytes):       256
+
+Module Name:       MSPCLOCK
+Display Name:      Microsoft Streaming Clock Proxy
+Description:       Microsoft Streaming Clock Proxy
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 2.176
+Code(bytes):       256
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:30 a. m.
+Path:              C:\Windows\system32\drivers\MSPCLOCK.sys
+Init(bytes):       256
+
+Module Name:       MSPQM
+Display Name:      Microsoft Streaming Quality Manager Proxy
+Description:       Microsoft Streaming Quality Manager Proxy
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 2.560
+Code(bytes):       128
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:31 a. m.
+Path:              C:\Windows\system32\drivers\MSPQM.sys
+Init(bytes):       256
+
+Module Name:       MsRPC
+Display Name:      MsRPC
+Description:       MsRPC
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 262.144
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:22 a. m.
+Path:              C:\Windows\system32\drivers\MsRPC.sys
+Init(bytes):       4.096
+
+Module Name:       mssmbios
+Display Name:      Microsoft System Management BIOS Driver
+Description:       Microsoft System Management BIOS Driver
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       12.288
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:41 a. m.
+Path:              C:\Windows\system32\drivers\mssmbios.sys
+Init(bytes):       4.096
+
+Module Name:       MSTEE
+Display Name:      Microsoft Streaming Tee/Sink-to-Sink Converter
+Description:       Microsoft Streaming Tee/Sink-to-Sink Converter
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 3.200
+Code(bytes):       1.152
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:38 a. m.
+Path:              C:\Windows\system32\drivers\MSTEE.sys
+Init(bytes):       512
+
+Module Name:       MTConfig
+Display Name:      Microsoft Input Configuration Driver
+Description:       Microsoft Input Configuration Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:37:36 a. m.
+Path:              C:\Windows\system32\drivers\MTConfig.sys
+Init(bytes):       4.096
+
+Module Name:       Mup
+Display Name:      Mup
+Description:       Mup
+Driver Type:       File System 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 45.056
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:28 a. m.
+Path:              C:\Windows\system32\Drivers\mup.sys
+Init(bytes):       4.096
+
+Module Name:       mvumis
+Display Name:      mvumis
+Description:       mvumis
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         20/03/2013 12:14:53 p. m.
+Path:              C:\Windows\system32\drivers\mvumis.sys
+Init(bytes):       4.096
+
+Module Name:       NativeWifiP
+Display Name:      NativeWiFi Filter
+Description:       NativeWiFi Filter
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       344.064
+BSS(bytes):        0
+Link Date:         28/10/2014 9:45:41 p. m.
+Path:              C:\Windows\system32\DRIVERS\nwifi.sys
+Init(bytes):       8.192
+
+Module Name:       NDIS
+Display Name:      NDIS System Driver
+Description:       NDIS System Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 385.024
+Code(bytes):       442.368
+BSS(bytes):        0
+Link Date:         10/07/2015 2:08:18 p. m.
+Path:              C:\Windows\system32\drivers\ndis.sys
+Init(bytes):       28.672
+
+Module Name:       NdisCap
+Display Name:      Microsoft NDIS Capture
+Description:       Microsoft NDIS Capture
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:52 p. m.
+Path:              C:\Windows\system32\DRIVERS\ndiscap.sys
+Init(bytes):       4.096
+
+Module Name:       NdisImPlatform
+Display Name:      Microsoft Network Adapter Multiplexor Protocol
+Description:       Microsoft Network Adapter Multiplexor Protocol
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       86.016
+BSS(bytes):        0
+Link Date:         28/10/2014 9:45:54 p. m.
+Path:              C:\Windows\system32\DRIVERS\NdisImPlatform.sys
+Init(bytes):       8.192
+
+Module Name:       NdisTapi
+Display Name:      Remote Access NDIS TAPI Driver
+Description:       Remote Access NDIS TAPI Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         07/11/2014 10:00:40 p. m.
+Path:              C:\Windows\system32\DRIVERS\ndistapi.sys
+Init(bytes):       4.096
+
+Module Name:       Ndisuio
+Display Name:      NDIS Usermode I/O Protocol
+Description:       NDIS Usermode I/O Protocol
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 16.384
+Code(bytes):       32.768
+BSS(bytes):        0
+Link Date:         22/08/2013 6:37:34 a. m.
+Path:              C:\Windows\system32\DRIVERS\ndisuio.sys
+Init(bytes):       4.096
+
+Module Name:       NdisVirtualBus
+Display Name:      Microsoft Virtual Network Adapter Enumerator
+Description:       Microsoft Virtual Network Adapter Enumerator
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:36:25 a. m.
+Path:              C:\Windows\system32\drivers\NdisVirtualBus.sys
+Init(bytes):       4.096
+
+Module Name:       NdisWan
+Display Name:      Remote Access NDIS WAN Driver
+Description:       Remote Access NDIS WAN Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 77.824
+Code(bytes):       102.400
+BSS(bytes):        0
+Link Date:         22/08/2013 6:35:55 a. m.
+Path:              C:\Windows\system32\DRIVERS\ndiswan.sys
+Init(bytes):       16.384
+
+Module Name:       NdisWanLegacy
+Display Name:      Remote Access LEGACY NDIS WAN Driver
+Description:       Remote Access LEGACY NDIS WAN Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 77.824
+Code(bytes):       102.400
+BSS(bytes):        0
+Link Date:         22/08/2013 6:35:55 a. m.
+Path:              C:\Windows\system32\DRIVERS\ndiswan.sys
+Init(bytes):       16.384
+
+Module Name:       NDProxy
+Display Name:      NDIS Proxy
+Description:       NDIS Proxy
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 32.768
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         07/11/2014 10:00:00 p. m.
+Path:              C:\Windows\system32\drivers\NDProxy.sys
+Init(bytes):       8.192
+
+Module Name:       Ndu
+Display Name:      Windows Network Data Usage Monitoring Driver
+Description:       Windows Network Data Usage Monitoring Driver
+Driver Type:       Kernel 
+Start Mode:        Auto
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       73.728
+BSS(bytes):        0
+Link Date:         28/10/2014 9:45:16 p. m.
+Path:              C:\Windows\system32\drivers\Ndu.sys
+Init(bytes):       4.096
+
+Module Name:       NetBIOS
+Display Name:      NetBIOS Interface
+Description:       NetBIOS Interface
+Driver Type:       File System 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 16.384
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         28/10/2014 9:47:23 p. m.
+Path:              C:\Windows\system32\DRIVERS\netbios.sys
+Init(bytes):       4.096
+
+Module Name:       NetBT
+Display Name:      NetBT
+Description:       NetBT
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 57.344
+Code(bytes):       180.224
+BSS(bytes):        0
+Link Date:         13/05/2016 6:07:18 p. m.
+Path:              C:\Windows\system32\DRIVERS\netbt.sys
+Init(bytes):       8.192
+
+Module Name:       netvsc
+Display Name:      netvsc
+Description:       netvsc
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       61.440
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:09 p. m.
+Path:              C:\Windows\system32\drivers\netvsc63.sys
+Init(bytes):       8.192
+
+Module Name:       Npfs
+Display Name:      Npfs
+Description:       Npfs
+Driver Type:       File System 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 36.864
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:25 a. m.
+Path:              C:\Windows\system32\drivers\Npfs.sys
+Init(bytes):       8.192
+
+Module Name:       npsvctrig
+Display Name:      Named pipe service trigger provider
+Description:       Named pipe service trigger provider
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 16.384
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:22 a. m.
+Path:              C:\Windows\system32\drivers\npsvctrig.sys
+Init(bytes):       4.096
+
+Module Name:       nsiproxy
+Display Name:      NSI Proxy Service Driver
+Description:       NSI Proxy Service Driver
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:03 p. m.
+Path:              C:\Windows\system32\drivers\nsiproxy.sys
+Init(bytes):       4.096
+
+Module Name:       Ntfs
+Display Name:      Ntfs
+Description:       Ntfs
+Driver Type:       File System 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 1.392.640
+Code(bytes):       299.008
+BSS(bytes):        0
+Link Date:         28/12/2015 3:04:11 p. m.
+Path:              C:\Windows\system32\drivers\Ntfs.sys
+Init(bytes):       32.768
+
+Module Name:       Null
+Display Name:      Null
+Description:       Null
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:24 a. m.
+Path:              C:\Windows\system32\drivers\Null.sys
+Init(bytes):       4.096
+
+Module Name:       NVHDA
+Display Name:      Service for NVIDIA High Definition Audio Driver
+Description:       Service for NVIDIA High Definition Audio Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 98.304
+Code(bytes):       61.440
+BSS(bytes):        0
+Link Date:         21/09/2015 4:44:17 a. m.
+Path:              C:\Windows\system32\drivers\nvhda64v.sys
+Init(bytes):       4.096
+
+Module Name:       nvlddmkm
+Display Name:      nvlddmkm
+Description:       nvlddmkm
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.300.800
+Code(bytes):       6.049.792
+BSS(bytes):        0
+Link Date:         21/03/2016 8:49:01 p. m.
+Path:              C:\Windows\system32\DRIVERS\nvlddmkm.sys
+Init(bytes):       28.672
+
+Module Name:       NVNET
+Display Name:      NVIDIA nForce Ethernet Driver
+Description:       NVIDIA nForce Ethernet Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       220.416
+BSS(bytes):        0
+Link Date:         20/04/2011 5:49:36 p. m.
+Path:              C:\Windows\system32\DRIVERS\nvmf6264.sys
+Init(bytes):       2.944
+
+Module Name:       nvraid
+Display Name:      nvraid
+Description:       nvraid
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       90.112
+BSS(bytes):        0
+Link Date:         12/09/2011 7:01:54 p. m.
+Path:              C:\Windows\system32\drivers\nvraid.sys
+Init(bytes):       8.192
+
+Module Name:       nvstor
+Display Name:      nvstor
+Description:       nvstor
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       122.880
+BSS(bytes):        0
+Link Date:         12/09/2011 6:53:04 p. m.
+Path:              C:\Windows\system32\drivers\nvstor.sys
+Init(bytes):       4.096
+
+Module Name:       NvStreamKms
+Display Name:      NvStreamKms
+Description:       NvStreamKms
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         18/03/2016 4:26:05 p. m.
+Path:              \??\C:\Program Files\NVIDIA Corporation\NvStreamSrv\NvStreamKms.sys
+Init(bytes):       4.096
+
+Module Name:       nvvad_WaveExtensible
+Display Name:      NVIDIA Virtual Audio Device (Wave Extensible) (WDM)
+Description:       NVIDIA Virtual Audio Device (Wave Extensible) (WDM)
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       12.288
+BSS(bytes):        0
+Link Date:         14/03/2016 1:27:42 a. m.
+Path:              C:\Windows\system32\drivers\nvvad64v.sys
+Init(bytes):       4.096
+
+Module Name:       nv_agp
+Display Name:      NVIDIA nForce AGP Bus Filter
+Description:       NVIDIA nForce AGP Bus Filter
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 32.768
+Code(bytes):       36.864
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:38 a. m.
+Path:              C:\Windows\system32\drivers\nv_agp.sys
+Init(bytes):       4.096
+
+Module Name:       Parport
+Display Name:      Parallel port driver
+Description:       Parallel port driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       77.824
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:02 a. m.
+Path:              C:\Windows\system32\drivers\parport.sys
+Init(bytes):       4.096
+
+Module Name:       partmgr
+Display Name:      Partition Manager
+Description:       Partition Manager
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 32.768
+Code(bytes):       28.672
+BSS(bytes):        0
+Link Date:         08/10/2014 2:34:42 a. m.
+Path:              C:\Windows\system32\drivers\partmgr.sys
+Init(bytes):       8.192
+
+Module Name:       pci
+Display Name:      PCI Bus Driver
+Description:       PCI Bus Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 122.880
+Code(bytes):       86.016
+BSS(bytes):        0
+Link Date:         24/07/2014 6:45:24 a. m.
+Path:              C:\Windows\system32\drivers\pci.sys
+Init(bytes):       12.288
+
+Module Name:       pciide
+Display Name:      pciide
+Description:       pciide
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:03 a. m.
+Path:              C:\Windows\system32\drivers\pciide.sys
+Init(bytes):       4.096
+
+Module Name:       pcmcia
+Display Name:      pcmcia
+Description:       pcmcia
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 40.960
+Code(bytes):       40.960
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:00 a. m.
+Path:              C:\Windows\system32\drivers\pcmcia.sys
+Init(bytes):       8.192
+
+Module Name:       pcw
+Display Name:      Performance Counters for Windows Driver
+Description:       Performance Counters for Windows Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 32.768
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 3:46:34 a. m.
+Path:              C:\Windows\system32\drivers\pcw.sys
+Init(bytes):       4.096
+
+Module Name:       pdc
+Display Name:      pdc
+Description:       pdc
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 53.248
+Code(bytes):       12.288
+BSS(bytes):        0
+Link Date:         14/10/2014 11:34:24 p. m.
+Path:              C:\Windows\system32\drivers\pdc.sys
+Init(bytes):       12.288
+
+Module Name:       PEAUTH
+Display Name:      PEAUTH
+Description:       PEAUTH
+Driver Type:       Kernel 
+Start Mode:        Auto
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 565.248
+Code(bytes):       36.864
+BSS(bytes):        0
+Link Date:         22/02/2014 6:09:37 a. m.
+Path:              C:\Windows\system32\drivers\peauth.sys
+Init(bytes):       4.096
+
+Module Name:       Processor
+Display Name:      Processor Driver
+Description:       Processor Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 49.152
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         22/08/2013 3:46:34 a. m.
+Path:              C:\Windows\system32\drivers\processr.sys
+Init(bytes):       8.192
+
+Module Name:       Psched
+Display Name:      QoS Packet Scheduler
+Description:       QoS Packet Scheduler
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 20.480
+Code(bytes):       69.632
+BSS(bytes):        0
+Link Date:         28/10/2014 9:45:30 p. m.
+Path:              C:\Windows\system32\DRIVERS\pacer.sys
+Init(bytes):       8.192
+
+Module Name:       QWAVEdrv
+Display Name:      QWAVE driver
+Description:       QWAVE driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       28.672
+BSS(bytes):        0
+Link Date:         28/10/2014 9:47:40 p. m.
+Path:              C:\Windows\system32\drivers\qwavedrv.sys
+Init(bytes):       4.096
+
+Module Name:       RasAcd
+Display Name:      Remote Access Auto Connection Driver
+Description:       Remote Access Auto Connection Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         28/10/2014 9:48:01 p. m.
+Path:              C:\Windows\system32\DRIVERS\rasacd.sys
+Init(bytes):       4.096
+
+Module Name:       RasPppoe
+Display Name:      Remote Access PPPOE Driver
+Description:       Remote Access PPPOE Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 49.152
+Code(bytes):       28.672
+BSS(bytes):        0
+Link Date:         22/08/2013 6:36:37 a. m.
+Path:              C:\Windows\system32\DRIVERS\raspppoe.sys
+Init(bytes):       4.096
+
+Module Name:       rdbss
+Display Name:      Redirected Buffering Sub System
+Description:       Redirected Buffering Sub System
+Driver Type:       File System 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 212.992
+Code(bytes):       114.688
+BSS(bytes):        0
+Link Date:         17/12/2013 1:21:22 a. m.
+Path:              C:\Windows\system32\DRIVERS\rdbss.sys
+Init(bytes):       16.384
+
+Module Name:       rdpbus
+Display Name:      Remote Desktop Device Redirector Bus Driver
+Description:       Remote Desktop Device Redirector Bus Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:52 a. m.
+Path:              C:\Windows\system32\drivers\rdpbus.sys
+Init(bytes):       4.096
+
+Module Name:       RDPDR
+Display Name:      Remote Desktop Device Redirector Driver
+Description:       Remote Desktop Device Redirector Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 131.072
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         22/08/2013 6:36:46 a. m.
+Path:              C:\Windows\system32\drivers\rdpdr.sys
+Init(bytes):       8.192
+
+Module Name:       RdpVideoMiniport
+Display Name:      Remote Desktop Video Miniport Driver
+Description:       Remote Desktop Video Miniport Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         28/10/2014 9:47:25 p. m.
+Path:              C:\Windows\system32\drivers\rdpvideominiport.sys
+Init(bytes):       4.096
+
+Module Name:       rdyboost
+Display Name:      ReadyBoost
+Description:       ReadyBoost
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 40.960
+Code(bytes):       143.360
+BSS(bytes):        0
+Link Date:         22/02/2014 6:13:40 a. m.
+Path:              C:\Windows\system32\drivers\rdyboost.sys
+Init(bytes):       8.192
+
+Module Name:       ReFS
+Display Name:      ReFS
+Description:       ReFS
+Driver Type:       File System 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 335.872
+Code(bytes):       397.312
+BSS(bytes):        0
+Link Date:         08/10/2014 12:22:05 a. m.
+Path:              C:\Windows\system32\drivers\ReFS.sys
+Init(bytes):       20.480
+
+Module Name:       rspndr
+Display Name:      Link-Layer Topology Discovery Responder
+Description:       Link-Layer Topology Discovery Responder
+Driver Type:       Kernel 
+Start Mode:        Auto
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       53.248
+BSS(bytes):        0
+Link Date:         22/08/2013 6:36:34 a. m.
+Path:              C:\Windows\system32\DRIVERS\rspndr.sys
+Init(bytes):       8.192
+
+Module Name:       RtlWlanu
+Display Name:      Realtek Wireless LAN 802.11n USB 2.0 Network Adapter
+Description:       Realtek Wireless LAN 802.11n USB 2.0 Network Adapter
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       1.339.392
+BSS(bytes):        0
+Link Date:         10/07/2013 9:48:31 a. m.
+Path:              C:\Windows\system32\DRIVERS\rtwlanu.sys
+Init(bytes):       4.096
+
+Module Name:       s3cap
+Display Name:      s3cap
+Description:       s3cap
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:37 a. m.
+Path:              C:\Windows\system32\drivers\vms3cap.sys
+Init(bytes):       4.096
+
+Module Name:       sbp2port
+Display Name:      SBP-2 Transport/Protocol Bus Driver
+Description:       SBP-2 Transport/Protocol Bus Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 16.384
+Code(bytes):       73.728
+BSS(bytes):        0
+Link Date:         22/08/2013 3:46:34 a. m.
+Path:              C:\Windows\system32\drivers\sbp2port.sys
+Init(bytes):       4.096
+
+Module Name:       scfilter
+Display Name:      Smart card PnP Class Filter Driver
+Description:       Smart card PnP Class Filter Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       28.672
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:57 p. m.
+Path:              C:\Windows\system32\DRIVERS\scfilter.sys
+Init(bytes):       4.096
+
+Module Name:       sdbus
+Display Name:      sdbus
+Description:       sdbus
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 24.576
+Code(bytes):       163.840
+BSS(bytes):        0
+Link Date:         12/03/2015 9:01:23 p. m.
+Path:              C:\Windows\system32\drivers\sdbus.sys
+Init(bytes):       8.192
+
+Module Name:       sdstor
+Display Name:      SD Storage Port Driver
+Description:       SD Storage Port Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 20.480
+Code(bytes):       36.864
+BSS(bytes):        0
+Link Date:         22/02/2014 6:14:18 a. m.
+Path:              C:\Windows\system32\drivers\sdstor.sys
+Init(bytes):       4.096
+
+Module Name:       secdrv
+Display Name:      Security Driver
+Description:       Security Driver
+Driver Type:       Kernel 
+Start Mode:        Disabled
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         13/09/2006 8:18:38 a. m.
+Path:              C:\Windows\system32\drivers\secdrv.sys
+Init(bytes):       4.096
+
+Module Name:       SerCx
+Display Name:      Serial UART Support Library
+Description:       Serial UART Support Library
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       45.056
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:02 a. m.
+Path:              C:\Windows\system32\drivers\SerCx.sys
+Init(bytes):       4.096
+
+Module Name:       SerCx2
+Display Name:      Serial UART Support Library
+Description:       Serial UART Support Library
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       90.112
+BSS(bytes):        0
+Link Date:         25/10/2013 3:28:28 p. m.
+Path:              C:\Windows\system32\drivers\SerCx2.sys
+Init(bytes):       4.096
+
+Module Name:       Serenum
+Display Name:      Serenum Filter Driver
+Description:       Serenum Filter Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 16.384
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:17 a. m.
+Path:              C:\Windows\system32\drivers\serenum.sys
+Init(bytes):       4.096
+
+Module Name:       Serial
+Display Name:      Serial port driver
+Description:       Serial port driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 45.056
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:08 a. m.
+Path:              C:\Windows\system32\drivers\serial.sys
+Init(bytes):       4.096
+
+Module Name:       sermouse
+Display Name:      Serial Mouse Driver
+Description:       Serial Mouse Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         04/11/2014 12:55:15 a. m.
+Path:              C:\Windows\system32\drivers\sermouse.sys
+Init(bytes):       4.096
+
+Module Name:       sfloppy
+Display Name:      High-Capacity Floppy Disk Drive
+Description:       High-Capacity Floppy Disk Drive
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:00 a. m.
+Path:              C:\Windows\system32\drivers\sfloppy.sys
+Init(bytes):       4.096
+
+Module Name:       SiSRaid2
+Display Name:      SiSRaid2
+Description:       SiSRaid2
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       32.768
+BSS(bytes):        0
+Link Date:         24/09/2008 1:28:20 p. m.
+Path:              C:\Windows\system32\drivers\SiSRaid2.sys
+Init(bytes):       4.096
+
+Module Name:       SiSRaid4
+Display Name:      SiSRaid4
+Description:       SiSRaid4
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       69.632
+BSS(bytes):        0
+Link Date:         01/10/2008 4:56:04 p. m.
+Path:              C:\Windows\system32\drivers\sisraid4.sys
+Init(bytes):       4.096
+
+Module Name:       spaceport
+Display Name:      Storage Spaces Driver
+Description:       Storage Spaces Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 155.648
+Code(bytes):       159.744
+BSS(bytes):        0
+Link Date:         24/01/2016 7:23:32 a. m.
+Path:              C:\Windows\system32\drivers\spaceport.sys
+Init(bytes):       8.192
+
+Module Name:       SpbCx
+Display Name:      Simple Peripheral Bus Support Library
+Description:       Simple Peripheral Bus Support Library
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       40.960
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:00 a. m.
+Path:              C:\Windows\system32\drivers\SpbCx.sys
+Init(bytes):       4.096
+
+Module Name:       srv
+Display Name:      Server SMB 1.xxx Driver
+Description:       Server SMB 1.xxx Driver
+Driver Type:       File System 
+Start Mode:        Auto
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 290.816
+Code(bytes):       77.824
+BSS(bytes):        0
+Link Date:         13/05/2016 6:07:21 p. m.
+Path:              C:\Windows\system32\DRIVERS\srv.sys
+Init(bytes):       16.384
+
+Module Name:       srv2
+Display Name:      Server SMB 2.xxx Driver
+Description:       Server SMB 2.xxx Driver
+Driver Type:       File System 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 212.992
+Code(bytes):       192.512
+BSS(bytes):        0
+Link Date:         13/05/2016 6:07:55 p. m.
+Path:              C:\Windows\system32\DRIVERS\srv2.sys
+Init(bytes):       16.384
+
+Module Name:       srvnet
+Display Name:      srvnet
+Description:       srvnet
+Driver Type:       File System 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 61.440
+Code(bytes):       126.976
+BSS(bytes):        0
+Link Date:         13/05/2016 6:06:55 p. m.
+Path:              C:\Windows\system32\DRIVERS\srvnet.sys
+Init(bytes):       12.288
+
+Module Name:       stexstor
+Display Name:      stexstor
+Description:       stexstor
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       16.384
+BSS(bytes):        0
+Link Date:         26/11/2012 6:02:51 p. m.
+Path:              C:\Windows\system32\drivers\stexstor.sys
+Init(bytes):       4.096
+
+Module Name:       storahci
+Display Name:      Microsoft Standard SATA AHCI Driver
+Description:       Microsoft Standard SATA AHCI Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       90.112
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:39 a. m.
+Path:              C:\Windows\system32\drivers\storahci.sys
+Init(bytes):       4.096
+
+Module Name:       storflt
+Display Name:      Hyper-V Storage Accelerator
+Description:       Hyper-V Storage Accelerator
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       16.384
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:17 p. m.
+Path:              C:\Windows\system32\drivers\vmstorfl.sys
+Init(bytes):       4.096
+
+Module Name:       stornvme
+Display Name:      Microsoft Standard NVM Express Driver
+Description:       Microsoft Standard NVM Express Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       40.960
+BSS(bytes):        0
+Link Date:         05/10/2013 6:04:44 a. m.
+Path:              C:\Windows\system32\drivers\stornvme.sys
+Init(bytes):       4.096
+
+Module Name:       storvsc
+Display Name:      storvsc
+Description:       storvsc
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       12.288
+BSS(bytes):        0
+Link Date:         22/08/2013 6:37:34 a. m.
+Path:              C:\Windows\system32\drivers\storvsc.sys
+Init(bytes):       4.096
+
+Module Name:       storvsp
+Display Name:      storvsp
+Description:       storvsp
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 20.480
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         08/03/2015 9:02:45 p. m.
+Path:              C:\Windows\system32\drivers\storvsp.sys
+Init(bytes):       8.192
+
+Module Name:       swenum
+Display Name:      Software Bus Driver
+Description:       Software Bus Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 1.024
+Code(bytes):       512
+BSS(bytes):        0
+Link Date:         28/10/2014 9:47:41 p. m.
+Path:              C:\Windows\system32\drivers\swenum.sys
+Init(bytes):       896
+
+Module Name:       Synth3dVsc
+Display Name:      Microsoft Virtual 3D Video Transport Driver
+Description:       Microsoft Virtual 3D Video Transport Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         22/08/2013 6:37:50 a. m.
+Path:              C:\Windows\system32\drivers\Synth3dVsc.sys
+Init(bytes):       4.096
+
+Module Name:       Tcpip
+Display Name:      TCP/IP Protocol Driver
+Description:       TCP/IP Protocol Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 217.088
+Code(bytes):       1.634.304
+BSS(bytes):        0
+Link Date:         10/03/2016 12:22:58 p. m.
+Path:              C:\Windows\system32\drivers\tcpip.sys
+Init(bytes):       32.768
+
+Module Name:       TCPIP6
+Display Name:      Microsoft IPv6 Protocol Driver
+Description:       Microsoft IPv6 Protocol Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 217.088
+Code(bytes):       1.634.304
+BSS(bytes):        0
+Link Date:         10/03/2016 12:22:58 p. m.
+Path:              C:\Windows\system32\DRIVERS\tcpip.sys
+Init(bytes):       32.768
+
+Module Name:       tcpipreg
+Display Name:      TCP/IP Registry Compatibility
+Description:       TCP/IP Registry Compatibility
+Driver Type:       Kernel 
+Start Mode:        Auto
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       28.672
+BSS(bytes):        0
+Link Date:         06/03/2014 3:19:59 a. m.
+Path:              C:\Windows\system32\drivers\tcpipreg.sys
+Init(bytes):       4.096
+
+Module Name:       tdx
+Display Name:      NetIO Legacy TDI Support Driver
+Description:       NetIO Legacy TDI Support Driver
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       90.112
+BSS(bytes):        0
+Link Date:         13/10/2015 12:10:43 p. m.
+Path:              C:\Windows\system32\DRIVERS\tdx.sys
+Init(bytes):       4.096
+
+Module Name:       terminpt
+Display Name:      Microsoft Remote Desktop Input Driver
+Description:       Microsoft Remote Desktop Input Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       12.288
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:16 a. m.
+Path:              C:\Windows\system32\drivers\terminpt.sys
+Init(bytes):       4.096
+
+Module Name:       TPM
+Display Name:      TPM
+Description:       TPM
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 110.592
+Code(bytes):       12.288
+BSS(bytes):        0
+Link Date:         25/09/2015 9:23:02 a. m.
+Path:              C:\Windows\system32\drivers\tpm.sys
+Init(bytes):       4.096
+
+Module Name:       TsUsbFlt
+Display Name:      TsUsbFlt
+Description:       TsUsbFlt
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       40.960
+BSS(bytes):        0
+Link Date:         22/08/2013 6:37:28 a. m.
+Path:              C:\Windows\system32\drivers\tsusbflt.sys
+Init(bytes):       4.096
+
+Module Name:       TsUsbGD
+Display Name:      Remote Desktop Generic USB Device
+Description:       Remote Desktop Generic USB Device
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:43 p. m.
+Path:              C:\Windows\system32\drivers\TsUsbGD.sys
+Init(bytes):       4.096
+
+Module Name:       tsusbhub
+Display Name:      Remote Desktop USB Hub
+Description:       Remote Desktop USB Hub
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       86.016
+BSS(bytes):        0
+Link Date:         31/01/2016 12:08:47 p. m.
+Path:              C:\Windows\system32\drivers\tsusbhub.sys
+Init(bytes):       4.096
+
+Module Name:       tunnel
+Display Name:      Microsoft Tunnel Miniport Adapter Driver
+Description:       Microsoft Tunnel Miniport Adapter Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       94.208
+BSS(bytes):        0
+Link Date:         04/09/2015 2:24:03 p. m.
+Path:              C:\Windows\system32\DRIVERS\tunnel.sys
+Init(bytes):       8.192
+
+Module Name:       uagp35
+Display Name:      Microsoft AGPv3.5 Filter
+Description:       Microsoft AGPv3.5 Filter
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 28.672
+Code(bytes):       16.384
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:38 a. m.
+Path:              C:\Windows\system32\drivers\uagp35.sys
+Init(bytes):       4.096
+
+Module Name:       UASPStor
+Display Name:      USB Attached SCSI (UAS) Driver
+Description:       USB Attached SCSI (UAS) Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       53.248
+BSS(bytes):        0
+Link Date:         22/08/2013 6:37:58 a. m.
+Path:              C:\Windows\system32\drivers\uaspstor.sys
+Init(bytes):       4.096
+
+Module Name:       UCX01000
+Display Name:      USB Controller Extension
+Description:       USB Controller Extension
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       98.304
+BSS(bytes):        0
+Link Date:         07/10/2014 12:00:55 a. m.
+Path:              C:\Windows\system32\drivers\ucx01000.sys
+Init(bytes):       4.096
+
+Module Name:       udfs
+Display Name:      udfs
+Description:       udfs
+Driver Type:       File System 
+Start Mode:        Disabled
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 176.128
+Code(bytes):       106.496
+BSS(bytes):        0
+Link Date:         12/03/2015 9:02:11 p. m.
+Path:              C:\Windows\system32\DRIVERS\udfs.sys
+Init(bytes):       12.288
+
+Module Name:       UEFI
+Display Name:      Microsoft UEFI Driver
+Description:       Microsoft UEFI Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:03 a. m.
+Path:              C:\Windows\system32\drivers\UEFI.sys
+Init(bytes):       4.096
+
+Module Name:       uliagpkx
+Display Name:      Uli AGP Bus Filter
+Description:       Uli AGP Bus Filter
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 28.672
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:38 a. m.
+Path:              C:\Windows\system32\drivers\uliagpkx.sys
+Init(bytes):       4.096
+
+Module Name:       umbus
+Display Name:      UMBus Enumerator Driver
+Description:       UMBus Enumerator Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 28.672
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:59 a. m.
+Path:              C:\Windows\system32\drivers\umbus.sys
+Init(bytes):       4.096
+
+Module Name:       UmPass
+Display Name:      Microsoft UMPass Driver
+Description:       Microsoft UMPass Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:58 a. m.
+Path:              C:\Windows\system32\drivers\umpass.sys
+Init(bytes):       4.096
+
+Module Name:       usbccgp
+Display Name:      Microsoft USB Generic Parent Driver
+Description:       Microsoft USB Generic Parent Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 49.152
+Code(bytes):       65.536
+BSS(bytes):        0
+Link Date:         24/07/2014 6:44:51 a. m.
+Path:              C:\Windows\system32\drivers\usbccgp.sys
+Init(bytes):       4.096
+
+Module Name:       usbcir
+Display Name:      eHome Infrared Receiver (USBCIR)
+Description:       eHome Infrared Receiver (USBCIR)
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 20.480
+Code(bytes):       73.728
+BSS(bytes):        0
+Link Date:         28/10/2014 9:47:05 p. m.
+Path:              C:\Windows\system32\drivers\usbcir.sys
+Init(bytes):       4.096
+
+Module Name:       usbehci
+Display Name:      Microsoft USB 2.0 Enhanced Host Controller Miniport Driver
+Description:       Microsoft USB 2.0 Enhanced Host Controller Miniport Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       69.632
+BSS(bytes):        0
+Link Date:         08/01/2016 12:22:38 p. m.
+Path:              C:\Windows\system32\drivers\usbehci.sys
+Init(bytes):       4.096
+
+Module Name:       usbhub
+Display Name:      Microsoft USB Standard Hub Driver
+Description:       Microsoft USB Standard Hub Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       327.680
+BSS(bytes):        0
+Link Date:         10/10/2015 1:40:50 p. m.
+Path:              C:\Windows\system32\drivers\usbhub.sys
+Init(bytes):       8.192
+
+Module Name:       USBHUB3
+Display Name:      SuperSpeed Hub
+Description:       SuperSpeed Hub
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 57.344
+Code(bytes):       196.608
+BSS(bytes):        0
+Link Date:         10/10/2015 1:40:05 p. m.
+Path:              C:\Windows\system32\drivers\UsbHub3.sys
+Init(bytes):       8.192
+
+Module Name:       usbohci
+Display Name:      Microsoft USB Open Host Controller Miniport Driver
+Description:       Microsoft USB Open Host Controller Miniport Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         10/10/2015 1:41:14 p. m.
+Path:              C:\Windows\system32\drivers\usbohci.sys
+Init(bytes):       4.096
+
+Module Name:       usbprint
+Display Name:      Microsoft USB PRINTER Class
+Description:       Microsoft USB PRINTER Class
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         22/08/2013 6:36:32 a. m.
+Path:              C:\Windows\system32\drivers\usbprint.sys
+Init(bytes):       4.096
+
+Module Name:       USBSTOR
+Display Name:      USB Mass Storage Driver
+Description:       USB Mass Storage Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 40.960
+Code(bytes):       73.728
+BSS(bytes):        0
+Link Date:         31/01/2016 12:09:55 p. m.
+Path:              C:\Windows\system32\drivers\USBSTOR.SYS
+Init(bytes):       4.096
+
+Module Name:       usbuhci
+Display Name:      Microsoft USB Universal Host Controller Miniport Driver
+Description:       Microsoft USB Universal Host Controller Miniport Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       28.672
+BSS(bytes):        0
+Link Date:         10/10/2015 1:41:16 p. m.
+Path:              C:\Windows\system32\drivers\usbuhci.sys
+Init(bytes):       4.096
+
+Module Name:       USBXHCI
+Display Name:      USB xHCI Compliant Host Controller
+Description:       USB xHCI Compliant Host Controller
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 49.152
+Code(bytes):       217.088
+BSS(bytes):        0
+Link Date:         09/04/2015 9:08:27 p. m.
+Path:              C:\Windows\system32\drivers\USBXHCI.SYS
+Init(bytes):       4.096
+
+Module Name:       VClone
+Display Name:      VClone
+Description:       VClone
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         03/05/2014 11:53:40 a. m.
+Path:              C:\Windows\system32\drivers\VClone.sys
+Init(bytes):       4.096
+
+Module Name:       vdrvroot
+Display Name:      Microsoft Virtual Drive Enumerator
+Description:       Microsoft Virtual Drive Enumerator
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:49 a. m.
+Path:              C:\Windows\system32\drivers\vdrvroot.sys
+Init(bytes):       4.096
+
+Module Name:       VerifierExt
+Display Name:      VerifierExt
+Description:       VerifierExt
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       122.880
+BSS(bytes):        0
+Link Date:         14/09/2013 6:40:56 a. m.
+Path:              C:\Windows\system32\drivers\VerifierExt.sys
+Init(bytes):       12.288
+
+Module Name:       vhdmp
+Display Name:      vhdmp
+Description:       vhdmp
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 184.320
+Code(bytes):       253.952
+BSS(bytes):        0
+Link Date:         06/02/2016 12:11:56 p. m.
+Path:              C:\Windows\system32\drivers\vhdmp.sys
+Init(bytes):       12.288
+
+Module Name:       VIAHdAudAddService
+Display Name:      VIA High Definition Audio Driver Service
+Description:       VIA High Definition Audio Driver Service
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 491.520
+Code(bytes):       200.704
+BSS(bytes):        0
+Link Date:         17/09/2009 6:04:15 a. m.
+Path:              C:\Windows\system32\drivers\viahduaa.sys
+Init(bytes):       4.096
+
+Module Name:       viaide
+Display Name:      viaide
+Description:       viaide
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:03 a. m.
+Path:              C:\Windows\system32\drivers\viaide.sys
+Init(bytes):       4.096
+
+Module Name:       Vid
+Display Name:      Vid
+Description:       Vid
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 49.152
+Code(bytes):       118.784
+BSS(bytes):        0
+Link Date:         22/08/2013 6:37:02 a. m.
+Path:              C:\Windows\system32\drivers\Vid.sys
+Init(bytes):       8.192
+
+Module Name:       vmbus
+Display Name:      Virtual Machine Bus
+Description:       Virtual Machine Bus
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 36.864
+Code(bytes):       28.672
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:05 p. m.
+Path:              C:\Windows\system32\drivers\vmbus.sys
+Init(bytes):       4.096
+
+Module Name:       VMBusHID
+Display Name:      VMBusHID
+Description:       VMBusHID
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 2.816
+Code(bytes):       13.440
+BSS(bytes):        0
+Link Date:         22/08/2013 6:37:50 a. m.
+Path:              C:\Windows\system32\drivers\VMBusHID.sys
+Init(bytes):       1.664
+
+Module Name:       vmbusr
+Display Name:      Virtual Machine Bus Provider
+Description:       Virtual Machine Bus Provider
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 65.536
+Code(bytes):       40.960
+BSS(bytes):        0
+Link Date:         22/08/2013 6:36:45 a. m.
+Path:              C:\Windows\system32\drivers\vmbusr.sys
+Init(bytes):       8.192
+
+Module Name:       volmgr
+Display Name:      Volume Manager Driver
+Description:       Volume Manager Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 36.864
+Code(bytes):       16.384
+BSS(bytes):        0
+Link Date:         09/04/2016 4:31:30 p. m.
+Path:              C:\Windows\system32\drivers\volmgr.sys
+Init(bytes):       8.192
+
+Module Name:       volmgrx
+Display Name:      Dynamic Volume Manager
+Description:       Dynamic Volume Manager
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 221.184
+Code(bytes):       102.400
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:23 a. m.
+Path:              C:\Windows\system32\drivers\volmgrx.sys
+Init(bytes):       8.192
+
+Module Name:       volsnap
+Display Name:      Storage volumes
+Description:       Storage volumes
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 204.800
+Code(bytes):       36.864
+BSS(bytes):        0
+Link Date:         11/03/2016 8:44:06 a. m.
+Path:              C:\Windows\system32\drivers\volsnap.sys
+Init(bytes):       12.288
+
+Module Name:       vpci
+Display Name:      Microsoft Hyper-V Virtual PCI Bus
+Description:       Microsoft Hyper-V Virtual PCI Bus
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 32.768
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         26/01/2016 8:48:41 a. m.
+Path:              C:\Windows\system32\drivers\vpci.sys
+Init(bytes):       4.096
+
+Module Name:       vpcivsp
+Display Name:      Microsoft Hyper-V PCI Server
+Description:       Microsoft Hyper-V PCI Server
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 32.768
+Code(bytes):       20.480
+BSS(bytes):        0
+Link Date:         26/01/2016 8:48:41 a. m.
+Path:              C:\Windows\system32\drivers\vpcivsp.sys
+Init(bytes):       4.096
+
+Module Name:       vsmraid
+Display Name:      vsmraid
+Description:       vsmraid
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       147.456
+BSS(bytes):        0
+Link Date:         23/01/2013 2:35:43 p. m.
+Path:              C:\Windows\system32\drivers\vsmraid.sys
+Init(bytes):       4.096
+
+Module Name:       VSTXRAID
+Display Name:      VIA StorX Storage RAID Controller Windows Driver
+Description:       VIA StorX Storage RAID Controller Windows Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       278.528
+BSS(bytes):        0
+Link Date:         21/01/2013 1:00:28 p. m.
+Path:              C:\Windows\system32\drivers\vstxraid.sys
+Init(bytes):       4.096
+
+Module Name:       vwifibus
+Display Name:      Virtual WiFi Bus Driver
+Description:       Virtual WiFi Bus Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       12.288
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:00 a. m.
+Path:              C:\Windows\system32\drivers\vwifibus.sys
+Init(bytes):       4.096
+
+Module Name:       vwififlt
+Display Name:      Virtual WiFi Filter Driver
+Description:       Virtual WiFi Filter Driver
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       57.344
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:05 a. m.
+Path:              C:\Windows\system32\DRIVERS\vwififlt.sys
+Init(bytes):       4.096
+
+Module Name:       vwifimp
+Display Name:      Virtual WiFi Miniport Service
+Description:       Virtual WiFi Miniport Service
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         22/08/2013 6:36:15 a. m.
+Path:              C:\Windows\system32\DRIVERS\vwifimp.sys
+Init(bytes):       4.096
+
+Module Name:       WacomPen
+Display Name:      Wacom Serial Pen HID Driver
+Description:       Wacom Serial Pen HID Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 10.240
+Code(bytes):       7.552
+BSS(bytes):        0
+Link Date:         22/08/2013 6:39:15 a. m.
+Path:              C:\Windows\system32\drivers\wacompen.sys
+Init(bytes):       1.664
+
+Module Name:       WdBoot
+Display Name:      Windows Defender Boot Driver
+Description:       Windows Defender Boot Driver
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 16.384
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         30/06/2015 8:08:09 p. m.
+Path:              C:\Windows\system32\drivers\WdBoot.sys
+Init(bytes):       8.192
+
+Module Name:       Wdf01000
+Display Name:      Kernel Mode Driver Frameworks service
+Description:       Kernel Mode Driver Frameworks service
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 36.864
+Code(bytes):       647.168
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:56 a. m.
+Path:              C:\Windows\system32\drivers\Wdf01000.sys
+Init(bytes):       8.192
+
+Module Name:       WdFilter
+Display Name:      Windows Defender Mini-Filter Driver
+Description:       Windows Defender Mini-Filter Driver
+Driver Type:       File System 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 172.032
+Code(bytes):       28.672
+BSS(bytes):        0
+Link Date:         30/06/2015 8:08:12 p. m.
+Path:              C:\Windows\system32\drivers\WdFilter.sys
+Init(bytes):       32.768
+
+Module Name:       WdNisDrv
+Display Name:      Windows Defender Network Inspection System Driver
+Description:       Windows Defender Network Inspection System Driver
+Driver Type:       Kernel 
+Start Mode:        Auto
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       73.728
+BSS(bytes):        0
+Link Date:         30/06/2015 8:08:38 p. m.
+Path:              C:\Windows\system32\Drivers\WdNisDrv.sys
+Init(bytes):       8.192
+
+Module Name:       WFPLWFS
+Display Name:      Microsoft Windows Filtering Platform
+Description:       Microsoft Windows Filtering Platform
+Driver Type:       Kernel 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       94.208
+BSS(bytes):        0
+Link Date:         09/11/2014 8:57:28 p. m.
+Path:              C:\Windows\system32\DRIVERS\wfplwfs.sys
+Init(bytes):       12.288
+
+Module Name:       WIMMount
+Display Name:      WIMMount
+Description:       WIMMount
+Driver Type:       File System 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         28/10/2014 9:47:43 p. m.
+Path:              C:\Windows\system32\drivers\wimmount.sys
+Init(bytes):       4.096
+
+Module Name:       WinUsb
+Display Name:      WinUsb
+Description:       WinUsb
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 20.480
+Code(bytes):       49.152
+BSS(bytes):        0
+Link Date:         10/10/2015 1:40:25 p. m.
+Path:              C:\Windows\system32\DRIVERS\WinUsb.sys
+Init(bytes):       4.096
+
+Module Name:       WmiAcpi
+Display Name:      Microsoft Windows Management Interface for ACPI
+Description:       Microsoft Windows Management Interface for ACPI
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:04 a. m.
+Path:              C:\Windows\system32\drivers\wmiacpi.sys
+Init(bytes):       4.096
+
+Module Name:       Wof
+Display Name:      Windows Overlay File System Filter Driver
+Description:       Windows Overlay File System Filter Driver
+Driver Type:       File System 
+Start Mode:        Boot
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 86.016
+Code(bytes):       36.864
+BSS(bytes):        0
+Link Date:         13/03/2014 3:27:29 a. m.
+Path:              C:\Windows\system32\drivers\Wof.sys
+Init(bytes):       12.288
+
+Module Name:       wpcfltr
+Display Name:      Family Safety Filter Driver
+Description:       Family Safety Filter Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       24.576
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:08 p. m.
+Path:              C:\Windows\system32\DRIVERS\wpcfltr.sys
+Init(bytes):       8.192
+
+Module Name:       WpdUpFltr
+Display Name:      WPD Upper Class Filter Driver
+Description:       WPD Upper Class Filter Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       8.192
+BSS(bytes):        0
+Link Date:         22/08/2013 6:38:45 a. m.
+Path:              C:\Windows\system32\drivers\WpdUpFltr.sys
+Init(bytes):       4.096
+
+Module Name:       ws2ifsl
+Display Name:      Winsock IFS Driver
+Description:       Winsock IFS Driver
+Driver Type:       Kernel 
+Start Mode:        Disabled
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 12.288
+Code(bytes):       4.096
+BSS(bytes):        0
+Link Date:         22/08/2013 6:40:03 a. m.
+Path:              C:\Windows\system32\drivers\ws2ifsl.sys
+Init(bytes):       4.096
+
+Module Name:       WudfPf
+Display Name:      User Mode Driver Frameworks Platform Driver
+Description:       User Mode Driver Frameworks Platform Driver
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 4.096
+Code(bytes):       90.112
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:27 p. m.
+Path:              C:\Windows\system32\drivers\WudfPf.sys
+Init(bytes):       4.096
+
+Module Name:       WUDFRd
+Display Name:      Windows Driver Foundation - User-mode Driver Framework Reflector
+Description:       Windows Driver Foundation - User-mode Driver Framework Reflector
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       184.320
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:13 p. m.
+Path:              C:\Windows\system32\drivers\WUDFRd.sys
+Init(bytes):       8.192
+
+Module Name:       WUDFWpdFs
+Display Name:      WUDFWpdFs
+Description:       WUDFWpdFs
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       184.320
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:13 p. m.
+Path:              C:\Windows\system32\DRIVERS\WUDFRd.sys
+Init(bytes):       8.192
+
+Module Name:       WUDFWpdMtp
+Display Name:      WUDFWpdMtp
+Description:       WUDFWpdMtp
+Driver Type:       Kernel 
+Start Mode:        Manual
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 8.192
+Code(bytes):       184.320
+BSS(bytes):        0
+Link Date:         28/10/2014 9:46:13 p. m.
+Path:              C:\Windows\system32\DRIVERS\WUDFRd.sys
+Init(bytes):       8.192
+
+Module Name:       VBoxUSBMon
+Display Name:      VirtualBox USB Monitor Driver
+Description:       VirtualBox USB Monitor Driver
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       81.920
+BSS(bytes):        0
+Link Date:         08/09/2015 4:47:37 a. m.
+Path:              C:\Windows\system32\DRIVERS\VBoxUSBMon.sys
+Init(bytes):       4.096
+
+Module Name:       VBoxDrv
+Display Name:      VirtualBox Service
+Description:       VirtualBox Service
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       614.400
+BSS(bytes):        0
+Link Date:         08/09/2015 4:48:07 a. m.
+Path:              C:\Windows\system32\DRIVERS\VBoxDrv.sys
+Init(bytes):       4.096
+
+Module Name:       VBoxNetAdp
+Display Name:      VirtualBox NDIS 6.0 Miniport Service
+Description:       VirtualBox NDIS 6.0 Miniport Service
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Stopped
+Status:            OK
+Accept Stop:       FALSE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       65.536
+BSS(bytes):        0
+Link Date:         08/09/2015 4:47:37 a. m.
+Path:              C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys
+Init(bytes):       4.096
+
+Module Name:       VBoxNetLwf
+Display Name:      VirtualBox NDIS6 Bridged Networking Service
+Description:       VirtualBox NDIS6 Bridged Networking Service
+Driver Type:       Kernel 
+Start Mode:        System
+State:             Running
+Status:            OK
+Accept Stop:       TRUE
+Accept Pause:      FALSE
+Paged Pool(bytes): 0
+Code(bytes):       86.016
+BSS(bytes):        0
+Link Date:         08/09/2015 4:47:37 a. m.
+Path:              C:\Windows\system32\DRIVERS\VBoxNetLwf.sys
+Init(bytes):       4.096

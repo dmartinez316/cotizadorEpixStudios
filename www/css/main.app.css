@@ -1,0 +1,128 @@
+.animated{
+	opacity: 1;
+	max-height: auto;			
+	overflow: hidden;
+	transition: all 2s;
+	-o-transition: all 2s;
+}
+
+.item-floating-label .placeholder-icon {
+  padding-right: 18px;
+  position: absolute;
+  bottom: 9px;
+  left: 17px;
+}
+
+.item-floating-label {
+  padding-left: 40px !important;
+}
+
+
+		
+.animated.ng-hide{
+	opacity: 0;
+	max-height: 0px !important;
+	display: block !important;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #17181A inset !important;
+    color: #e1e4ea !important;
+}
+
+
+.app-icon {
+    background-color: #fff;
+    background: url('../img/iconAPP_Free_1024px.png') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 10em;
+    margin: 3em auto;
+    width: 10em;
+
+}
+
+.login-form{
+	display: block;
+	width: 70%;
+	margin:auto;
+}
+
+
+#login-input {
+	opacity: 0.5;
+	display: inline-block;
+	background-color: #E2EAE2;
+	display: block;
+	width: 70%;
+	margin:2em auto;
+
+}
+
+.input-icon{
+	font-size:2em;
+
+}
+
+.login-input,input[type="text"],input[type="password"],input[type="email"],input[type="tel"]{
+	background-color: #17181A !important;
+    width: 70% !important;
+	margin:auto !important;
+	border-radius:0px !important;
+	margin:1em auto !important;
+	color: #e1e4ea !important;
+}
+.content{
+	text-align: center;
+	font-style: "Open Sans";
+	color:#17181A; 
+}
+
+#login-login {
+    background-color: #17181A; 
+    width: 70%;
+	margin:1em auto;
+	border-radius:0px;
+}
+
+#login-signup{
+	color:#fff;
+}
+
+.signup-form{
+	opacity: 0.9;
+	width: 70%;
+	margin: auto;
+}
+
+.login-form{
+	opacity: 0.9;
+	width: 60%;
+	margin: auto;
+
+}
+
+.login-form .item{
+	background-color:#17181A;
+
+}
+
+.login-form-container label{
+	height: 25%;
+}
+.login-form-container span{
+	color: #fff;
+
+}
+.signup-form .item{
+	background-color:#17181A;
+
+}
+
+.signup-form-container label{
+	height: 25%;
+}
+.signup-form-container span{
+	color: #fff;
+
+}

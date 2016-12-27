@@ -1,0 +1,70 @@
+<ion-view cache-view="false" title="Lista de Cotizaciones" id="lista-cotizaciones" class=" ">
+    <ion-content padding="true" class="has-header">
+        <div class=" " id="prospectos-list-item-container8">
+           
+            <div ng-repeat="prospectos in cotizacionesProspectos">
+                <div class="item item-body">
+                    <div style="padding-bottom:0.5em; margin-top:0px;color:#000000; font-weight: bold;font-size: 120%;"  ng-click="prospectos.hide= !prospectos.hide" >                  
+                    {{prospectos.razonSocial}}       
+                       <i ng-show="prospectos.hide" class="icon ion-chevron-down"></i>
+                       <i ng-show="!prospectos.hide" class="icon  ion-chevron-up"></i>
+                   </div> 
+                    <div ng-hide="prospectos.hide" class="animated ">                
+                        <div class="item item-body " id="listaDeCotizaciones">
+                            <ion-list ng-repeat="cotizacion in prospectos.cotizaciones" class=" ">
+                                <div ng-show="cotizacion.estado" class="item item-body">
+                                    <h3 ng-click="cotizacion.hide= !cotizacion.hide" id="" style="margin-top:0px;color:#000000;" >Cotizacion {{$index+1}}</h3>
+                                    <div ng-hide="cotizacion.hide" class="animated ">                      
+                                        <ion-item  id="cotizacion-forma_pago">Producto:{{cotizacion.nombre_producto}}</ion-item>
+                                        <ion-item  id="cotizacion-forma_pago">Tiempo de entrega:{{cotizacion.tiempo_entrega}}</ion-item> 
+                                        <ion-item  id="cotizacion-forma_pago">Requerimientos:{{cotizacion.requerimientos}}</ion-item>
+                                         <ion-item  id="cotizacion-forma_pago">Forma de Pago:{{cotizacion.forma_pago}}</ion-item>
+
+                                       <h3> Procesos:</h3>
+                                            <div ng-repeat="procesos in cotizacion.procesosCotizacion">
+                                                <ion-item>
+                                                        <ion-item class="" id="">
+                                                        {{procesos.nombre}}
+                                                        <p class="icon ion-checkmark" >Dificultad:{{procesos.dificultad}}</p>
+                                                        <p class="icon ion-checkmark">Esfuerzo:{{procesos.esfuerzo}} dias</p>
+                                                        <p class="icon ion-checkmark">Artista/Maquina:{{procesos.tipo_artista}} </p>
+                                                        <p class="icon ion-checkmark"> Costo Unitario:{{procesos.costo | currency:"COP":2}}</p>
+                                                        </ion-item>
+                                                        <ion-item class="" id="">Opciones:
+                                                        <div ng-repeat="opcion in procesos.opciones">
+                                                            <div ng-repeat="item in opcion.valores">
+                                                                <div ng-switch="opcion.tipo">
+                                                                    <div ng-switch-when="radio">
+                                                                        <p ng-show="opcion.valorEscogido==item" class="icon ion-checkmark">{{opcion.valorEscogido}}</p>
+                                                                    </div>
+                                                                    <div ng-switch-when="text">
+                                                                        <ion-item ng-if="item.valor" class="icon ion-checkmark">  {{item.valor}}
+                                                                        </ion-item>
+                                                                    </div>
+                                                                    <div ng-switch-default>
+                                                                        <p ng-if="item.valor" class="icon ion-checkmark">  {{item.nombre}}
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </ion-item>
+                                                </ion-item>
+                                            </div>                                        
+                                        <ion-item  id="cotizacion-costo_total">Costo Total:{{cotizacion.costo_total | currency:"COP":2}}</ion-item>
+                                        <div  class="item button-bar ">
+                                        <button ng-click="removeCotizacion($parent.$index,cotizacion.id_cotizacion)" id="cotizaciones-button20" class=" button button-stable  button-block button-icon icon ion-android-delete "></button>                                        
+ <button ng-click='descargarpdf( cotizacion.procesosCotizacion,prospectos.id_prospecto,cotizacion)' id="cotizaciones-button20" class=" button button-stable  button-block button-icon icon ion-android-arrow-down "></button></div>                   
+                                    </div>                                                       
+                                </div>
+                            </ion-list>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
+
+

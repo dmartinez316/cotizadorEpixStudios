@@ -1,0 +1,31 @@
+<ion-view title="Agregar Prospecto" id="agregar-prospecto" class=" ">
+    <ion-content padding="true" class="has-header">
+        <div style="background-color:white; color:#111;" class="item item-body " id="agregar-prospecto">
+            <p id="" style="margin-top:0px;color:#000000;" class=" ">Informacion de Prospecto</p>
+                <label  class="item item-input " id="agregarProspecto-razonSocial">
+                    <span class="input-label">Razon Social</span>
+                    <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="nuevoProspecto.razonSocial" name="razonSocial" type="text"  placeholder="">          
+                </label>
+                <label class="item item-input " id="agregarProspecto-nit">
+                    <span class="input-label">NIT</span>
+                    <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="nuevoProspecto.nit" type="tel"  placeholder="">
+
+                </label>
+                <label class="item item-input " id="agregarProspecto-direccion">
+                    <span class="input-label">Direccion</span>
+                    <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="nuevoProspecto.direccion" type="text"  placeholder="">
+                </label>
+                <label class="item item-input " id="agregarProspecto-email">
+                    <span class="input-label">Email</span>
+                    <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="nuevoProspecto.email" type="email"  placeholder="">
+                </label>
+                <label class="item item-input " id="agregarProspecto-telefono">
+                    <span class="input-label">Telefono</span>
+                    <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="nuevoProspecto.telefono" type="tel"  placeholder="">
+                </label>
+               
+               <button ng-click="agregarNuevoProspecto()"  id="" class=" button button-dark  button-block button-outline ">Agregar</button>
+               <button ui-sref="app.prospectos" class=" button button-dark  button-block button-outline ">Cancelar</button>
+        </div>
+    </ion-content>
+</ion-view>

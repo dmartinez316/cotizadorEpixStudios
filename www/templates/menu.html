@@ -1,0 +1,36 @@
+<ion-side-menus enable-menu-with-back-views="false" data-componentid="side-menu21">
+        <ion-side-menu-content>
+            <ion-nav-bar class="bar-dark">
+                <ion-nav-back-button ></ion-nav-back-button>
+                <ion-nav-buttons side="left">
+                    <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+                </ion-nav-buttons>
+            </ion-nav-bar>
+            <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+        </ion-side-menu-content>
+
+        <ion-side-menu side="left"  style="background-color:#17181A;">
+            <ion-header-bar class="bar-dark">
+                <div class="title">Menu</div>
+            </ion-header-bar>
+            <ion-content padding="false" class="side-menu-left has-header">
+                
+                <div class="item item-avatar item-dark">
+                    Bienvenido
+                    <h2 style="color:#fff; text-align:left;">{{username}}</h2>
+                  </div>
+                <a ui-sref="app.inicio" menu-close="" id="menu-button2" style="text-align:left;" class=" button button-dark  button-block icon-right ion-android-home " data-componentid="button2">Inicio</a>
+
+                <a ui-sref="app.prospectos" menu-close="" id="menu-button29" style="text-align:left;" class=" button button-dark  button-block " data-componentid="button29">Prospectos</a>
+
+                <a ui-sref="app.cotizaciones" menu-close="" id="menu-button3" style="text-align:left;" class=" button button-dark  button-block " data-componentid="button3">Cotizar</a>
+
+                <a ui-sref="app.listaDeCotizaciones" menu-close="" id="menu-button10" style="text-align:left;" class=" button button-dark  button-block " data-componentid="button10">Mis Cotizaciones</a>
+
+                <a ui-sref="app.configuracion" menu-close="" id="menu-button4" style="text-align:left;" class=" button button-dark  button-block icon-right ion-android-settings " data-componentid="button4">Configuración</a>
+
+                <a  ng-click="logout()" menu-close="" id="menu-button7" style="text-align:left;" class=" button button-dark  button-block button-icon icon-right ion-log-out" data-componentid="button7">Cerrar Sesion</a>
+                
+            </ion-content>
+        </ion-side-menu>
+    </ion-side-menus>

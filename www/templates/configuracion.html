@@ -1,0 +1,13 @@
+<ion-view title="Configuracion" id="configuracion" class=" ">
+    <ion-content padding="true" class="has-header">
+        <form id="" class="list ">
+            <ion-toggle toggle-class="toggle-positive" id="configuracion-updates" class=" ">Actualizaciones automaticas</ion-toggle>
+            <ion-item ng-click="deleteCache()" id="configuracion-borrar" class="  ">Eliminar Cache ({{Cache|number:2}} KB)</ion-item><ion-item ng-click="syncUserData()" id="configuracion-borrar" class="  ">Premium</ion-item>
+
+            <ion-item ng-click="syncUserData()" id="configuracion-borrar" class="  ">Sincronizar informacion de Usuario(Solo usuarios premium)</ion-item>
+            <ion-item class="item-icon-right  " id="configuracion-logout"  ng-click="logout()">Cerrar Sesion
+                <i class="icon ion-log-out"></i>
+            </ion-item>
+        </form>
+    </ion-content>
+</ion-view>
