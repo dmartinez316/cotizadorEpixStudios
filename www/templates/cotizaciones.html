@@ -44,7 +44,7 @@
 <div  class="button-bar " style="margin-top:0.5em;margin-bottom:0.2em;">
   <div class="row responsive-sm">
     <div class="col col-25">
-      <button style="margin-left:0.1em;margin-right:0.1em; border-radius: 100px;"  ng-click="addProcess(procesosUsuario[0].id_proceso)" id="cotizaciones-button-{{procesosUsuario[0].nombre}}" ng-class="procesosUsuario[0].classType" >
+      <button style="margin-left:0.1em;margin-right:0.1em; border-radius: 100px;"  ng-click="addProcess(procesosUsuario[0].id_proceso)" id="cotizaciones-button-{{pro
         <img  src="img/{{procesosUsuario[0].img}}" style="width : 100% ; height : 100%"></img>
       </button>
     </div>
@@ -70,8 +70,7 @@
     <div class="col col-25">
       <button style="margin-left:0.1em;margin-right:0.1em; border-radius: 100px;"  ng-click="addProcess(procesosUsuario[4].id_proceso)" id="cotizaciones-button-{{procesosUsuario[4].nombre}}" ng-class="procesosUsuario[4].classType" >
         <img  src="img/{{procesosUsuario[4].img}}" style="width : 100% ; height : 100%"></img>
-      </button>
-    </div>
+      </button>    </div>
     <div class="col col-25">
       <button style="margin-left:0.1em;margin-right:0.1em; border-radius: 100px;"  ng-click="addProcess(procesosUsuario[5].id_proceso)" id="cotizaciones-button-{{procesosUsuario[5].nombre}}" ng-class="procesosUsuario[5].classType" >
         <img  src="img/{{procesosUsuario[5].img}}" style="width : 100% ; height : 100%"></img>
@@ -102,7 +101,7 @@
        </div>
        <div ng-hide="proceso.hide" class="animated ">
         <form  class="list ">
-          <div class="row">
+          <div class="row responsive-sm">
             <div class="col col-40">
               <div class="item range range-balanced " id="cotizaciones-dificultad">
                 Dificultad({{proceso.dificultad}})
