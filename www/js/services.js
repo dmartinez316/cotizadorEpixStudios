@@ -1,11 +1,25 @@
-//var server='http://192.168.1.52/MAKILTECH/backendCotizador/public/index.php/app/';
-var server='http://www.epix-studios.com/cotizador/backendCotizador/public/index.php/app/';
+var server='http://192.168.1.52/MAKILTECH/backendCotizador/public/index.php/app/';
+//var server='http://www.epix-studios.com/cotizador/backendCotizador/public/index.php/app/';
 angular.module('app.services', [])
 
+.factory('apiCotizador', ['$http', function($http) {
+  var urlBase='http://192.168.1.52/MAKILTECH/backendCotizador/public/index.php/app/';
+//var urlBase='http://www.epix-studios.com/cotizador/backendCotizador/public/index.php/app/';
+    var dataFactory = {};
 
+    dataFactory.guardarNuevaCotizacion = function (cotizacion) {
+        return $http.post(urlBase+'guardarNuevaCotizacion', cotizacion);
+    };
+
+    dataFactory.eliminarCotizacion = function (cotizacion_id) {
+        return $http.delete(urlBase+'eliminarCotizacion', cotizacion_id);
+    };
+
+    return dataFactory;
+}])
 
 .service('cotizadorModelService',function($q,$localStorage,$http,$timeout,
-	$ionicPopup,$ionicLoading,$state,$ionicHistory,$cordovaFile,$cordovaFileOpener2){
+	$ionicPopup,$ionicLoading,$state,$ionicHistory,$cordovaFile,$cordovaFileOpener2,apiCotizador){
 	//var server='http://localhost:80/backendCotizador/public/index.php/app/';
 	//var server='http://www.epix-studios.com/cotizador/backendCotizador/public/index.php/';
 	$localStorage=$localStorage.$default({
@@ -38,11 +52,11 @@ angular.module('app.services', [])
 	var newProspecto=null;
 	var ProspectoCotizacionActivo=null;	
 	var backFromCalcular=false;
+	var tarifasProc=null;
 	//EditarProspecto
 	var editarProspecto={
 		estadoEditar:false,
 		prospectoID:'',
-		prospectoBD_id:''
 	}
 
 	var procesosCotizacion=[
@@ -59,6 +73,22 @@ angular.module('app.services', [])
 	
 
 	return{
+		orientacionFunction:function(){
+			var currentPlatform = ionic.Platform.platform();
+			if(currentPlatform=='android' || currentPlatform=='ios'){
+				window.addEventListener("orientationchange", function(){
+					if(screen.orientation=='portrait'){
+						return 'portrait';
+					}
+					else if(screen.orientation=='landscape'){
+						return 'landscape';
+					}			   
+				});			
+			}else{
+				 return 'portrait';
+			}
+		},
+
 		calcularNuevaCotizacion:function(procesos){
 			return $http.post(server+'calcularCotizacion',procesos).
 			then(function (response) {
@@ -200,7 +230,7 @@ angular.module('app.services', [])
 		},
 		initUserData:function(){
 			var emailString= $localStorage.userInfo.useremail;
-			console.log(emailString);
+			//console.log(emailString);
 			if($localStorage[emailString]===undefined){
 				$localStorage[emailString]={
 					"CotizacionID":1,
@@ -261,9 +291,29 @@ angular.module('app.services', [])
 				return procesosUsuario;
 			},
 			getDetalleTarifas: function(){
-				var tarifaDetalle=angular.copy($localStorage.appData.tarifaDetalle);
-				//console.log(tarifaDetalle);
-				return tarifaDetalle;
+				return tarifasProc;
+			},
+
+			getTarifasProcesos:function(){
+
+				return  $http.get(server+'getTarifasProcesos').
+				then(function (response) {
+					console.log(response);
+					if(response.data.estado=='200'){
+						return{
+							estado:response.data.estado,
+							msj: response.data.msj,
+							tarifas: response.data.tarifas
+						}
+
+					}else{
+						return{
+							estado:response.data.estado,
+							msj: response.data.msj
+						}
+					}
+				})
+
 			},
 
 			getProspectoCotizacionActivo:function(){
@@ -289,34 +339,37 @@ angular.module('app.services', [])
 			setProspectoCotizacionActivos:function(data){
 				ProspectoCotizacionActivo= data;
 			},
+			setTarifas:function(data){
+				tarifasProc=data;
+			},
 
 			addNewProspecto:function(data){
-				newProspecto={
-					id:$localStorage[$localStorage.userInfo.useremail].ProspectoID++,
-					razonSocial:data.razonSocial,			
-					nit:data.nit,
-					direccion:data.direccion,
-					email:data.email,
-					telefono:data.telefono,
-					prospectoBD_id:null,	
-					estado:true,
-					hide:true
-
-				};
-				newCotizacionesUsuario={
-					id_prospecto:newProspecto.id,
-					razonSocial:newProspecto.razonSocial,
-					cotizaciones:[],
-					hide:true
-
-				};
+				
 				var prospectoNuevo=data;
 
 				return  $http.post(server+'guardarProspecto',prospectoNuevo).
 				then(function (response) {
 					console.log(response);
 					if(response.data.estado=='200'){
-						newProspecto.prospectoBD_id=response.data.prospecto_id;
+						
+						newProspecto={
+							id_prospecto:response.data.prospecto_id,
+							razonSocial:data.razonSocial,			
+							nit:data.nit,
+							direccion:data.direccion,
+							email:data.email,
+							telefono:data.telefono,
+							estado:true,
+							hide:true
+
+						};
+						newCotizacionesUsuario={
+							id_prospecto:newProspecto.id_prospecto,
+							razonSocial:newProspecto.razonSocial,
+							cotizaciones:[],
+							hide:true
+
+						};
 						$localStorage[$localStorage.userInfo.useremail].prospectosUsuario.push(newProspecto);
 						$localStorage[$localStorage.userInfo.useremail].cotizacionesProspectos.push(newCotizacionesUsuario);
 						return{
@@ -333,10 +386,9 @@ angular.module('app.services', [])
 				})
 			},
 
-			removeProspect:function(prospecto_id,prospectoBD_id){
+			removeProspect:function(prospecto_id){
 
-				var prospectoBD={prospectoID:prospectoBD_id};
-				return  $http.post(server+'eliminarProspecto',prospectoBD).
+				return  $http.post(server+'eliminarProspecto',prospecto_id).
 				then(function (response) {
 					console.log(response);
 					if(response.data.estado=='200'){
@@ -366,14 +418,15 @@ angular.module('app.services', [])
 			},
 
 			setProcesosActivos: function(data){
-				procesosActivos=data;
+				procesosActivos=angular.copy(data);
+				console.log(procesosActivos);
 			},
 
 			getProcesosActivos: function(){
 				return procesosActivos;
 			},
 			setOpcionesSeleccionadas:function(data){
-				opcionSeleccionada=data;
+				opcionSeleccionada=angular.copy(data);
 			},
 			getOpcionesSeleccionadas: function(){
 				return opcionSeleccionada;
@@ -386,13 +439,24 @@ angular.module('app.services', [])
 			getCotizacionID:function() {
 				return $localStorage[$localStorage.userInfo.useremail].CotizacionID++;
 			},
-			agregarNuevaCotizacion:function(id_prospecto,data) {
-				console.log(id_prospecto);
-				for (var i = 0; i<$localStorage[$localStorage.userInfo.useremail].cotizacionesProspectos.length ; i++) {
-					if($localStorage[$localStorage.userInfo.useremail].cotizacionesProspectos[i].id_prospecto==id_prospecto){
-						$localStorage[$localStorage.userInfo.useremail].cotizacionesProspectos[i].cotizaciones.push(data);
+			agregarNuevaCotizacion:function(data) {
+				//console.log(id_prospecto);
+				return apiCotizador.guardarNuevaCotizacion(data).then(function(response){
+					if(response.data.estado=="200"){
+						console.log(response);
+						data.id_cotizacion=response.data.id_cotizacion;
+						for (var i = 0; i<$localStorage[$localStorage.userInfo.useremail].cotizacionesProspectos.length ; i++) {
+							if($localStorage[$localStorage.userInfo.useremail].cotizacionesProspectos[i].id_prospecto
+								==data.opcionesCotizacion.prospectoSeleccionado){
+								$localStorage[$localStorage.userInfo.useremail].cotizacionesProspectos[i].cotizaciones.push(data);
+							}						
+						}
 					}
-				}
+				});
+				
+			},
+			removeCotizacion:function(id_prospecto,data){
+
 			},
 			getProspectobyID:function(id_prospecto){
 				for (var i = 0; i<$localStorage[$localStorage.userInfo.useremail].prospectosUsuario.length ; i++) {
@@ -402,9 +466,7 @@ angular.module('app.services', [])
 				}
 			},
 
-			removeCotizacion:function(id_prospecto,data){
-
-			},
+			
 
 			descargarPDF:function(procesos,prospecto_id,cotizacionNueva){
 				console.log(procesos);console.log(prospecto_id);console.log(cotizacionNueva);
@@ -427,7 +489,7 @@ angular.module('app.services', [])
 				console.log(procesosPDF);
 
 
-				var docDefinition = {
+			var docDefinition = {
 					pageOrientation: 'portrait',
 					pageMargins: 90,
 					header: function () {

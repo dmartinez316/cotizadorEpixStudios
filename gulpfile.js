@@ -8,7 +8,7 @@ var rename = require('gulp-rename');
 var sh = require('shelljs');
 
 var paths = {
-  sass: ['./scss/**/*.scss']
+  sass: [ "scss/**/*.scss"]
 };
 
 gulp.task('default', ['sass']);
@@ -25,7 +25,7 @@ gulp.task('sass', function(done) {
     .pipe(gulp.dest('./www/css/'))
     .on('end', done);
 });
-
+gulp.task('serve:before', ['default','watch']);
 gulp.task('watch', function() {
   gulp.watch(paths.sass, ['sass']);
 });

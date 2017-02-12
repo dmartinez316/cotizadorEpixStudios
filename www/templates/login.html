@@ -1,36 +1,34 @@
 <ion-view cache-view="false" view title="Login" name="login-view" title="Login" hide-nav-bar="true" id="login" class=" ">
-    <ion-content style="background: url(img/gif2.gif) center; background-size: cover;" padding="false" class="manual-ios-statusbar-padding" scroll="false"> 
+    <ion-content style="background:linear-gradient(#c0e060,#00a6a6);" padding="false" class="manual-ios-statusbar-padding" scroll="false">
         <div class="hero no-header flat">
             <div class="content">
                 <div class="app-icon"></div>
-                <h1>EPIX STUDIOS </h1>
-                <h3>Cotizador </h3>
+                <div style="margin-bottom:5em;color:white;">
+                  <h1 style="color:#2a2b2e;margin-bottom:0.1em;">EPIX STUDIOS </h1>
+                  <h4 style="color:#2a2b2e;margin-top:0.2em;">cotizador </h4>
+                </div>
+
             </div>
         <div class="login-form">
-            <div >
-                 <label class="item item-input">
-                  <i class="icon ion-ios-email placeholder-icon"></i>
-                  <input ng-model="credenciales.email" type="email" placeholder="Email" autocorrect="off" autocapitalize="off">
-                </label>
-           
+          <div>
+            <div style="font-size:3em; margin:0.1em;border-style:none;" class="item item-input">
+              <i  style="color:white;" class="icon ion-ios-email placeholder-icon padding"></i>
+              <input style="color:white;" ng-model="credenciales.email" type="email" placeholder="Email" autocorrect="off" autocapitalize="off">
+            </div>
+            <div style="font-size:3em; margin:0.1em;;border-style:none;" class="item item-input">
+              <i style="color:white;" class="icon ion-locked placeholder-icon padding"></i>
+              <input ng-model="credenciales.password" type="password" placeholder="Contraseña">
+            </div>
+            <button style="width:98.2%;margin:auto;padding:0px;" ng-click="login(credenciales)" id="login-login" class=" button button-royal button-full  ">Iniciar Sesión</button>
 
-           
-            <label class="item item-input">     
-              <i class="icon ion-locked placeholder-icon"></i>
-              <input ng-model="credenciales.password" type="password" placeholder="Password">
-            </label>               
-                
-            
-            <button ng-click="login(credenciales)" id="login-login" class=" button button-dark  button-block ">LOG IN</button>
-            
-        </div>        
+        </div>
            <a ui-sref="signup" id="login-signup" class=" button button-dark  button-block button-clear ">Crea una cuenta</a>
             <h4 style="text-align:center;  vertical-align: middle;" id="login-signup">  &oacute;</h4>
             <a ui-sref="recuperarPassword" id="login-signup" class=" button button-dark  button-block button-clear ">Olvidaste tu contrase&ntilde;a?</a>
 
             <h5 ng-show="error" style="color:red;text-align:center;center:auto;">{{mensajeError}}</h5>
-            
-            
-        
+
+
+
     </ion-content>
 </ion-view>

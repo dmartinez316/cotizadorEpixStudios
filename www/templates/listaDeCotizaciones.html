@@ -1,22 +1,26 @@
-<ion-view cache-view="false" title="Lista de Cotizaciones" id="lista-cotizaciones" class=" ">
+<ion-view cache-view="false"   title="Lista de Cotizaciones" id="lista-cotizaciones" class=" ">
+  <ion-nav-buttons side="right">
+      <button class="button  button-clear" menu-toggle="right">  Menu
+      <i style="color:#00f2a1;" class="icon ion-navicon padding-left "></i></button>
+  </ion-nav-buttons>
     <ion-content padding="true" class="has-header">
         <div class=" " id="prospectos-list-item-container8">
-           
+
             <div ng-repeat="prospectos in cotizacionesProspectos">
                 <div class="item item-body">
-                    <div style="padding-bottom:0.5em; margin-top:0px;color:#000000; font-weight: bold;font-size: 120%;"  ng-click="prospectos.hide= !prospectos.hide" >                  
-                    {{prospectos.razonSocial}}       
+                    <div style="padding-bottom:0.5em; margin-top:0px;color:#000000; font-weight: bold;font-size: 120%;"  ng-click="prospectos.hide= !prospectos.hide" >
+                    {{prospectos.razonSocial}}
                        <i ng-show="prospectos.hide" class="icon ion-chevron-down"></i>
                        <i ng-show="!prospectos.hide" class="icon  ion-chevron-up"></i>
-                   </div> 
-                    <div ng-hide="prospectos.hide" class="animated ">                
+                   </div>
+                    <div ng-hide="prospectos.hide" class="animated ">
                         <div class="item item-body " id="listaDeCotizaciones">
                             <ion-list ng-repeat="cotizacion in prospectos.cotizaciones" class=" ">
                                 <div ng-show="cotizacion.estado" class="item item-body">
                                     <h3 ng-click="cotizacion.hide= !cotizacion.hide" id="" style="margin-top:0px;color:#000000;" >Cotizacion {{$index+1}}</h3>
-                                    <div ng-hide="cotizacion.hide" class="animated ">                      
+                                    <div ng-hide="cotizacion.hide" class="animated ">
                                         <ion-item  id="cotizacion-forma_pago">Producto:{{cotizacion.nombre_producto}}</ion-item>
-                                        <ion-item  id="cotizacion-forma_pago">Tiempo de entrega:{{cotizacion.tiempo_entrega}}</ion-item> 
+                                        <ion-item  id="cotizacion-forma_pago">Tiempo de entrega:{{cotizacion.tiempo_entrega}}</ion-item>
                                         <ion-item  id="cotizacion-forma_pago">Requerimientos:{{cotizacion.requerimientos}}</ion-item>
                                          <ion-item  id="cotizacion-forma_pago">Forma de Pago:{{cotizacion.forma_pago}}</ion-item>
 
@@ -50,12 +54,12 @@
                                                         </div>
                                                     </ion-item>
                                                 </ion-item>
-                                            </div>                                        
+                                            </div>
                                         <ion-item  id="cotizacion-costo_total">Costo Total:{{cotizacion.costo_total | currency:"COP":2}}</ion-item>
                                         <div  class="item button-bar ">
-                                        <button ng-click="removeCotizacion($parent.$index,cotizacion.id_cotizacion)" id="cotizaciones-button20" class=" button button-stable  button-block button-icon icon ion-android-delete "></button>                                        
- <button ng-click='descargarpdf( cotizacion.procesosCotizacion,prospectos.id_prospecto,cotizacion)' id="cotizaciones-button20" class=" button button-stable  button-block button-icon icon ion-android-arrow-down "></button></div>                   
-                                    </div>                                                       
+                                        <button ng-click="removeCotizacion($parent.$index,cotizacion.id_cotizacion)" id="cotizaciones-button20" class=" button button-stable  button-block button-icon icon ion-android-delete "></button>
+ <button ng-click='descargarpdf( cotizacion.procesosCotizacion,prospectos.id_prospecto,cotizacion)' id="cotizaciones-button20" class=" button button-stable  button-block button-icon icon ion-android-arrow-down "></button></div>
+                                    </div>
                                 </div>
                             </ion-list>
 
@@ -66,5 +70,3 @@
         </div>
     </ion-content>
 </ion-view>
-
-

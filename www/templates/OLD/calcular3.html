@@ -1,0 +1,76 @@
+<ion-view title="Calcular" id="calcular" class=" ">
+    <ion-content padding="true" class="has-header">        
+        <div class="item item-body " id="">
+            <p id="" style="margin-top:0px;color:#000000;" class=" ">Resumen de pedido</p>
+            <div ng-repeat="procesos in procesosCotizacion">
+                <div class="item item-body " id="">
+                    <p id="" style="margin-top:0px;color:#000000;" class=" ">{{procesos.nombre}}</p>
+                    <ion-list id="" class=" ">
+                        <ion-item id="" class="  ">
+                            <p ng-click="procesos.hide= !procesos.hide">{{procesos.costo | currency:" COP":2}} </p>  
+                            <div ng-hide="procesos.hide" class="animated ">
+                                <ion-list id="" class=" ">
+                                    <ion-label>Dificultad:</ion-label>
+                                    <ion-item  id="procesos-dificultad">     {{procesos.dificultad}}</ion-item>
+                                    <ion-label>Esfuerzo en horas:</ion-label>
+                                    <ion-item  id="procesos-esfuerzo">    {{procesos.esfuerzo}}</ion-item>
+                                    <ion-label>Tipo artista/maquina:</ion-label>
+                                    <ion-item  id="procesos-esfuerzo">    {{procesos.tipo_artista}}</ion-item>
+                                    <ion-item class="" id="">Opciones:
+                                        <div ng-repeat="opcion in procesos.opciones">
+                                            <div ng-repeat="item in opcion.valores">
+                                                <div ng-switch="opcion.tipo">
+                                                    <div ng-switch-when="radio">
+                                                        <ion-item ng-show="opcion.valorEscogido==item" class="icon ion-checkmark">{{opcion.valorEscogido}}</ion-item>
+                                                    </div> 
+                                                    <div ng-switch-when="text">
+                                                        <ion-item ng-if="item.valor" class="icon ion-checkmark">  {{item.valor}}
+                                                        </ion-item>
+                                                    </div>
+                                                    <div ng-switch-default>
+                                                        <ion-item ng-if="item.valor" class="icon ion-checkmark">  {{item.nombre}}
+                                                        </ion-item>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </ion-item>
+                                </ion-list>
+                            </div> 
+                        </ion-item>
+                    </ion-list>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col col-100">
+                <label class="item item-input " id="cotizar-tiempo_entrega">
+                  <span class="input-label">Nombre del producto</span>
+                  <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="opcionesSeleccionadas.nombre_producto" type="text"  readonly>
+                </label>          
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-100">
+                <label class="item item-input " id="cotizar-tiempo_entrega">
+                  <span class="input-label">Tiempo de entrega</span>
+                  <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="opcionesSeleccionadas.tiempo_entrega" type="text"  readonly>
+                </label>          
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-100">
+                <label class="item item-input " id="cotizar-tiempo_entrega">
+                  <span class="input-label">Requerimientos</span>
+                  <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="opcionesSeleccionadas.requerimientos" type="text"  readonly>
+                </label>          
+              </div>
+            </div>
+            <h1 id="" style="color:#000000;" class=" ">Total</h1>
+            <h3 id="" style="color:#000000;" class=" ">{{totalCotizacion | currency:"COP":2}}</h3>
+            <div id="" class=" button-bar ">
+                <a ng-click="exportarCotizacion()" id="" class=" button button-dark  button-block button-outline ">Exportar</a>
+                <a ng-click="guardarCotizacion()" id="" class=" button button-dark  button-block button-outline ">Guardar</a>
+            </div>
+        </div>                 
+    </ion-content>
+</ion-view>

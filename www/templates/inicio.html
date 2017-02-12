@@ -1,10 +1,21 @@
 <ion-view title="Inicio" hide-back-button="true" id="inicio" class=" ">
     <ion-content padding="true" class="has-header">
-        <div class="list card " id="home-card22">
-            
-            <h1 id="" style="color:#010202;text-align:center;" class=" ">Cotizador Epix Studios</h1>
-            <p id="" style="color:#000000;font-size:17px;text-align:center;" class=" ">Para empezar ve al menu y selecciona una opcion</p>
-            <button class="button button-stable  button-block button-icon icon ion-log-out" ng-click="logout()">Logout</button>            
+        <div class="list card " style="margin-top:0px;" id="home-card22">            
+            <h4 id="" style="color:#010202;text-align:center;" class=" "> Epix Studios</h4>
+            <div  style=" margin:auto; width:100%;background:#e5e5e5;"  class="item item-body ">
+            	<div style=" margin:auto; width:80%;background:#e5e5e5;"  class="item item-body ">
+            		<button  style="margin-bottom:2.5em;"class="button button-full button-dark padding-bottom" ui-sref="app.cotizaciones">   Cotizar 		</button>
+	            	<button   style="margin-bottom:2.5em;"class="button button-full button-dark padding-bottom"  ui-sref="app.prospectos">    Prospectos		  </button>
+					<button  style="margin-bottom:2.5em;" class="button button-full button-dark padding-bottom" ui-sref="app.listaDeCotizaciones">Mis Cotizaciones </button>
+            	</div>
+            	<div style=" margin:auto; width:90%;background:#e5e5e5;"  class="item item-body ">
+            		<button class="button  button button-full button-light  " ng-click="logout()">
+            			<i class="icon ion-log-out padding-right"></i>Cerrar Sesión</button>
+            	</div>
+					
+            	            		  
+			</div>
+           
         </div>
     </ion-content>
 </ion-view>

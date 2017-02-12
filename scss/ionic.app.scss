@@ -19,6 +19,16 @@ $royal:                           #886aea !default;
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 $balanced:                        #17181A !default;
 $dark:                            #17181A !default;
+$button-dark-bg:                  #2a2b2e !default;
+$button-dark-text:                #00f2a1 !default;
+$bar-dark-text:                   #ffffff !default;
+
+$royal:                           #17181A !default;
+$button-royal-bg:                 $royal !default;
+$button-royal-text:               white !default;
+$button-royal-border:             #111 !default;
+$button-royal-active-bg:          #262626 !default;
+$button-royal-active-border:      #000 !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
@@ -44,4 +54,3 @@ body.platform-android {
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.tab-item,input,button,select,textarea {
 	font-family: inherit;
 }
-

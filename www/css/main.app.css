@@ -1,6 +1,11 @@
+@media only screen and (max-width: 780px){
+	.anchoMinimo{
+		visibility: hidden ;
+	}
+}
 .animated{
 	opacity: 1;
-	max-height: auto;			
+	max-height: auto;
 	overflow: hidden;
 	transition: all 2s;
 	-o-transition: all 2s;
@@ -18,7 +23,7 @@
 }
 
 
-		
+
 .animated.ng-hide{
 	opacity: 0;
 	max-height: 0px !important;
@@ -35,10 +40,11 @@ input:-webkit-autofill {
     background-color: #fff;
     background: url('../img/iconAPP_Free_1024px.png') center;
     background-size: cover;
-    border-radius: 50%;
-    height: 10em;
+    border-radius: 5%;
+    height: 7em;
     margin: 3em auto;
-    width: 10em;
+		margin-bottom: 1em;
+    width: 7em;
 
 }
 
@@ -75,12 +81,11 @@ input:-webkit-autofill {
 .content{
 	text-align: center;
 	font-style: "Open Sans";
-	color:#17181A; 
+	color:#17181A;
 }
 
 #login-login {
-    background-color: #17181A; 
-    width: 70%;
+    background-color: #17181A;
 	margin:1em auto;
 	border-radius:0px;
 }

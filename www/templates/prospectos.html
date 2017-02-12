@@ -1,33 +1,47 @@
 <ion-view cache-view="false" title="Prospectos" id="prospectos" class=" ">
+  <ion-nav-buttons side="right">
+      <button class="button  button-clear" menu-toggle="right">  Menu
+      <i style="color:#00f2a1;" class="icon ion-navicon padding-left "></i></button>
+  </ion-nav-buttons>
     <ion-content padding="true" class="has-header">
-        <div style="padding:1.5em;"><a ui-sref="app.agregarProspecto" id="prospectos-agregar-prospecto" class=" button button-dark  button-large button-block button-outline ">Agregar informacion de prospecto</a></div>
+        <div style="padding:1.5em;"><a ui-sref="app.agregarProspecto" id="prospectos-agregar-prospecto" class=" button button-dark  button-large button-block button-outline ">Agregar</a></div>
         <div class="item item-body " id="prospectos-list-item-container8">
             <h2 id="prospectos-markdown8" style="margin-top:0px;color:#000000; font-weight: bold;font-size: 120%;" class=" ">Prospectos</h2>
             <div ng-repeat="prospectos in prospectosUsuario">
-                <ion-list id="" class=" ">                   
+                <ion-list id="" class=" ">
                     <div ng-show="prospectos.estado" class="item item-body " id="cotizaciones-list-item-{{prospectos.razonSocial}}">
                         <div style="padding-bottom:0.5em;" ng-click="prospectos.hide= !prospectos.hide" >
-                             {{prospectos.razonSocial}}                             
+                             {{prospectos.razonSocial}}
                              <i ng-show="prospectos.hide" class="icon align-right ion-chevron-down"></i>
                              <i ng-show="!prospectos.hide" class="item-icon-right ion-chevron-up"></i>
-                        </div> 
+                        </div>
                         <div ng-hide="prospectos.hide" class="animated ">
-                            <ion-list id="" class=" ">
-                                <ion-item  id="prospectos-nit">{{prospectos.nit}}</ion-item>
-                                <ion-item  id="prospectos-direccion">{{prospectos.direccion}}</ion-item>
-                                <ion-item  id="prospectos-email">{{prospectos.email}}</ion-item>
-                                <ion-item  id="prospectos-telefono">{{prospectos.telefono}}</ion-item>
-                                 <div  class="item button-bar ">
+                            <div class="list">
+                              <label class="item item-input">
+                                <span class="input-label">NIT</span>
+                                <span class="input-label">{{prospectos.nit}}</span>
+                              </label>
+                               <label class="item item-input">
+                                <span class="input-label">Direccion</span>
+                                <span class="input-label"> {{prospectos.direccion}}</span>
+                              </label>
+                               <label class="item item-input">
+                                <span class="input-label">Email</span>
+                                <span class="input-label">{{prospectos.email}}</span>
+                              </label>
+                               <label class="item item-input">
+                                <span class="input-label">Telefono</span>
+                                <span class="input-label">{{prospectos.telefono}}</span>
+                              </label>
+                              <div  class="item button-bar ">
                                     <button ng-click="removeProspect(prospectos.id,prospectos.prospectoBD_id)" id="cotizaciones-button20" class=" button button-stable  button-block button-icon icon ion-android-delete "></button>
                                     <button ng-click="editarProspecto(prospectos.id,prospectos.prospectoBD_id)" id="cotizaciones-button20" class=" button button-stable  button-block button-icon icon ion-edit "></button>
                                 </div>
-                                
-                            </ion-list>
+                            </div>
                         </div>
-                    </div> 
+                    </div>
                 </ion-list>
-            </div>                
-        </div>                
+            </div>
+        </div>
     </ion-content>
 </ion-view>
-    

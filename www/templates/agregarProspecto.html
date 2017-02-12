@@ -1,10 +1,15 @@
 <ion-view title="Agregar Prospecto" id="agregar-prospecto" class=" ">
+  <ion-nav-bar class="bar-royal bar bar-header">
+    <ion-nav-back-button style="font-size:1.2em;" class="button-royal">
+        <i style="font-size:1.2em;color:#00f2a1;" class="ion-ios-arrow-back padding-right"></i>Prospectos
+     </ion-nav-back-button>
+  </ion-nav-bar>
     <ion-content padding="true" class="has-header">
         <div style="background-color:white; color:#111;" class="item item-body " id="agregar-prospecto">
             <p id="" style="margin-top:0px;color:#000000;" class=" ">Informacion de Prospecto</p>
                 <label  class="item item-input " id="agregarProspecto-razonSocial">
                     <span class="input-label">Razon Social</span>
-                    <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="nuevoProspecto.razonSocial" name="razonSocial" type="text"  placeholder="">          
+                    <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="nuevoProspecto.razonSocial" name="razonSocial" type="text"  placeholder="">
                 </label>
                 <label class="item item-input " id="agregarProspecto-nit">
                     <span class="input-label">NIT</span>
@@ -23,7 +28,7 @@
                     <span class="input-label">Telefono</span>
                     <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="nuevoProspecto.telefono" type="tel"  placeholder="">
                 </label>
-               
+
                <button ng-click="agregarNuevoProspecto()"  id="" class=" button button-dark  button-block button-outline ">Agregar</button>
                <button ui-sref="app.prospectos" class=" button button-dark  button-block button-outline ">Cancelar</button>
         </div>
