@@ -12,21 +12,25 @@
                 <span class="input-label">Costo produccion</span>
                 <span class="input-label">{{totales.produccion| currency:"COP$ ":0 }}</span>
               </label>
+               <label style="background:#e5e5e5" class="item item-input " id="cotizar-tiempo_entrega">
+                    <span class="input-label">Costos Fijos (%)</span>
+                    <input style="background-color:#e5e5e5 !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="margenesPorcentuales.costosFijos" type="number" min="0" max="100"  step="1" placeholder="Fijos" ng-change="recalcularTotales('fijos')">
+                </label>
               <label class="item item-input">
                 <span class="input-label">Costos Fijos</span>
-                <span class="input-label">{{totales.fijo| currency:"COP$ ":0 }}</span>
+                <span class="input-label">{{totales.fijos| currency:"COP$ ":0 }}</span>
               </label>
-                <label class="item item-input " id="cotizar-tiempo_entrega">
+                <label style="background:#e5e5e5" class="item item-input " id="cotizar-tiempo_entrega">
                     <span class="input-label">Costos Financiacion</span>
-                    <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="totales.financiacion" type="number"  placeholder="Costo financiacion" ng-change="recalcularTotales('financiacion')">
+                    <input style="background:#e5e5e5" style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="totales.financiacion" type="number"  placeholder="Costo financiacion" ng-change="recalcularTotales('financiacion')">
                 </label>
-                <label class="item item-input">
+                <label  class="item item-input">
                     <span class="input-label">Costo Total</span>
-                    <span class="input-label">{{totales.totalProduccion| currency:"COP$ ":0 }}</span>
+                    <span  class="input-label">{{totales.totalProduccion| currency:"COP$ ":0 }}</span>
                 </label>
-                 <label class="item item-input " id="cotizar-tiempo_entrega">
+                 <label style="background:#e5e5e5" class="item item-input " id="cotizar-tiempo_entrega">
                     <span class="input-label">MarkUp (%)</span>
-                    <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="margenesPorcentuales.markUp" type="number" min="0" max="100" value="2" step="1" placeholder="MarkUp" ng-change="recalcularTotales('markup')">
+                    <input style="background:#e5e5e5" style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="margenesPorcentuales.markUp" type="number" min="0" max="100" value="2" step="1" placeholder="MarkUp" ng-change="recalcularTotales('markup')">
                 </label>
                 <label class="item item-input">
                     <span class="input-label">Margen</span>
@@ -45,24 +49,26 @@
         <div class="item item-body ">
             <div style="padding-bottom:0.5em;"  ng-click="hideProc.hide= !hideProc.hide" >
              Detalle procesos
-                <i ng-show="hideProc.hide" class="icon ion-chevron-down"></i>
-                <i ng-show="!hideProc.hide" class="icon  ion-chevron-up"></i>
+                <i ng-show="hideProc.hide" style="float: right;" class="icon ion-chevron-down"></i>
+                <i ng-show="!hideProc.hide" style="float: right;" class="icon  ion-chevron-up"></i>
             </div>
             <div ng-hide="hideProc.hide" class="animated ">
                 <div ng-repeat="procesos in procesosCotizacion">
-                    <div style="padding-bottom:0.5em;" class="item item-body " ng-click="procesos.hide= !procesos.hide" >
-                    Existen ({{procesosCotizacion[procesos.id_proceso-1].procesos.length}}) procesos en {{procesos.nombre}}
-                    <p>Tiempo total: {{procesos.tiempo_total |meses}} --- Costo total: {{procesos.costo_total| currency:"COP$ ":0}}</p>                        <i ng-show="procesos.hide" class="icon ion-chevron-down"></i>
-                        <i ng-show="!procesos.hide" class="icon  ion-chevron-up"></i>
-                    </div>
-                    <div ng-hide="procesos.hide" class="animated ">
-                        <div ng-repeat="procesosIndiv in procesos.procesos track by $index">
-                            <div class="list card">
-                                <div class="item item-avatar">
-                                    <img src="img/{{procesosIndiv.img}}">
-                                    <h2 ng-click="procesosIndiv.hide= !procesosIndiv.hide">{{procesos.nombre}} {{$index+1}}--Costo individual:{{procesosIndiv.costo_individual | currency:"COP$ ":0}}--
-                                    Opcion elegida: {{procesosIndiv.opciones.valorEscogido}}
-                                    </h2>
+                    <div ng-hide="procesos.costo_total==0?true:false;">
+                        <div style="padding-bottom:0.5em;" class="item item-body " ng-click="procesos.hide= !procesos.hide" >
+                        Existen ({{procesosCotizacion[procesos.id_proceso-1].procesos.length}}) procesos en {{procesos.nombre}}
+                        <p>Tiempo total: {{procesos.tiempo_total |meses}} --- Costo total: {{procesos.costo_total| currency:"COP$ ":0}}</p>                        <i ng-show="procesos.hide" class="icon ion-chevron-down"></i>
+                            <i ng-show="!procesos.hide" class="icon  ion-chevron-up"></i>
+                        </div>
+                        <div ng-hide="procesos.hide" class="animated ">
+                            <div ng-repeat="procesosIndiv in procesos.procesos track by $index">
+                                <div class="list card">
+                                    <div class="item item-avatar">
+                                        <img src="img/{{procesosIndiv.img}}">
+                                        <h2 ng-click="procesosIndiv.hide= !procesosIndiv.hide">{{procesos.nombre}} {{$index+1}}--Costo individual:{{procesosIndiv.costo_individual | currency:"COP$ ":0}}--
+                                        Opcion elegida: {{procesosIndiv.opciones.valorEscogido}}
+                                        </h2>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -73,11 +79,11 @@
         <div class="item item-body ">
             <div style="padding-bottom:0.5em;"  ng-click="opcionesSeleccionadas.hide= !opcionesSeleccionadas.hide" >
              Opciones seleccionadas
-                <i ng-show="opcionesSeleccionadas.hide" class="icon ion-chevron-down"></i>
-                <i ng-show="!opcionesSeleccionadas.hide" class="icon  ion-chevron-up"></i>
+                <i ng-show="opcionesSeleccionadas.hide"  style="float: right;" class="icon ion-chevron-down"></i>
+                <i ng-show="!opcionesSeleccionadas.hide"  style="float: right;" class="icon  ion-chevron-up"></i>
             </div>
             <div ng-hide="opcionesSeleccionadas.hide" class="animated ">
-                <div  class="item item-body">
+                <div  class="list">
                   <label class="item item-input">
                     <span class="input-label">Forma Pago</span>
                     <span class="input-label">{{opcionesSeleccionadas.formaPago }}</span>

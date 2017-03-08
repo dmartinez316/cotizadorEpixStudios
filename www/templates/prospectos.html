@@ -3,8 +3,10 @@
       <button class="button  button-clear" menu-toggle="right">  Menu
       <i style="color:#00f2a1;" class="icon ion-navicon padding-left "></i></button>
   </ion-nav-buttons>
-    <ion-content padding="true" class="has-header">
-        <div style="padding:1.5em;"><a ui-sref="app.agregarProspecto" id="prospectos-agregar-prospecto" class=" button button-dark  button-large button-block button-outline ">Agregar</a></div>
+    <ion-content style="background-color:#e5e5e5;" padding="true" class="has-header">
+        <div >
+          <button ui-sref="app.agregarProspecto" id="prospectos-agregar-prospecto" class=" button button-dark  button-block " padding="false">Agregar</button>
+        </div>
         <div class="item item-body " id="prospectos-list-item-container8">
             <h2 id="prospectos-markdown8" style="margin-top:0px;color:#000000; font-weight: bold;font-size: 120%;" class=" ">Prospectos</h2>
             <div ng-repeat="prospectos in prospectosUsuario">

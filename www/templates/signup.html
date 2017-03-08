@@ -10,23 +10,27 @@
         <div  class="signup-form">
 
             <ion-list id="" class="signup-form-container">
+            <form name="registerForm">
                 <label style="font-size:3em; margin:0.1em;border-style:none;" class="item item-input " id="signup-nombre">
                     <span class="input-label">Nombre</span>
                     <input class="signup-input" ng-model="newUser.names" type="text" placeholder="Nombres">
                 </label>
                 <label style="font-size:3em; margin:0.1em;border-style:none;" class="item item-input " id="signup-email">
                     <span class="input-label">Email</span>
-                    <input class="signup-input" ng-model="newUser.email" type="email" placeholder="email">
-                </label>
+                    <input name="userEmail" class="signup-input" ng-model="newUser.email" type="email" placeholder="email">
+                </label>                
+                <span ng-show="registerForm.userEmail.$error.email">Email no valido.</span>
                 <label style="font-size:3em; margin:0.1em;border-style:none;" class="item item-input " id="signup-password">
                     <span class="input-label">Contraseña</span>
-                    <input class="signup-input" ng-model="newUser.password" type="password" placeholder="contraseña">
+                    <input name="password" class="signup-input" ng-model="newUser.password" type="password" placeholder="contraseña">
                 </label>
                 <label style="font-size:3em; margin:0.1em;border-style:none;" class="item item-input " id="signup-repasword">
                     <span class="input-label">Repetir Contraseña</span>
-                    <input class="signup-input" ng-model="newUser.repassword" type="password" placeholder="">
-                    <spans style="color:red;" ng-hide="newUser.password == newUser.repassword">Contraseñas no coinciden</span>
+                    <input name="repassword" class="signup-input" ng-model="newUser.repassword" type="password" placeholder="">
+                    
                 </label>
+                <span ng-show="registerForm.repassword.$dirty && newUser.password != newUser.repassword">Las contraseñas deben coincidir</span>
+            </form>
             </ion-list>
             <button ng-click="attemptRegistration()" id="login-login" class=" button button-royal  button-block ">Sign up</button>
             <button ui-sref="login" type="submit" id="login-login" class=" button button-royal  button-block ">Cancelar</button>

@@ -1,7 +1,16 @@
-@media only screen and (max-width: 780px){
-	.anchoMinimo{
-		visibility: hidden ;
+@media only screen and (max-width: 830px){
+	.anchoMinimo {
+		display:none;
 	}
+	.scrollMinimo {
+		overflow:scroll;
+	}
+}
+.thumbnail{
+	width:4em;
+	height:4em;
+	border-radius:100%;
+	border-style:none;
 }
 .animated{
 	opacity: 1;
@@ -130,4 +139,28 @@ input:-webkit-autofill {
 .signup-form-container span{
 	color: #fff;
 
+}
+.imgWrap {
+  height: 100%;
+  width: 100%;
+}
+
+.imgDescription {
+  position: absolute;
+  margin:auto auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #2a2b2e;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+  -o-transition: all 0.5s;
+      
+}
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
 }

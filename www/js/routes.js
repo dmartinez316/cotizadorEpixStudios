@@ -102,6 +102,16 @@ angular.module('app.routes', [])
     }    
   })
 
+  .state('app.archivadas', {
+    url: '/archivadas',
+    views:{
+      'menuContent':{
+        templateUrl: 'templates/archivadas.html',
+        controller: 'archivadasCtrl'
+      }
+    }    
+  })
+
   .state('app.informacion', {
     url: '/informacion',
     views:{
