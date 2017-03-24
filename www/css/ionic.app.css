@@ -9217,7 +9217,7 @@ a.button {
       -moz-flex: 1;
       -ms-flex: 1;
       flex: 1;
-      margin-bottom: 15px;
+      /*margin-bottom: 15px;*/
       margin-left: 0;
       max-width: 100%;
       width: 100%; } }

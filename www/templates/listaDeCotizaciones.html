@@ -7,7 +7,7 @@
         <div class=" " >
 
             <div ng-repeat="prospectos in cotizacionesProspectos">
-                <div class="item item-body">
+                <div class="item item-body" ng-hide="prospectos.cotizaciones == null || prospectos.cotizaciones.length == 0">
                     <div style="padding-bottom:0.5em; margin-top:0px;color:#000000; font-weight: bold;font-size: 120%;"  ng-click="prospectos.hide= !prospectos.hide" >
                     {{prospectos.razonSocial}}
                        <i ng-show="prospectos.hide" style="float: right;" class="icon ion-chevron-down"></i>
@@ -57,23 +57,29 @@
                                                 <div ng-repeat="procesos in cotizacion.procesosCotizacion">
                                                     <div ng-hide="procesos.costo_total==0?true:false;">
                                                         <div style="padding-bottom:0.5em;" class="item item-body " ng-click="procesos.hide= !procesos.hide" >
-                                                            Existen ({{cotizacion.procesosCotizacion[procesos.id_proceso-1].procesos.length}}) procesos en {{procesos.nombre}}
-                                                            <p>Tiempo total: {{procesos.tiempo_total |meses}} --- Costo total: {{procesos.costo_total| currency:"COP$ ":0}}</p>
-                                                            <i ng-show="procesos.hide" class="icon ion-chevron-down"></i>
-                                                            <i ng-show="!procesos.hide" class="icon  ion-chevron-up"></i>
-                                                        </div>
-                                                        <div ng-hide="procesos.hide" class="animated ">
-                                                            <div ng-repeat="procesosIndiv in procesos.procesos track by $index">
-                                                                <div class="list card">
-                                                                    <div class="item item-avatar">
-                                                                        <img src="img/{{procesosIndiv.img}}">
-                                                                        <h2 ng-click="procesosIndiv.hide= !procesosIndiv.hide">{{procesos.nombre}} {{$index+1}}--Costo individual:{{procesosIndiv.costo_individual | currency:"COP$ ":0}}--
-                                                                        Opcion elegida: {{procesosIndiv.opciones.valorEscogido}}
-                                                                        </h2>
+                                                            <div class="row responsive-sm">
+                                                                <p class="col">Existen ({{cotizacion.procesosCotizacion[procesos.id_proceso-1].procesos.length}}) procesos en {{procesos.nombre}}</p>
+                                                                <p class="col">Tiempo total: {{procesos.tiempo_total |meses}}</p>
+                                                                <p class="col">Costo total: {{procesos.costo_total| currency:"COP$ ":0}}</p>
+                                                                <div class="col"><i ng-show="procesos.hide" class="col icon ion-chevron-down"></i>
+                                                                <i ng-show="!procesos.hide" class="col icon  ion-chevron-up"></i></div>
+                                                            </div>
+                                                            <div ng-hide="procesos.hide" class="animated">
+                                                                <div class="list">
+                                                                    <div ng-repeat="procesosIndiv in procesos.procesos track by $index">          
+                                                                        <div class="card">
+                                                                            <h2 ng-click="procesosIndiv.hide= !procesosIndiv.hide">{{procesos.nombre}} {{$index+1}}
+                                                                            <p>Costo unidad:{{procesosIndiv.costo_individual | currency:"COP$ ":0}}</p>
+                                                                            <p>Opcion: {{procesosIndiv.opciones.valorEscogido}}</p>
+                                                                            
+                                                                            </h2>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                            
                                                         </div>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -111,8 +117,10 @@
                                         </div>
                                         <div  class="item button-bar ">
                                             <button on-hold="mostrarToast('Eliminar Cotizacion')" ng-click="eliminarCotizacion(prospectos.id_prospecto,cotizacion.id_cotizacion)" id="cotizaciones-button20" class=" button button-stable  button-block button-icon icon ion-android-delete "></button>
-                                            <button on-hold="mostrarToast('Descargar PDF')" ng-click='descargarpdf( cotizacion)' id="cotizaciones-button20" class=" button button-stable  button-block button-icon icon ion-android-arrow-down "></button>                                            
+                                            <button on-hold="mostrarToast('Ver PDF')" ng-click='descargarpdf(cotizacion.id_cotizacion)' id="cotizaciones-button20" class=" button button-stable  button-block button-icon icon ion-android-arrow-down "></button>                                            
                                             <button on-hold="mostrarToast('Archivar Cotizacion')" ng-click='archivar( prospectos.id_prospecto,cotizacion.id_cotizacion)' id="cotizaciones-button20" class=" button button-stable  button-block button-icon icon ion-android-upload "></button>
+
+                                           <!-- <button on-hold="mostrarToast('Copiar a nueva Cotizacion')" ng-click='copiarNuevaCotizacion(cotizacion)' id="cotizaciones-button20" class=" button button-stable  button-block button-icon icon ion-ios-copy "></button> -->
                                             
                                             </div>
                                     </div>

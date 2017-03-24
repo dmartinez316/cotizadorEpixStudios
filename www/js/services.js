@@ -1,29 +1,41 @@
-var server='http://192.168.1.53/MAKILTECH/backendCotizador/public/index.php/app/';
-//var server='http://www.epix-studios.com/cotizador/backendCotizador/public/index.php/app/';
+//var server='http://192.168.1.53/MAKILTECH/backendCotizador/public/index.php/app/';
+
+var server='http://www.epix-studios.com/cotizador/backendCotizador/public/index.php/app/';
 angular.module('app.services', [])
 
 .factory('apiCotizador', ['$http', function($http) {
-	var urlBase='http://192.168.1.53/MAKILTECH/backendCotizador/public/index.php/app/';
-	//var urlBase='http://www.epix-studios.com/cotizador/backendCotizador/public/index.php/app/';
+	//var urlBase='http://192.168.1.53/MAKILTECH/backendCotizador/public/index.php/';
+	var urlBase='http://www.epix-studios.com/cotizador/backendCotizador/public/index.php/';
     var dataFactory = {};
 
+    dataFactory.eliminarProspecto = function (prospecto_id) {
+        return $http.post(urlBase+'app/eliminarProspecto', prospecto_id);
+    };    
+
     dataFactory.guardarNuevaCotizacion = function (cotizacion) {
-        return $http.post(urlBase+'guardarNuevaCotizacion', cotizacion);
+        return $http.post(urlBase+'app/guardarNuevaCotizacion', cotizacion);
     };
 
     dataFactory.eliminarCotizacion = function (cotizacion_id) {
-        return $http.post(urlBase+'eliminarCotizacion', cotizacion_id);
+        return $http.post(urlBase+'app/eliminarCotizacion', cotizacion_id);
     };
     dataFactory.archivarCotizacion = function (cotizacion_id) {
-        return $http.post(urlBase+'archivarCotizacion', cotizacion_id);
+        return $http.post(urlBase+'app/archivarCotizacion', cotizacion_id);
     };
     dataFactory.getUserData = function () {
-        return $http.get(urlBase+'userData');
+        return $http.get(urlBase+'app/userData');
     };
     dataFactory.getAppData = function () {
-        return $http.get(server+'getAppData')
+        return $http.get(urlBase+'app/getAppData');
     };
 
+    dataFactory.signPDFurl = function (cotizacion_id) {
+    	return $http.post(urlBase+'signPDFurl',cotizacion_id);
+    };
+
+    dataFactory.getCotizacionesArchivadas = function () {
+    	return $http.get(urlBase+'app/getCotizacionesArchivadas');
+    };
 
     return dataFactory;
 }])
@@ -77,6 +89,26 @@ angular.module('app.services', [])
 	
 
 	return{
+
+		viewPDF:function(cotizacion_id){
+			data={'cotizacion_id':cotizacion_id};
+			//window.open(response.data);
+			apiCotizador.signPDFurl(data)
+			.then(function(response){
+				console.log(response);
+				if(response.data.estado=='200'){
+					window.open(response.data.url);
+					return{
+						estado:response.data.estado
+					}
+				}else{
+					return{
+						estado:response.data.estado
+					}
+				}
+
+			});
+		},
 
 		descargarPDF:function(cotizacionPDF){
 			cotizacionNueva=angular.copy(cotizacionPDF);
@@ -209,53 +241,19 @@ angular.module('app.services', [])
 				}
 			}
 
-			console.log(docDefinition);
+			return $q(function(resolve, reject) {
+			          pdfMake.createPdf(docDefinition).getBase64(function(encodedString) {
+			            resolve(encodedString);
+			          });
+			        });
 			
-			if (ionic.Platform.isIOS()) {
-				pdfMake.createPdf(docDefinition).getBuffer(function (buffer) {
-					var nombre_archivo=prospecto.razonSocial+cotizacionNueva.opcionesCotizacion.nombre_producto+'.pdf';
-					var pathFile = cordova.file.documentsDirectory;
-				    var utf8 = new Uint8Array(buffer); // Convert to UTF-8... 
-				    binaryArray = utf8.buffer; // Convert to Binary...
-				    $cordovaFile.writeFile(pathFile, nombre_archivo, binaryArray, true)
-				    .then(function (success) {
-				    	console.log("pdf created");
-				    	$cordovaFileOpener2.open(
-					        pathFile+'/'+nombre_archivo, // Any system location, you CAN'T use your appliaction assets folder
-					        'application/pdf'
-					    ).then(function() {
-					        console.log('Success');
-					    }, function(err) {
-					        console.log('An error occurred: ' + JSON.stringify(err));
-					    });
-				    }, function (error) {
-				    	console.log("error");
-				    });
-				});
-			} else if(ionic.Platform.isAndroid()) {
-				var nombre_archivo=prospecto.razonSocial+cotizacionNueva.opcionesCotizacion.nombre_producto+'.pdf';
-				var pathFile = cordova.file.dataDirectory;
-				pdfMake.createPdf(docDefinition).open();
-				pdfMake.createPdf(docDefinition).getBuffer(function (buffer) {
-				    var utf8 = new Uint8Array(buffer); // Convert to UTF-8... 
-				    binaryArray = utf8.buffer; // Convert to Binary...
-				    $cordovaFile.writeFile(pathFile, nombre_archivo, binaryArray, true)
-				    .then(function (success) {
-				    	console.log("pdf created");
-				    	$cordovaFileOpener2.open(pathFile+'/'+nombre_archivo,'application/pdf')
-				    	.then(function() {
-					        console.log( pathFile+'/'+nombre_archivo);
-					    }, function(err) {
-					        console.log('An error occurred: ' + JSON.stringify(err));
-					    });
-				    }, function (error) {
-				    	console.log("error");
-				    });
-				});
-			}else{
-				pdfMake.createPdf(docDefinition).download(prospecto.razonSocial+'.pdf');
-			}
 		},
+
+		descargarPDFreturn:function(data){
+			return this.descargarPDF(data);
+		},
+
+		
 		orientacionFunction:function(){
 			var currentPlatform = ionic.Platform.platform();
 			if(currentPlatform=='android' || currentPlatform=='ios'){
@@ -382,7 +380,6 @@ angular.module('app.services', [])
 		eraseCache:function(){
 			$localStorage.$reset({
 				appData:{
-					"tarifaDetalle":$localStorage.appData.tarifaDetalle,
 					"procesosCotizador":$localStorage.appData.procesosUsuario
 				}
 			});
@@ -397,9 +394,9 @@ angular.module('app.services', [])
 			//obtener tarifas del servidor
 			var alwaysUpdate=1;
 			if(alwaysUpdate||$localStorage.appData.procesosCotizador.length==0){
-				 apiCotizador.getAppData().
+				 return apiCotizador.getAppData().
 					then(function(response){
-						console.log(response);
+						//console.log(response);
 						if(response.status=="200"){
 							$localStorage.appData.procesosCotizador=response.data.procesosCotizador;	
 						}else {
@@ -414,7 +411,7 @@ angular.module('app.services', [])
 			//console.log(emailString);
 			 apiCotizador.getUserData().
 				then(function(response){
-					console.log(response);
+					//console.log(response);
 					if(response.data.estado=="200"){
 						$localStorage[emailString].prospectosUsuario=response.data.data.prospectosUsuario;
 						$localStorage[emailString].cotizacionesProspectos=response.data.data.cotizacionesProspectos;						
@@ -424,6 +421,21 @@ angular.module('app.services', [])
 							"prospectosUsuario":[],
 							"cotizacionesProspectos":[]
 						};						
+					}else if(response.data.estado=="401"){
+
+					}
+				});					
+		},
+
+		getCotizacionesArchivadas:function(){
+			//console.log(emailString);
+			 return apiCotizador.getCotizacionesArchivadas().
+				then(function(response){
+					//console.log(response);
+					if(response.data.estado=="200"){						
+						return response.data.data.cotizacionesProspectos;
+					}else if(response.data.estado=="500"){
+						return response.data.data.msj;						
 					}else if(response.data.estado=="401"){
 
 					}
@@ -463,7 +475,7 @@ angular.module('app.services', [])
 
 			return  $http.get(server+'getTarifasProcesos').
 			then(function (response) {
-				console.log(response);
+				//console.log(response);
 				if(response.data.estado=='200'){
 					return{
 						estado:response.data.estado,
@@ -514,7 +526,7 @@ angular.module('app.services', [])
 
 			return  $http.post(server+'guardarProspecto',prospectoNuevo).
 			then(function (response) {
-				console.log(response);
+				//console.log(response);
 				if(response.data.estado=='200'){
 					
 					newProspecto={
@@ -551,14 +563,16 @@ angular.module('app.services', [])
 			})
 		},
 
-		removeProspect:function(prospecto_id){
+		eliminarProspecto:function(prospecto_id){
+			console.log(prospecto_id);
+			data={"prospecto_id":prospecto_id};
 
-			return  $http.post(server+'eliminarProspecto',prospecto_id).
+			return apiCotizador.eliminarProspecto(data).
 			then(function (response) {
 				console.log(response);
 				if(response.data.estado=='200'){
 					for (var i = 0; i < $localStorage[$localStorage.userInfo.useremail].prospectosUsuario.length ; ++i) {
-						if($localStorage[$localStorage.userInfo.useremail].prospectosUsuario[i].id == prospecto_id){
+						if($localStorage[$localStorage.userInfo.useremail].prospectosUsuario[i].id_prospecto == prospecto_id){
 							$localStorage[$localStorage.userInfo.useremail].prospectosUsuario.splice(i,1);
 							break;					
 						}
@@ -584,7 +598,7 @@ angular.module('app.services', [])
 
 		setProcesosActivos: function(data){
 			procesosActivos=angular.copy(data);
-			console.log(procesosActivos);
+			//console.log(procesosActivos);
 		},
 
 		getProcesosActivos: function(){
@@ -597,37 +611,46 @@ angular.module('app.services', [])
 			return opcionSeleccionada;
 		},
 
-		agregarNuevaCotizacion:function(data) {
-			console.log(data);
-			return apiCotizador.guardarNuevaCotizacion(data).
-			then(function(response){
-				//console.log(response);
-				if(response.data.estado=="200"){
-					//console.log(response);
-					data.id_cotizacion=response.data.id_cotizacion;
-					for (var i = 0; i<$localStorage[$localStorage.userInfo.useremail].cotizacionesProspectos.length ; i++) {
-						if($localStorage[$localStorage.userInfo.useremail].cotizacionesProspectos[i].id_prospecto
-							==data.opcionesCotizacion.prospectoSeleccionado){
-							$localStorage[$localStorage.userInfo.useremail].cotizacionesProspectos[i].cotizaciones.push(data);
-							break;
-						}						
+		agregarNuevaCotizacion:function(datos) {
+
+			return this.descargarPDF(datos).then(function(results) {
+		    	pdfString = results;
+		    	data={
+		    		'data': datos,
+		    		'pdfBase64String':pdfString
+		    	}
+		    	//console.log(data);
+				return apiCotizador.guardarNuevaCotizacion(data).
+				then(function(response){
+				//	console.log(response);
+					if(response.data.estado=="200"){
+						console.log(response);
+						datos.id_cotizacion=response.data.cotizacion_id;
+						for (var i = 0; i<$localStorage[$localStorage.userInfo.useremail].cotizacionesProspectos.length ; i++) {
+							if($localStorage[$localStorage.userInfo.useremail].cotizacionesProspectos[i].id_prospecto
+								==datos.opcionesCotizacion.prospectoSeleccionado){
+								$localStorage[$localStorage.userInfo.useremail].cotizacionesProspectos[i].cotizaciones.push(datos);
+								break;
+							}						
+						}
+						return{
+							estado:response.data.estado,
+							msj: response.data.msj
+						}
+					}else{
+						return{
+							estado:response.data.estado,
+							msj: response.data.msj
+						}
 					}
-					return{
-						estado:response.data.estado,
-						msj: response.data.msj
-					}
-				}else{
-					return{
-						estado:response.data.estado,
-						msj: response.data.msj
-					}
-				}
-			});
+				});
+		     	
+		    });		
 			
 		},
 
 		eliminarCotizacion:function(id_prospecto,cotizacion_id){
-			
+			console.log(cotizacion_id);
 			data={"cotizacion_id":cotizacion_id};
 			return apiCotizador.eliminarCotizacion(data).
 				then(function(response){
@@ -736,11 +759,18 @@ angular.module('app.services', [])
 	function storeUserCredentials(token,username,email) {
 		$localStorage.userInfo.username=username;
 		$localStorage.userInfo.userToken=token; 
-		$localStorage.userInfo.useremail=email+'_userData';  
-		cotizadorModelService.initUserData();
-		cotizadorModelService.initAppData();
+		$localStorage.userInfo.useremail=email+'_userData';
+		var emailString= $localStorage.userInfo.useremail;
+		$localStorage[emailString]={
+			"prospectosUsuario":[],
+			"cotizacionesProspectos":[]
+		};	
 		useCredentials(token);
+		cotizadorModelService.initAppData().then(function(response){
+			cotizadorModelService.initUserData();
+		})
 	}
+	
 
 	function useCredentials(token) {
 		rol = token.split('.')[0];

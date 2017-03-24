@@ -10,7 +10,7 @@
 
   <div style="width:98%;margin:auto;">
    <!-- SELECT PROSPECTOS -->
-    <div style="margin:0.2em;padding:0px;width:99%;" class="item item-input item-select "  data-tap-disabled="true">
+    <div style="padding:0px;width:99%;margin:auto;" class="item item-input item-select "  data-tap-disabled="true">
       <div class="row">
         <div class="col col-70">
           <div class="input-label">Prospectos</div>
@@ -24,41 +24,42 @@
     </div>
 
 <!-- FORMA DE PAGO INPUT-->
-  
-    <div style="margin:0.2em;padding:0px;width:99%;">
+  <div  style="padding:0px" class="row responsive-sm">
+    <div class="col">
       <label class="item item-input " id="cotizar-formapago">
-      <span class="input-label">Forma pago</span>
+      <span class="input-label"> Forma pago</span>
       <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="opcionesSeleccionadas.formaPago" type="text"  placeholder="Pago">
     </label>
     </div>
- 
+  </div>
 
 <!-- NOMBRE PRODUCTO INPUT-->
-  <div style="margin:0.2em;padding:0px;width:99%;">
+<div style="padding:0px" class="row">
+  <div class="col col-100">
     <label class="item item-input " id="cotizar-nombre_producto">
-      <span class="input-label">Nombre producto</span>
+      <span class="input-label">Nombre del producto</span>
       <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="opcionesSeleccionadas.nombre_producto" type="text"  placeholder="Producto">
     </label>
   </div>
-
+</div>
 
 <!-- PROCESOS BUTTONS -->
 
-  <div  class="" style="width:100%;height:20%;margin:auto; padding:0px;" >
-      <div class="row ">
-    <div ng-repeat="proceso in procesosUsuario">
-        <div style="padding:0.1em" class="imgWrap col">
-           <div on-hold="mostrarToast('{{proceso.nombre}}')" style="border-radius: 0px;"  ng-click="addProcess(proceso.id_proceso)" id="cotizaciones-button-{{proceso.nombre}}" class="button button-dark" >
-            <img  src="img/{{proceso.img}}" style="width : 100% ; height : 100%"></img>
-            <p class="imgDescription" style="text-align: center;" >{{proceso.nombre}}</p>
-          </div>
-        </div>   
-      <h5 class="anchoMinimo" style="text-align: center;" >{{proceso.nombre}}</h5>
+  
 
-      </div>
+    <div  class="scrollMinimo" style="width:100%;height:20%;margin:auto; padding:0px;" >
+      <div class="row ">
+        <div ng-repeat="proceso in procesosUsuario">
+            <div style="padding:0.1em" class="imgWrap col">
+               <div on-hold="mostrarToast('{{proceso.nombre}}')" style="border-radius: 0px;"  ng-click="addProcess(proceso.id_proceso)" id="cotizaciones-button-{{proceso.nombre}}" class="button button-dark" >
+                <img  ng-src="img/{{proceso.nombre|capitalize}}.png" style="width : 100% ; height : 100%"></img>
+                <p class="imgDescription" style="text-align: center;" >{{proceso.nombre}}</p>
+              </div>
+            </div>   
+          <h5 class="anchoMinimo" style="text-align: center;" >{{proceso.nombre}}</h5>
+        </div>
     </div>
   </div>
-  
 
 
 <!-- PROCESOS DIVS -->
@@ -75,15 +76,14 @@
 
           <div class="list card">
             <div class="item item-avatar">
-              <img src="img/{{procesosIndiv.img}}">
+              <img ng-src="img/{{procesos.nombre}}.png">
               <h2 ng-click="procesosIndiv.hide= !procesosIndiv.hide">{{procesos.nombre}} {{$index+1}}
               <i ng-show="procesosIndiv.hide" class="icon ion-chevron-down"></i>
               <i ng-show="!procesosIndiv.hide" class="icon  ion-chevron-up"></i></h2>
 
               <div ng-hide="procesosIndiv.hide" class="animated">
                 <div class="list">
-                <div class="item row responsive-sm">
-
+                <div class="item row">
                   <ion-radio name="radioGroupIntervalo{{procesosIndiv.nombre}}{{$index}}" ng-model="procesosIndiv.tipo_intervalo" ng-change="cambiarTotal(procesosIndiv,'mes','tipo_intervalo')" class="col col-50" ng-value="'dia'" >Dias</ion-radio>
                   <ion-radio name="radioGroup{{procesosIndiv.nombre}}{{$index}}" ng-model="procesosIndiv.tipo_intervalo" class="col col-50" ng-change="cambiarTotal(procesosIndiv,'dia','tipo_intervalo')" ng-value="'mes'">Meses</ion-radio>
                 </div>
@@ -119,7 +119,6 @@
     </div>
   </div>
 </div>
-
 </div>
 
 <!-- TIEMPO ENTREGA INPUT -->
@@ -148,33 +147,6 @@
     </div>
 </div>
 
-<!-- IMG INPUT -->
-
-<!--
-<div style="margin:0.2em;" class="item item-body " id="lista-reqCotizacion">
-  <div class="item item-body " style="border-style:none;">
-    Imagenes
-      <i style="font-size: 20px;float: right;" ng-click="agregarImg()" class="icon ion-plus-circled"></i>
-  </div>
-   <form name="myForm">
-    <div class="list">
-      <div ng-repeat="item in imgs track by $index">
-        <div class="item item-input " id="cotizar-tiempo_entrega">
-         {{$index+1}}.
-          <input  type="file" ngf-select ng-model="item.url" name="file"    
-             accept="image/*" ngf-max-size="1MB"  ngf-model-invalid="errorFile">
-              <img class="thumbnail" ng-show="myForm.file.$valid" ngf-thumbnail="item.url" >
-            <i ng-show="myForm.file.$error.maxSize">Imagen demasiado grande
-                {{errorFile.size / 1000000|number:1}}MB: max 1M</i>
-            <div class="padding" ng-click="quitarImg({{$index}})"><i style="font-size: 30px;"  class="icon ion-trash-b"></i>
-        </div>
-      </div>
-    </div>
-  </div>
-  </form>
-  <a ng-click="exportarImagenes()" id="" class=" button button-dark  button-block button-outline ">Exportar</a>
-</div>
--->
 <!-- CALCULAR BUTTON -->
 
 

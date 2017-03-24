@@ -35,6 +35,7 @@ angular.module('app.controllers', [])
 	//Cargar prospectos de usuario de la bd
 
 	$scope.removeProspect=function(prospecto_id){
+		//console.log(prospecto_id);
 		var confirmPopup = $ionicPopup.confirm({
 			title: 'Eliminar Prospecto',
 			template: '¿Está seguro que quiere eliminar este prospecto? Tambien eliminaran todas las cotizaciones relacionadas con el',
@@ -48,19 +49,13 @@ angular.module('app.controllers', [])
 				onTap: function(e) {
 
 					cotizadorModelService.showLoading('Cargando...');
-					cotizadorModelService.removeProspect(prospecto_id).
+					cotizadorModelService.eliminarProspecto(prospecto_id).
 					then(function(data) {
 						console.log(data);
 						cotizadorModelService.hideLoading();
 						if(data.estado=='200'){
+							$scope.prospectosUsuario=cotizadorModelService.getProspectos();			
 							cotizadorModelService.mensajeBasico('Exito',data.msj,'button-balanced');
-
-							for (var i = 0; i < $scope.prospectosUsuario.length ; ++i) {
-								if($scope.prospectosUsuario[i].id == prospecto_id){
-									$scope.prospectosUsuario[i].estado=false;
-									break;						
-								}
-							}			
 						}else if(data.estado=='500'){
 							cotizadorModelService.mensajeBasico('Error',data.msj+',intenta de nuevo.','button-balanced');
 						}else if(data.estado=='200'){
@@ -92,7 +87,7 @@ angular.module('app.controllers', [])
 	var data=cotizadorModelService.initEditarProspecto(false);
 	if(data.estadoEditar){
 		$scope.infoProspecto=cotizadorModelService.getProspectobyID(data.prospectoID);
-		console.log($scope.infoProspecto);
+		//console.log($scope.infoProspecto);
 	}else{
 		cotizadorModelService.initEditarProspecto(true);		
 		cotizadorModelService.mensajeBasico('Error','No se selecciono ningun prospecto para editar','button-balanced');
@@ -108,7 +103,7 @@ angular.module('app.controllers', [])
 		}else{
 			cotizadorModelService.editarProspectoExistente($scope.infoProspecto).
 			then(function(data) {
-				console.log(data);
+				//console.log(data);
 				cotizadorModelService.hideLoading();
 				if(data.estado=='200'){
 					cotizadorModelService.mensajeBasico('Exito',data.msj,'button-balanced');		
@@ -256,6 +251,7 @@ angular.module('app.controllers', [])
 
 		if(backfromcalcular){
 			$scope.procesosCotizacion=cotizadorModelService.getProcesosActivos();
+			//console.log($scope.procesosCotizacion);
 			$scope.opcionesSeleccionadas=cotizadorModelService.getOpcionesSeleccionadas();
 			$scope.requisitosCot=$scope.opcionesSeleccionadas.requisitos;
 			$scope.totalCotizacion=0;
@@ -316,12 +312,6 @@ angular.module('app.controllers', [])
 			{
 				"id_proceso":"7",
 				"nombre":"Postproduccion",
-				"hide":true,
-				"procesos":[],
-			},
-			{
-				"id_proceso":"8",
-				"nombre":"Otros",
 				"hide":true,
 				"procesos":[],
 			}
@@ -393,13 +383,21 @@ angular.module('app.controllers', [])
 			else if(origen_input=='dificultad'){
 				for(var i=0;i<tarifasProcesos.length;i++){
 					if(oldVal==tarifasProcesos[i].dificultad &&proceso_cc.id_proceso==tarifasProcesos[i].id_proceso){
-						valorViejo=tarifasProcesos[i].costo_dia*Number(proceso_cc.dias);
+						if(proceso_cc.tipo_intervalo=='dia'){
+							valorViejo=tarifasProcesos[i].costo_dia*Number(proceso_cc.dias);
+						}else{
+							valorViejo=tarifasProcesos[i].costo_mes*Number(proceso_cc.dias);
+						}
 					}
 				}
 
 				for(var i=0;i<tarifasProcesos.length;i++){
 					if(proceso_cc.dificultad==tarifasProcesos[i].dificultad &&proceso_cc.id_proceso==tarifasProcesos[i].id_proceso){
-						valorNuevo=tarifasProcesos[i].costo_dia*Number(proceso_cc.dias);
+						if(proceso_cc.tipo_intervalo=='dia'){
+							valorNuevo=tarifasProcesos[i].costo_dia*Number(proceso_cc.dias);
+						}else{
+							valorNuevo=tarifasProcesos[i].costo_mes*Number(proceso_cc.dias);
+						}
 					}
 				}
 				$scope.totalCotizacion=$scope.totalCotizacion-valorViejo;
@@ -409,13 +407,21 @@ angular.module('app.controllers', [])
 				console.log(oldVal);
 				for(var i=0;i<tarifasProcesos.length;i++){
 					if(proceso_cc.dificultad==tarifasProcesos[i].dificultad &&proceso_cc.id_proceso==tarifasProcesos[i].id_proceso){
-						valorViejo=tarifasProcesos[i].costo_dia*oldVal;
+						if(proceso_cc.tipo_intervalo=='dia'){
+							valorViejo=tarifasProcesos[i].costo_dia*oldVal;
+						}else{
+							valorViejo=tarifasProcesos[i].costo_mes*oldVal;
+						}
+
 					}
 				}
-
 				for(var i=0;i<tarifasProcesos.length;i++){
 					if(proceso_cc.dificultad==tarifasProcesos[i].dificultad &&proceso_cc.id_proceso==tarifasProcesos[i].id_proceso){
-						valorNuevo=tarifasProcesos[i].costo_dia*Number(proceso_cc.dias);
+						if(proceso_cc.tipo_intervalo=='dia'){
+							valorNuevo=tarifasProcesos[i].costo_dia*Number(proceso_cc.dias);
+						}else{
+							valorNuevo=tarifasProcesos[i].costo_mes*Number(proceso_cc.dias);
+						}
 					}
 				}
 				$scope.totalCotizacion= $scope.totalCotizacion-valorViejo;
@@ -594,7 +600,7 @@ angular.module('app.controllers', [])
 				
 			}
 		}
-		console.log($scope.procesosCotizacion[0]);
+		//console.log($scope.procesosCotizacion[0]);
 	}
 
 	$scope.calcularItems=function(){
@@ -631,35 +637,55 @@ angular.module('app.controllers', [])
 
 .controller('listaDeCotizacionesCtrl', function($scope,cotizadorModelService,$ionicPopup) {
 	$scope.cotizacionesProspectos=cotizadorModelService.getCotizaciones();
-	console.log($scope.cotizacionesProspectos);
 	//console.log($scope.cotizacionesProspectos);
+	//console.log($scope.cotizacionesProspectos);
+	$scope.copiarNuevaCotizacion = function(cotizacion) {
+		var confirmPopup = $ionicPopup.confirm({
+			title: 'Copiar Cotizacion',
+			template: 'Desea copiar esta cotizacion a una nueva?',
+			buttons: [
+			{text: 'Cancelar',type: 'button-balanced'},
+			{
+				text: '<b>Ok</b>',
+				onTap: function(e) {
+					cotizadorModelService.setProcesosActivos($scope.procesosCotizacion);
+					cotizadorModelService.setOpcionesSeleccionadas(cotizacion.opcionesCotizacion);
+					cotizadorModelService.setTarifas(tarifasProcesos);
+					cotizadorModelService.setBackFromCalcular();
+					cotizadorModelService.cambiarVista('app.calcular',false);
+
+				}
+			}]
+		});
+	}
+	
 
 	$scope.mostrarToast = function(message) {
-			if(ionic.Platform.platform()=='win32'){
-				cotizadorModelService.mensajeBasico(message,'','button-balanced');
+		if(ionic.Platform.platform()=='win32'){
+			cotizadorModelService.mensajeBasico(message,'','button-balanced');
 
-			}else if(ionic.Platform.platform()=='android'){
-				$cordovaToast.show(message, 'short', 'bottom').then(function(success) {
-		            console.log("The toast was shown");
-		        }, function (error) {
-		            console.log("The toast was not shown due to " + error);
-		        });
+		}else if(ionic.Platform.platform()=='android'){
+			$cordovaToast.show(message, 'short', 'bottom').then(function(success) {
+	            console.log("The toast was shown");
+	        }, function (error) {
+	            console.log("The toast was not shown due to " + error);
+	        });
 
-			}else if(ionic.Platform.platform()=='ios'){
-				$cordovaToast.show(message, 'short', 'bottom').then(function(success) {
-		            console.log("The toast was shown");
-		        }, function (error) {
-		            console.log("The toast was not shown due to " + error);
-		        });
+		}else if(ionic.Platform.platform()=='ios'){
+			$cordovaToast.show(message, 'short', 'bottom').then(function(success) {
+	            console.log("The toast was shown");
+	        }, function (error) {
+	            console.log("The toast was not shown due to " + error);
+	        });
 
-			}else{
-				cotizadorModelService.mensajeBasico('Proceso',message,'button-balanced');
-			}
+		}else{
+			cotizadorModelService.mensajeBasico('Proceso',message,'button-balanced');
+		}
 	        
-	    }
+	}
 
 	$scope.eliminarCotizacion=function(id_prospecto,id_cotizacion){
-		//console.log(id);
+		console.log(id_cotizacion);
 		var confirmPopup = $ionicPopup.confirm({
 			title: 'Eliminar Cotizacion',
 			template: '¿Está seguro que quiere eliminar esta cotizacion?',
@@ -725,14 +751,79 @@ angular.module('app.controllers', [])
 		
 	}
 
-	$scope.descargarpdf=function(cotizacionNueva){
-		cotizadorModelService.descargarPDF(cotizacionNueva);
-
+	$scope.descargarpdf=function(cotizacion_id){		
+		console.log(cotizacion_id);
+		cotizadorModelService.viewPDF(cotizacion_id);
 	};		
 })  
 
 .controller('archivadasCtrl', function($scope,cotizadorModelService,$ionicPopup) {
+	$scope.mostrarToast = function(message) {
+		if(ionic.Platform.platform()=='win32'){
+			cotizadorModelService.mensajeBasico(message,'','button-balanced');
 
+		}else if(ionic.Platform.platform()=='android'){
+			$cordovaToast.show(message, 'short', 'bottom').then(function(success) {
+	            console.log("The toast was shown");
+	        }, function (error) {
+	            console.log("The toast was not shown due to " + error);
+	        });
+
+		}else if(ionic.Platform.platform()=='ios'){
+			$cordovaToast.show(message, 'short', 'bottom').then(function(success) {
+	            console.log("The toast was shown");
+	        }, function (error) {
+	            console.log("The toast was not shown due to " + error);
+	        });
+
+		}else{
+			cotizadorModelService.mensajeBasico('Proceso',message,'button-balanced');
+		}
+	        
+	}
+
+	$scope.descargarpdf=function(cotizacion_id){		
+		console.log(cotizacion_id);
+		cotizadorModelService.viewPDF(cotizacion_id);
+	};
+
+	$scope.eliminarCotizacion=function(id_prospecto,id_cotizacion){
+		console.log(id_cotizacion);
+		var confirmPopup = $ionicPopup.confirm({
+			title: 'Eliminar Cotizacion',
+			template: '¿Está seguro que quiere eliminar esta cotizacion?',
+			buttons: [
+			{text: 'Cancelar',type: 'button-balanced'},
+			{
+				text: '<b>Ok</b>',
+				onTap: function(e) {
+
+					cotizadorModelService.showLoading('Cargando...');
+					cotizadorModelService.eliminarCotizacion(id_prospecto,id_cotizacion).
+					then(function(data) {
+						console.log(data);
+						cotizadorModelService.hideLoading();
+						if(data.estado=='200'){
+							cotizadorModelService.mensajeBasico('Exito',data.msj,'button-balanced');
+							$scope.cotizacionesProspectos=cotizadorModelService.getCotizaciones();		
+						}else if(data.estado=='500'){
+							cotizadorModelService.mensajeBasico('Error',data.msj+',intenta de nuevo.','button-balanced');
+						}else if(data.estado=='200'){
+							cotizadorModelService.mensajeBasico('Error','No se encontro sesion activa, ingresa de nuevo','button-balanced');
+							
+							AuthService.logout();							
+							cotizadorModelService.cambiarVista('login',true);
+						}
+					});
+				}
+			}]
+		});
+	};
+
+	cotizadorModelService.getCotizacionesArchivadas()
+		.then(function(response){
+			$scope.cotizacionesProspectos=response;
+		});
 })
 
 
@@ -800,8 +891,6 @@ angular.module('app.controllers', [])
 
 	var procesosCotizacionServidor=[];
 
-	
-
 
 	//VER SI ESTA VACIO PROCESOS ACTIVOS Y OPCIONES SELECCIONADAS
 	if(!cotizadorModelService.isEmpty($scope.procesosActivos) || 
@@ -856,21 +945,23 @@ angular.module('app.controllers', [])
 		$scope.margenesPorcentuales.margen=($scope.totales.precioSinIva-$scope.totales.totalProduccion)/$scope.totales.precioSinIva;
 
 			//console.log($scope.procesosCotizacion);
-		var d= new Date();
-		var cotizacionNueva={
-			"id_cotizacion":null,
-			"fecha":d.getFullYear()+"/"+(d.getMonth()+1)+"/"+d.getDate(),
-			"costos_fijos":$scope.margenesPorcentuales.costosFijos,
-			"financiacion":$scope.totales.financiacion,
-			"markup":$scope.margenesPorcentuales.markUp,
-			"costo_total":$scope.totales.precioSinIva,
-			"procesosCotizacion":$scope.procesosCotizacion,
-			"opcionesCotizacion":$scope.opcionesSeleccionadas,
-			"estado":true,
-			"hide":false
-		};
-		console.log(cotizacionNueva);
+		
 		$scope.guardarCotizacion= function(){
+			var d= new Date();
+			var cotizacionNueva={
+				"id_cotizacion":null,
+				"fecha":d.getFullYear()+"/"+(d.getMonth()+1)+"/"+d.getDate(),
+				"costos_fijos":$scope.margenesPorcentuales.costosFijos,
+				"financiacion":$scope.totales.financiacion,
+				"markup":$scope.margenesPorcentuales.markUp,
+				"costo_total":$scope.totales.precioSinIva,
+				"procesosCotizacion":$scope.procesosCotizacion,
+				"opcionesCotizacion":$scope.opcionesSeleccionadas,
+				"estado":true,
+				"hide":false
+			};
+			console.log(cotizacionNueva);
+
 			//console.log($scope.opcionesSeleccionadas.prospectoSeleccionado.id);
 			cotizadorModelService.showLoading('Cargando...');
 			cotizadorModelService.agregarNuevaCotizacion(cotizacionNueva).
