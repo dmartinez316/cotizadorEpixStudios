@@ -68,6 +68,7 @@ angular.module('app.services', [])
 	var newProspecto=null;
 	var ProspectoCotizacionActivo=null;	
 	var backFromCalcular=false;
+	var controllerFlag=false;
 	var tarifasProc=null;
 	//EditarProspecto
 	var editarProspecto={
@@ -89,6 +90,14 @@ angular.module('app.services', [])
 	
 
 	return{
+
+		setBackFromController:function(controlador){
+			controllerFlag=controlador;
+		},
+
+		getBackFromAnotherController:function(){
+			return controllerFlag;
+		},
 
 		viewPDF:function(cotizacion_id){
 			data={'cotizacion_id':cotizacion_id};
@@ -448,6 +457,7 @@ angular.module('app.services', [])
 			newProspecto=null;
 			ProspectoCotizacionActivo=null;
 			backFromCalcular=false;
+			controllerFlag=false;
 		},
 
 		setBackFromCalcular:function(){

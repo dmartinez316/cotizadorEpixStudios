@@ -64,7 +64,7 @@
                             <div ng-repeat="procesosIndiv in procesos.procesos track by $index">
                                 <div class="list card">
                                     <div class="item item-avatar">
-                                        <img src="img/{{procesos.nombre}}.png">
+                                        <img ng-src="img/{{procesos.nombre}}.png">
                                         <h2 ng-click="procesosIndiv.hide= !procesosIndiv.hide">{{procesos.nombre}} {{$index+1}}--Costo individual:{{procesosIndiv.costo_individual | currency:"COP$ ":0}}--
                                         Opcion elegida: {{procesosIndiv.opciones.valorEscogido}}
                                         </h2>
@@ -112,7 +112,7 @@
             </div>
         </div>
             <div id="" class=" button-bar ">
-                <a ng-click="exportarCotizacion()" id="" class=" button button-dark  button-block button-outline ">Exportar</a>
+               <!-- <a ng-click="exportarCotizacion()" id="" class=" button button-dark  button-block button-outline ">Exportar</a> -->
                 <a ng-click="guardarCotizacion()" id="" class=" button button-dark  button-block button-outline ">Guardar</a>
                 <a ng-click="cancelarCotizacion()" id="" class=" button button-dark  button-block button-outline ">Cancelar</a>
             </div>

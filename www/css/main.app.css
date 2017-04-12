@@ -1,17 +1,99 @@
-@media only screen and (max-width: 830px){
+@media only screen and (max-width: 829px){
+
+	.procesos-button-bar{
+		overflow-x:scroll;
+		overflow-y:hidden;
+	}
 	.anchoMinimo {
 		display:none;
+	}
+
+	.scrollMinimo {
+		overflow-x:scroll;
+	}
+	
+	#adjust-form{
+		width: 95%;
+	}
+
+	.cotizaciones-container{
+	 	padding: 5px;
+	 }
+
+}
+
+
+@media only screen and (min-width: 830px){
+	.procesos-button-bar{
+		overflow-x:hidden;
+		overflow-y:hidden;
+	}
+	.anchoMaximo {
+		width: 50% !important;
 	}
 	.scrollMinimo {
 		overflow-x:scroll;
 	}
+
+	.cotizaciones-container{
+	 	padding: 7px;
+	}
 }
 
-@media (max-width: 568px) { 
+@media only screen and (max-height: 568px){	
+
+	.header-content{
+		margin-bottom: 0.5em;
+	}
+}
+
+@media only screen and (min-height: 570px){	
+
+	.header-content{
+		margin-bottom: 3em;
+	}
+}
+
+
+@media only screen and (max-width: 569px) { 
+	.procesos-button-bar{
+		overflow-x:scroll;
+		overflow-y:hidden;
+	}
+
 	.responsive-sm .col{
       	margin:0;
 	}
+
+	.login-form i{
+		padding: 0px;
+		font-size: 90%;
+	}
+
+	.cotizaciones-container{
+	 	padding: 2px;
+	 }
  }
+
+input[placeholder]          {text-overflow:ellipsis;}
+input::-moz-placeholder     {text-overflow:ellipsis;}
+input:-moz-placeholder      {text-overflow:ellipsis;}
+input:-ms-input-placeholder {text-overflow:ellipsis;}
+ 
+.tiempo-entrega-input input[type="text"]{
+	margin:0px;width:100%;
+}
+.procesos-button-bar{
+	width:100%;
+	height:20%;
+	padding:0px;	
+	margin:auto; 
+}
+
+ .cotizaciones-container{
+ 	width:98%;margin:auto;
+ }
+
 .thumbnail{
 	width:4em;
 	height:4em;
@@ -37,6 +119,28 @@
   padding-left: 40px !important;
 }
 
+.recuperarForm {
+	width: 50%; 
+	margin:auto;
+}
+
+
+.recuperarForm p{
+	color:#2a2b2e;
+	font-weight: lighter;  
+	vertical-align: middle; 
+	font-size:medium
+}
+
+.header-content{	
+	text-align: center;
+	font-style: "Open Sans";
+	color:#17181A;
+}
+
+.header-content h1,h2,h3,h4,h5{
+	color:#2a2b2e;
+}
 
 
 .animated.ng-hide{
@@ -57,8 +161,8 @@ input:-webkit-autofill {
     background-size: cover;
     border-radius: 5%;
     height: 7em;
-    margin: 3em auto;
-		margin-bottom: 1em;
+    margin: 1em auto;
+	margin-bottom: 1em;
     width: 7em;
 
 }
@@ -93,11 +197,7 @@ input:-webkit-autofill {
 	margin:1em auto !important;
 	color: #e1e4ea !important;
 }
-.content{
-	text-align: center;
-	font-style: "Open Sans";
-	color:#17181A;
-}
+
 
 #login-login {
     background-color: #17181A;

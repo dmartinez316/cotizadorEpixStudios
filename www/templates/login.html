@@ -1,22 +1,19 @@
 <ion-view cache-view="false" view title="Login" name="login-view" title="Login" hide-nav-bar="true" id="login" class=" ">
     <ion-content style="background:linear-gradient(#c0e060,#00a6a6);" padding="false" class="manual-ios-statusbar-padding" scroll="true">
         <div class="hero no-header flat">
-            <div class="content">
-                <div class="app-icon"></div>
-                <div style="margin-bottom:5em;color:white;">
+            <div class="header-content">
+                <div class="app-icon"></div>                
                   <h1 style="color:#2a2b2e;margin-bottom:0.1em;">EPIX STUDIOS </h1>
-                  <h4 style="color:#2a2b2e;margin-top:0.2em;">cotizador </h4>
-                </div>
-
+                  <h4 style="color:#2a2b2e;margin-top:0.2em;">cotizador </h4>   
             </div>
-        <div class="login-form">
+        <div class="anchoMaximo login-form" id="adjust-form">
           <div>
             <div style="font-size:3em; margin:0.1em;border-style:none;" class="item item-input">
-              <i  style="color:white;" class="icon ion-ios-email placeholder-icon padding"></i>
+              <i  style="color:white;" class="icon ion-ios-email placeholder-icon "></i>
               <input style="color:white;" ng-model="credenciales.email" type="email" placeholder="Email" autocorrect="off" autocapitalize="off">
             </div>
             <div style="font-size:3em; margin:0.1em;;border-style:none;" class="item item-input">
-              <i style="color:white;" class="icon ion-locked placeholder-icon padding"></i>
+              <i style="color:white;" class="icon ion-locked placeholder-icon "></i>
               <input ng-model="credenciales.password" type="password" placeholder="Contraseña">
             </div>
             <button style="width:98.2%;margin:auto;padding:0px;" ng-click="login(credenciales)" id="login-login" class=" button button-royal button-full  ">Iniciar Sesión</button>

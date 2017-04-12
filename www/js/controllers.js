@@ -247,9 +247,11 @@ angular.module('app.controllers', [])
 				}
 		});
 		
-		backfromcalcular= cotizadorModelService.getBackFromCalcular();
+		//backfromcalcular= cotizadorModelService.getBackFromCalcular();
+		flagController= cotizadorModelService.getBackFromAnotherController();
 
-		if(backfromcalcular){
+
+		if(flagController == 'calcular'){
 			$scope.procesosCotizacion=cotizadorModelService.getProcesosActivos();
 			//console.log($scope.procesosCotizacion);
 			$scope.opcionesSeleccionadas=cotizadorModelService.getOpcionesSeleccionadas();
@@ -260,7 +262,11 @@ angular.module('app.controllers', [])
 				$scope.totalCotizacion+=$scope.procesosCotizacion[i].costo_total;		
 			}
 
-		}else{
+		}else if(flagController=='listaDeCotizaciones'){
+
+
+		}
+		else{
 			cotizadorModelService.inicializarTemporales();
 			$scope.opcionesSeleccionadas={
 				prospectoSeleccionado: null,
@@ -623,6 +629,7 @@ angular.module('app.controllers', [])
 			cotizadorModelService.setOpcionesSeleccionadas($scope.opcionesSeleccionadas);
 			cotizadorModelService.setTarifas(tarifasProcesos);
 			cotizadorModelService.setBackFromCalcular();
+			cotizadorModelService.setBackFromController('calcular');
 
 			//cotizadorModelService.setProspectoCotizacionActivos($scope.prospectoCotizacion);
 
@@ -651,7 +658,7 @@ angular.module('app.controllers', [])
 					cotizadorModelService.setProcesosActivos($scope.procesosCotizacion);
 					cotizadorModelService.setOpcionesSeleccionadas(cotizacion.opcionesCotizacion);
 					cotizadorModelService.setTarifas(tarifasProcesos);
-					cotizadorModelService.setBackFromCalcular();
+					otizadorModelService.setBackFromController('listaDeCotizaciones');
 					cotizadorModelService.cambiarVista('app.calcular',false);
 
 				}
@@ -983,6 +990,19 @@ angular.module('app.controllers', [])
 
 		}
 		$scope.exportarCotizacion= function(){
+			var d= new Date();
+			var cotizacionNueva={
+				"id_cotizacion":null,
+				"fecha":d.getFullYear()+"/"+(d.getMonth()+1)+"/"+d.getDate(),
+				"costos_fijos":$scope.margenesPorcentuales.costosFijos,
+				"financiacion":$scope.totales.financiacion,
+				"markup":$scope.margenesPorcentuales.markUp,
+				"costo_total":$scope.totales.precioSinIva,
+				"procesosCotizacion":$scope.procesosCotizacion,
+				"opcionesCotizacion":$scope.opcionesSeleccionadas,
+				"estado":true,
+				"hide":false
+			};
 			//Enviar parametros para generar pdf
 			cotizadorModelService.showLoading('Cargando...');
 			cotizadorModelService.agregarNuevaCotizacion(cotizacionNueva).
