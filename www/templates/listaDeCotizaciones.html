@@ -108,7 +108,16 @@
                                                     <p id="" style="margin-top:0px;color:#000000;" class=" ">Requisitos</p>
                                                     <div  class="list">
                                                         <label  ng-repeat="requerimientos in cotizacion.opcionesCotizacion.requisitos track by $index" class="item item-input">
-                                                            <span class="input-label">{{$index+1}}. {{requerimientos.valor}}</span>
+                                                            <span class="input-label">{{$index+1}}. {{requerimientos}}</span>
+                                                        </label>
+                                                    </div>
+                                                  </div>
+                                                  <div class="item item-body" >
+                                                    <p id="" style="margin-top:0px;color:#000000;" class=" ">Otros procesos</p>
+                                                    <div  class="list">
+                                                        <label  ng-repeat="otrosProcesos in cotizacion.opcionesCotizacion.otrosProcesos track by $index" class="item item-input">
+                                                            <span class="input-label">{{$index+1}}. {{otrosProcesos.descripcion}}</span>
+                                                             <span class="input-label">{{otrosProcesos.valor| currency:"COP$ ":0 }}</span>
                                                         </label>
                                                     </div>
                                                   </div>

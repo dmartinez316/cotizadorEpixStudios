@@ -146,6 +146,38 @@
     </div>
 </div>
 
+
+<!-- OTROS INPUT -->
+<div style="margin:0.2em;" class="item item-body " id="lista-otrosCotizacion">
+  <div class="item item-body " style="border-style:none;">
+    Otros procesos
+      <i style="font-size: 20px;float: right;" ng-click="agregarOtros()" class="icon ion-plus-circled"></i>
+  </div>
+    <div class="list">
+      <div ng-repeat="item in otrosCot track by $index">
+        <div class="item item-input " id="cotizar-tiempo_entrega">
+         {{$index+1}}.
+          <div class="row responsive-sm">
+            <div class="col">
+              <label style="background:white;border:0px;" class="item item-input " id="cotizar-tiempo_entrega">
+                  <span class="input-label">Descripcion</span>
+                  <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="item.descripcion" type="text" placeholder="Nombre" >
+              </label>              
+            </div>
+            <div class="col" style="margin: auto;">
+              <label style="background:white;border:0px; " class="item item-input " id="cotizar-tiempo_entrega">
+                  <span class="input-label">Valor</span>
+                  <input style="background-color:white !important; color:#111 !important;" class="agregar-prospecto-input" ng-model="item.valor" type="number"  placeholder="Valor"  ng-change="cambiarTotal(item,{{item.valor==undefined?0:item.valor}},'otros')">
+              </label>               
+            </div>
+          </div>
+          <div class="padding" ng-click="quitarOtros({{$index}})"><i style="font-size: 30px;"  class="icon ion-trash-b"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
 <!-- CALCULAR BUTTON -->
 
 

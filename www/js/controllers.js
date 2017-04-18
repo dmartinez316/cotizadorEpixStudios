@@ -256,6 +256,7 @@ angular.module('app.controllers', [])
 			//console.log($scope.procesosCotizacion);
 			$scope.opcionesSeleccionadas=cotizadorModelService.getOpcionesSeleccionadas();
 			$scope.requisitosCot=$scope.opcionesSeleccionadas.requisitos;
+			$scope.otrosCot=$scope.opcionesSeleccionadas.otrosProcesos;
 			$scope.totalCotizacion=0;
 			//console.log($scope.procesosCotizacion);
 			for(var i=0; i<$scope.procesosCotizacion.length;i++){
@@ -276,6 +277,7 @@ angular.module('app.controllers', [])
 				requisitos:null
 			};			
 			$scope.requisitosCot=[{'valor':""}];
+			$scope.otrosCot=[{'descripcion':"",'valor':0}];
 			//$scope.imgs=[{'url':""}];
 			$scope.totalCotizacion=0;
 			$scope.procesosCotizacion=[
@@ -354,14 +356,31 @@ angular.module('app.controllers', [])
 	        
 	    }
 		$scope.cambiarTotal=function(proceso_cc,oldVal,origen_input){
-			//console.log(proceso_cc);
-			//console.log(oldVal);
+			//proceso_cc:
+			//oldVal
+			//origen_input;
+			/**
+			 * Modifica el valor total en totalCotizacion
+			 * @param {obj} proceso_cc 
+			 * @param {Number} oldVal
+			 * @param {string} origen_input
+			 */
+
 			var valorViejo=0;
 			var valorNuevo=0;
-			//init cuando se agrega un nuevo proceso
-			//dificultad cuando se cambia el gauge de dificultad
-			//dias cuando se cambia el gauge de dias
 
+			/* Casos
+			INIT: Ocurre cuando se agrega un nuevo proceso
+			DIFICULTAD : El origen de la llamada es el slider de dificultad, tiene 3 posibles valores:1,2,3
+			DIAS: Cuando el origen de la llamada es el input de dias, este valor se entiende que es mes
+			si el tipo de intervalo es 'mes'
+			TIPO INTERVALO:  Cuando el origen de la llamada se realiza desde el radio de tipo de intervalo
+			valores posibles : 'mes' o 'dia'
+			OTROS: Cuando el origen de la llamada se realiza desde el area de Otros procesos
+			*/
+
+			//console.log(proceso_cc);
+			//console.log(oldVal);
 			if(origen_input=='init'){
 
 				for(var i=0;i<tarifasProcesos.length;i++){
@@ -385,6 +404,14 @@ angular.module('app.controllers', [])
 				}
 				$scope.totalCotizacion=$scope.totalCotizacion-valorViejo;
 						
+			}else if(origen_input=='otros'){
+				if(oldVal=='borrar'){
+					$scope.totalCotizacion=$scope.totalCotizacion-proceso_cc.valor;
+				}else{
+					$scope.totalCotizacion=$scope.totalCotizacion-oldVal;
+					$scope.totalCotizacion=$scope.totalCotizacion+proceso_cc.valor;
+				}
+
 			}
 			else if(origen_input=='dificultad'){
 				for(var i=0;i<tarifasProcesos.length;i++){
@@ -496,7 +523,7 @@ angular.module('app.controllers', [])
 	}
 		
 	$scope.agregarRequerimiento=function(){
-		$scope.requisitosCot.push({'value':""});
+		$scope.requisitosCot.push({'valor':""});
 		//console.log($scope.requisitosCot);
 	}
 
@@ -509,6 +536,21 @@ angular.module('app.controllers', [])
 			cotizadorModelService.mensajeBasico('Aviso','Debe existir minimo un requerimiento','button-balanced');
 		}	
 	}
+
+	$scope.agregarOtros=function(){
+		$scope.otrosCot.push({'descripcion':"",'valor':0});
+		//console.log($scope.requisitosCot);
+	}
+
+	$scope.quitarOtros=function(index){
+		//console.log($scope.requisitosCot);
+		if($scope.otrosCot.length>1){
+			$scope.cambiarTotal($scope.otrosCot[index],'borrar','otros')
+			$scope.otrosCot.splice(index,1);
+		}
+	}
+
+
 	$scope.agregarImg=function(){
 		console.log($scope.imgs);
 		if($scope.imgs.length<3){
@@ -611,6 +653,7 @@ angular.module('app.controllers', [])
 
 	$scope.calcularItems=function(){
 		$scope.opcionesSeleccionadas.requisitos=$scope.requisitosCot;
+		$scope.opcionesSeleccionadas.otrosProcesos=$scope.otrosCot;
 		var flag=0;
 		//RECORRE EL ARRAY DE PROCESOS PARA COMPROBAR QUE EXISTEN PROCESOS AGREGADOS
 		for (var i = 0; i < $scope.procesosCotizacion.length ; ++i) {
