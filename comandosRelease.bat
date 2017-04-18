@@ -6,7 +6,7 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore certificates/Co
 
 jarsigner -verify -verbose -keystore certificates/CotizadorEpix.keystore -certs platforms/android/build/outputs/apk/android-release-unsigned.apk
 
-zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk platforms/android/releases/CotizadorEpixStudios1.0.apk
+zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk releases/CotizadorEpixStudios1.0.apk
 
 
 

@@ -8,9 +8,5 @@
   "watchPatterns": [
     "www/**/*",
     "!www/lib/**/*"
-  ],
-  "watch": {
-   "sass": [
-     "scss/**/*.scss"
-   ],
+  ]
 }

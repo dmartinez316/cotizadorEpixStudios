@@ -1,7 +1,7 @@
 {
-  "name": "cotizadorepix",
-  "version": "1.1.1",
-  "description": "CotizadorEpix: An Ionic project",
+  "name": "Cotizador Epix Studios",
+  "version": "1.0.1",
+  "description": "Cotizador para proyectos de animacion",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
